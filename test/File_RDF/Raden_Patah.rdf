@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns6="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdurrahman_Wahid">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tionghoa-Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Masjid_Agung_Demak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Demak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Majapahit">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Drajat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Gunung_Jati">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Walisongo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Tionghoa-Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Demak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Guci_Indah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pati_Unus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Nusantara_(1509-1602)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syekh_Siti_Jenar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kertawijaya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Brawijaya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Girindrawardhana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Patah">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <rdfs:label xml:lang="id">Raden Patah</rdfs:label>
+    <rdfs:comment xml:lang="id">Adipati Raden Patah alias 靳卟嗯 Jin Bun bergelar Senapati Jimbun atau Panembahan Jimbun adalah pendiri dan raja Demak pertama dan memerintah tahun 1500-1518. Menurut kronik Cina dari Kuil Sam Po Kong Semarang, ia memiliki nama Tionghoa yaitu Jin Bun tanpa nama marga di depannya, karena hanya ibunya yang berdarah Cina. Jin Bun artinya orang kuat. Nama tersebut identik dengan nama Arabnya &quot;Fatah (Patah)&quot; yang berarti kemenangan.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Kerajaan_Demak" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Palembang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tionghoa-Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Demak" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58522</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6653330</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Andjar_Any" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Majapahit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/M._C._Ricklefs" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Trenggana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muslim" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tomé_Pires" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bintara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Brawijaya_III" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tionghoa-Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Panembahan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Palembang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawata" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surabaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hyang_Purwawisesa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dyah_Ranawijaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Masjid" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cheng_Ho" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Brawijaya_V" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pararaton" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/De_Graaf" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arya_Damar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Babad_Tanah_Jawi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jepara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Portugis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pesantren" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Giri_Kedaton" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Buddha" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Moksa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Ampel" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cek_Ko-po" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Brawijaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hikayat_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kuil_Sam_Po_Kong" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Girindrawardhana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Palembang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Sabrang_Lor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Slamet_Muljana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1455" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Malaka" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumenep" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tome_Pires" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Janggala" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Prabu_Girindrawardhana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gresik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/H._J._de_Graaf" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Panyebar_Semangat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kadiri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bhre_Kertabhumi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Terungkulon,_Krian,_Sidoarjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wikramawardhana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pate_Unus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pati_Unus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Campa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Kerajaan_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Suma_Oriental" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Giri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Trenggana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1518" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pigeaud" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pate_Rodim" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kronik_Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bintoro,_Demak,_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Masjid_Agung_Demak" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://demak-ku.blogspot.com/2012/06/manaqib-sejarah-singkat-sultan-fatah.html" />
+    <dbpprop-id:pendahulu xml:lang="id">-</dbpprop-id:pendahulu>
+    <dbpprop-id:jabatan xml:lang="id">Sultan Demak</dbpprop-id:jabatan>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1475</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Pati_Unus" />
+    <dbpedia-owl:abstract xml:lang="id">Adipati Raden Patah alias 靳卟嗯 Jin Bun bergelar Senapati Jimbun atau Panembahan Jimbun adalah pendiri dan raja Demak pertama dan memerintah tahun 1500-1518. Menurut kronik Cina dari Kuil Sam Po Kong Semarang, ia memiliki nama Tionghoa yaitu Jin Bun tanpa nama marga di depannya, karena hanya ibunya yang berdarah Cina. Jin Bun artinya orang kuat. Nama tersebut identik dengan nama Arabnya &quot;Fatah (Patah)&quot; yang berarti kemenangan. Pada masa pemerintahannya Masjid Demak didirikan, dan kemudian ia dimakamkan di sana. Mengikuti pakar Belanda Pigeaud dan De Graaf, sejarahwan Australia M. C. Ricklefs menulis bahwa pendiri Demak adalah seorang Tionghoa Muslim bernama Cek Ko-po (Pate Rodin senior). Ricklefs memperkirakan bahwa anaknya adalah orang yang oleh Tomé Pires dalam Suma Oriental-nya dijuluki &quot;Pate Rodim (Adipati/Patih Rodim)&quot;, mungkin maksudnya &quot;Badruddin&quot; atau &quot;Kamaruddin&quot; (meninggal sekitar tahun 1504). Putera atau adik Rodim dikenal dengan nama Trenggana (bertahta 1505-1518 dan 1521-1546), pembangun keunggulan Demak atas Jawa. Kenyataan tokoh Raden Patah berbenturan dengan tokoh Trenggana, raja Demak ketiga, yang memerintah tahun 1505-1518, kemudian tahun 1521-1546.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Raden_Patah?oldid=6653330" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Prawoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ki_Ageng_Pengging">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arya_Penangsang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_kerajaan_yang_pernah_ada_di_Nusantara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arya_Damar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kerajaan_Sambas">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Berita_Cina">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Ngudung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kedatangan_dan_penyebaran_Agama_Islam_di_Nusantara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Sunda">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Marga_Mandahiling">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Mandahiling">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pasujudan_Sunan_Bonang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Patih_Udara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/IAIN_Raden_Fatah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bathara_Katong">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Jawa_di_Aceh">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Majelis_Dakwah_Walisongo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Poortman">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Trenggana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Guci,_Bumijawa,_Tegal">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1518">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Senapati_Jimbun_Ningrat_Ngabdurahman_Panembahan_Palembang_Sayidin_Panatagama">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sultan_Syah_Alam_Akbar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Jin_Bun">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Senapati_Jimbun">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panembahan_Jimbun">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_patah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Raden_Patah">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+  </rdf:Description>
+</rdf:RDF>

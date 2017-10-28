@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ali_Haji_bin_Raja_Haji_Ahmad">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <rdfs:label xml:lang="id">Raja Haji Fisabilillah</rdfs:label>
+    <rdfs:comment xml:lang="id">Raja Haji Fisabilillah adalah salah satu pahlawan nasional Indonesia. Ia dimakamkan di Pulau Penyengat, Indera Sakti, Tanjung Pinang, Provinsi Kepulauan Riau. Namanya diabadikan dalam nama bandar udara di Tanjung Pinang, Bandar Udara Internasional Raja Haji Fisabilillah.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7084</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6655058</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tanjung_Pinang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ketapang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Monumen_Raja_Haji_Fisabilillah.JPG" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1725" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Johor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Lama" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yang_Dipertuan_Muda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Penyengat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kepulauan_Riau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/18_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1784" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Riau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Makam_Raja_Haji_Fisabililah.JPG" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutawijaya_(Lingga_Riau)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ulusungai" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indera_Sakti" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://fazu.typepad.com/photos/bintan_penyengat_0205/dscn2729.html" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/8/80/Makam_Raja_Haji_Fisabililah.JPG" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Makam_Raja_Haji_Fisabililah.JPG/200px-Makam_Raja_Haji_Fisabililah.JPG" />
+    <dbpedia-owl:abstract xml:lang="id">Raja Haji Fisabilillah adalah salah satu pahlawan nasional Indonesia. Ia dimakamkan di Pulau Penyengat, Indera Sakti, Tanjung Pinang, Provinsi Kepulauan Riau. Namanya diabadikan dalam nama bandar udara di Tanjung Pinang, Bandar Udara Internasional Raja Haji Fisabilillah.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Raja_Haji_Fisabilillah?oldid=6655058" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Raja_Haji_Fisabilillah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Siak_Sri_Inderapura">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Tanjungpinang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Yang_Dipertuan_Muda">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hikayat_Negeri_Johor">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mata_Pena_Mata_Hati_Raja_Ali_Haji">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Fisabilillah,_Raja_Haji">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raja_Haji_Fisabililah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Haji_Fisabilillah,_Pahlawan_dari_Lingga_Riau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Haji_Fisabilillah_dari_Lingga-Riau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raja_haji_fisabilillah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Fisabilillah_(disambiguasi)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Raja_Haji_Fisabilillah">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Raja_Haji_Fisabilillah" />
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1909">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Soebardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Albertus_Soegijapranata">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amir_Sjarifoeddin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Atheis_(novel)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandung_Lautan_Api">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Komite_Nasional_Indonesia_Pusat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Chairil_Anwar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Indonesia_(1945–1949)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Orang_Indo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kartini">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/27_Maret">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Brigade_Mobil">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Agresi_Militer_Belanda_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ruma_Maida">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Sjahrir_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soedjatmoko">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpedia-owl:relative rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sutan_Takdir_Alisjahbana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tan_Malaka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Sjahrir_III">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sumatera_Barat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Menteri_Dalam_Negeri_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Indische_Vereeniging">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Peristiwa_3_Juli_1946">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Persatuan_Perjuangan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Aria_Adipati_Wiranatakoesoema">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tugu_Proklamasi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daan_Mogot">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Budaya_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hidajat_Martaatmadja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daan_Jahja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Des_Alwi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Djohan_Sjahroezah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soegija">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemimpin_wanita_di_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pelopor_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_menteri_dan_pejabat_tinggi_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Partai_Rakjat_Sosialis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Asia_Raja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nama_orang_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Perdana_Menteri_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpprop-id:pertama rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Koto_Gadang,_IV_Koto,_Agam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sutan_Sjahrir">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <rdfs:label xml:lang="id">Sutan Sjahrir</rdfs:label>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33416</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845962</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <ns5:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Sutan_Sjahrir?oldid=1845962" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pejuang_kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Sutan_Sjahrir">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Saudagar_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+  </rdf:Description>
+</rdf:RDF>

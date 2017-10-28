@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns6="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Joko_Tingkir">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Pajang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sutawijaya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Walisongo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Demak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Prawoto">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <rdfs:label xml:lang="id">Sunan Prawoto</rdfs:label>
+    <rdfs:comment xml:lang="id">Sunan Prawoto (nama lahirnya Raden Mukmin atau ejaan China Muk Ming) adalah raja Demak keempat, yang memerintah tahun 1546-1549. Ia lebih cenderung sebagai seorang ahli agama daripada ahli politik. Pada masa kekuasaannya, daerah bawahan Demak seperti Banten, Cirebon, Surabaya, dan Gresik, berkembang bebas tanpa mampu dihalanginya. Menurut Babad Tanah Jawi, ia tewas dibunuh oleh orang suruhan bupati Jipang Arya Penangsang, yang tak lain adalah sepupunya sendiri.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Demak" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dibunuh" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Kerajaan_Demak" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1549" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58529</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6223466</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Makassar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Malaka" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Prawoto,_Sukolilo,_Pati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arya_Penangsang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kronik_Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Kudus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Kerajaan_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Turki" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Salat_Jumat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/-" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Pati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jepara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Juru_Martani" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Slamet_Muljana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Sabrang_Lor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kuil_Sam_Po_Kong" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutawijaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Maluku" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1549" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Patah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gresik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pajang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Banten" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dibunuh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cirebon" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Portugis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kelenteng" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Trenggana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sukolilo,_Pati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surabaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Pajang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hadiwijaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Masjid" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arya_Pangiri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Panarukan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Babad_Tanah_Jawi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arya_Mataram" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sekar_Seda_Lepen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ratu_Kalinyamat" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Trenggana" />
+    <dbpprop-id:jabatan xml:lang="id">Raja Demak</dbpprop-id:jabatan>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1546</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/-" />
+    <dbpedia-owl:wikiPageInterLanguageLink rdf:resource="http://jv.dbpedia.org/resource/Sunan_Prawata" />
+    <dbpedia-owl:abstract xml:lang="id">Sunan Prawoto (nama lahirnya Raden Mukmin atau ejaan China Muk Ming) adalah raja Demak keempat, yang memerintah tahun 1546-1549. Ia lebih cenderung sebagai seorang ahli agama daripada ahli politik. Pada masa kekuasaannya, daerah bawahan Demak seperti Banten, Cirebon, Surabaya, dan Gresik, berkembang bebas tanpa mampu dihalanginya. Menurut Babad Tanah Jawi, ia tewas dibunuh oleh orang suruhan bupati Jipang Arya Penangsang, yang tak lain adalah sepupunya sendiri. Setelah kematiannya, Hadiwijaya memindahkan pusat pemerintahan ke Pajang, dan Kerajaan Demak pun berakhir.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Sunan_Prawoto?oldid=6223466" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arya_Penangsang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ki_Juru_Martani">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arya_Pangiri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sultan_Hadlirin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Trenggana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Prawata">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Prawoto_dari_Demak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_prawoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Mukmin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Muk_Ming">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Sunan_Prawoto">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Sunan_Prawoto" />
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns6="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hamengkubuwana_I">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1719">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Untung_Suropati">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amangkurat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amangkurat_III">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pangeran_Puger">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Jangrana_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amangkurat_IV">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <rdfs:label xml:lang="id">Amangkurat IV</rdfs:label>
+    <rdfs:comment xml:lang="id">Sri Susuhunan Prabu Amangkurat Jawa atau disingkat Amangkurat IV adalah raja keempat Kasunanan Kartasura yang memerintah tahun 1719 - 1726.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Kartasura" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274087</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6606746</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tanjung_Harapan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Karta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Purbaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1723" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1720" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1708" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Kartasura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1718" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_III" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1704" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Kartasura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mataram" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1719" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Kartasura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Batavia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arya_Mataram" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_III" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Madura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/April" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jepara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1721" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1757" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/20" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Panembahan_Senopati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_raja_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kartasura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1726" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Untung_Suropati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_I" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Adipati_Jangrana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Madiun" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cakraningrat_IV" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Malang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mangkunegara_I" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Lamongan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_I" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Srilangka" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mojokerto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surabaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Keraton_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1746" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwana_I" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/VOC" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Agung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Suksesi_Jawa_Kedua" />
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Sunan_Kartasura" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_I" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_II" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1745</dbpprop-id:years>
+    <dbpedia-owl:abstract xml:lang="id">Sri Susuhunan Prabu Amangkurat Jawa atau disingkat Amangkurat IV adalah raja keempat Kasunanan Kartasura yang memerintah tahun 1719 - 1726.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Amangkurat_IV?oldid=6606746" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pangeran_Purbaya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Perang_Tahta_Jawa_Kedua">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kasunanan_Kartasura">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kyai_Pernukang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mangkunegara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hamengkubuwana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Rongga_Prawiradirja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pasang_Surut_Dinasti_Mataram">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemakaman_Imogiri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Perang_Tahta_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cakraningrat_IV">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Prabu">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amangkurat_iv">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arya_Mataram">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amangkurat_Jawi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sri_Susuhunan_Prabu_Amangkurat_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Amangkurat_IV">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Amangkurat_IV" />
+  </rdf:Description>
+</rdf:RDF>

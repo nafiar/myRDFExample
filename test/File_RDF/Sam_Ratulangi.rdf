@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/L._N._Palar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Manado">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mohammad_Hatta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/5_November">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sam_Ratulangi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <rdfs:label xml:lang="id">Sam Ratulangi</rdfs:label>
+    <rdfs:comment xml:lang="id">Dr. Gerungan Saul Samuel Jacob Ratulangi atau lebih dikenal dengan nama Sam Ratulangi adalah seorang politikus Minahasa dari Sulawesi Utara, Indonesia. Ia adalah seorang pahlawan nasional Indonesia. Sam Ratulangi juga sering disebut-sebut sebagai tokoh multidimensional. Ia dikenal dengan filsafatnya: &quot;Si tou timou tumou tou&quot; yang artinya: manusia baru dapat disebut sebagai manusia, jika sudah dapat memanusiakan manusia. Sam Ratulangi adalah anak dari Jozias Ratulangi.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Daerah_Khusus_Ibukota_Jakarta" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Tondano" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1890-11-05</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tionghoa-Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Marga_Ratulangi" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Sulawesi_Utara" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minahasa" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11443</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6815066</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fisika" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amsterdam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandar_udara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur_Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Koningeen_Wilhelmina_School" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jozias_Ratulangi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Batavia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tionghoa-Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandara_Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Politikus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Doktor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Manado" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Matematika" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daerah_Khusus_Ibukota_Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Vrije_Universiteit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Marga_Ratulangi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1945" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1949" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arnold_Achmad_Baramuli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tondano" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Universitas_Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.minahasa.net/id/history-ratulangi.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://gssjratulangie.multiply.com/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://tomohoners.com/archive/index.php/t-203.html" />
+    <foaf:name xml:lang="id">Sam Ratulangi</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/5/53/Sam_Ratulangi.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sam_Ratulangi.jpg/200px-Sam_Ratulangi.jpg" />
+    <dbpprop-id:name xml:lang="id">Sam Ratulangi</dbpprop-id:name>
+    <dbpprop-id:nationality xml:lang="id">Indonesia</dbpprop-id:nationality>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1949</dbpprop-id:termEnd>
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Arnold_Achmad_Baramuli" />
+    <dbpprop-id:birthPlace xml:lang="id">Tondano, Sulawesi Utara, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Jakarta, Indonesia</dbpprop-id:deathPlace>
+    <dbpprop-id:pendahulu xml:lang="id">-</dbpprop-id:pendahulu>
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Gubernur_Sulawesi_Utara" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Arnold_Achmad_Baramuli" />
+    <dbpprop-id:occupation rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpprop-id:office xml:lang="id">Gubernur Sulawesi Utara</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpprop-id:birthname xml:lang="id">Gerungan Saul Samuel Jacob Ratulangi</dbpprop-id:birthname>
+    <dbpprop-id:image xml:lang="id">Sam Ratulangi.jpg</dbpprop-id:image>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <dbpprop-id:almaMater xml:lang="id">Vrije Universiteit, Amsterdam</dbpprop-id:almaMater>
+    <dbpprop-id:othername xml:lang="id">Sam Ratulangi</dbpprop-id:othername>
+    <dbpprop-id:relations rdf:resource="http://id.dbpedia.org/resource/Jozias_Ratulangi" />
+    <dbpedia-owl:abstract xml:lang="id">Dr. Gerungan Saul Samuel Jacob Ratulangi atau lebih dikenal dengan nama Sam Ratulangi adalah seorang politikus Minahasa dari Sulawesi Utara, Indonesia. Ia adalah seorang pahlawan nasional Indonesia. Sam Ratulangi juga sering disebut-sebut sebagai tokoh multidimensional. Ia dikenal dengan filsafatnya: &quot;Si tou timou tumou tou&quot; yang artinya: manusia baru dapat disebut sebagai manusia, jika sudah dapat memanusiakan manusia. Sam Ratulangi adalah anak dari Jozias Ratulangi. Pada tahun 1907, dia pergi ke Batavia untuk melanjutkan sekolah di Koningeen Wilhelmina School. Setelah tamat, Sam Ratulangi melanjutkan ke Vrije Universiteit van Amsterdam, Belanda. Di sana, dia dipercaya menjadi Ketua Perhimpunan Mahasiswa Indonesia di Belanda tahun 1914. Lima tahun kemudian, dia memperoleh gelar doktor di bidang matematika dan fisika. Sam Ratulangi juga merupakan Gubernur Sulawesi yang pertama. Ia meninggal di Jakarta dalam kedudukan sebagai tawanan musuh pada tanggal 30 Juni 1949 dan dimakamkan di Tondano. Namanya diabadikan dalam nama bandar udara di Manado yaitu Bandara Sam Ratulangi dan Universitas Negeri di Sulawesi Utara yaitu Universitas Sam Ratulangi.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:birthName xml:lang="id">Gerungan Saul Samuel Jacob Ratulangi</dbpedia-owl:birthName>
+    <dbpedia-owl:office xml:lang="id">Gubernur Sulawesi Utara</dbpedia-owl:office>
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Arnold_Achmad_Baramuli" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Amsterdam" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Vrije_Universiteit" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Sam_Ratulangi?oldid=6815066" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Sam_Ratulangi" />
+    <dbpedia-owl:orderInOffice xml:lang="id">1</dbpedia-owl:orderInOffice>
+    <dbpedia-owl:relation rdf:resource="http://id.dbpedia.org/resource/Jozias_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Sam_Ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Universitas_Sam_Ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sulawesi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sulawesi_Utara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Silas_Papare">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Gubernur_Sulawesi_Utara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpprop-id:pertama rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arnold_Achmad_Baramuli">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tondano">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pajonga_Daeng_Ngalie_Karaeng_Polongbangkeng">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Minahasa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Partai_Kristen_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Technische_Hoogeschool_te_Bandoeng">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pendidikan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/A.A._Hamidhan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gereja_Protestan_Minahasa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sam_Ratulangi,_G.S.S.J,_Dr">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/G.S.S.J._Ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/GSSJ_Ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sam_ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Dr._Gerungan_Saul_Samuel_Jacob_Ratulangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Sam_Ratulangi">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Sam_Ratulangi" />
+  </rdf:Description>
+</rdf:RDF>

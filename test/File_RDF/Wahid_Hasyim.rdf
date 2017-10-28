@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1914">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdurrahman_Wahid">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nama_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Masjid_Istiqlal">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nama_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Jombang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pesantren">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Sampang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Sjahrir_III">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Natsir">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Menteri_Agama_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:pertama rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Diwek,_Jombang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rasjidi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Masjkur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bisri_Syansuri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pondok_Pesantren_Tebuireng">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Fakih_Usman">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cukir,_Diwek,_Jombang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wahid_Hasyim">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+    <rdfs:label xml:lang="id">Wahid Hasyim</rdfs:label>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12952</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1849118</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasjim" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasjim" />
+    <ns5:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Wahid_Hasyim?oldid=1849118" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1953">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tokoh_dari_Jombang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Wahid_Hasyim">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Wahid_Hasyim" />
+  </rdf:Description>
+</rdf:RDF>

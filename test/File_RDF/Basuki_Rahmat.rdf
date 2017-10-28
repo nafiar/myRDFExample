@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amirmachmud">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Ampera_I">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Basuki_Rahmat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+    <rdfs:label xml:lang="id">Basuki Rahmat</rdfs:label>
+    <rdfs:comment xml:lang="id">Jenderal Basuki Rahmat adalah seorang jenderal dan politikus Indonesia. Ia adalah seorang pahlawan nasional Indonesia.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Tuban" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-11-24</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_militer_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Tuban" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7071</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6618866</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabinet_Dwikora" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammadiyah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/TMP_Kalibata" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1966" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/17_Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pacitan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1964" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/8_Januari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Politikus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Tuban" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Badan_Keamanan_Rakyat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amirmachmud" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Supersemar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/24_Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1969" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/M._Jusuf" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Tuban" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jenderal" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_militer_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_Menteri_Dalam_Negeri_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1967" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Machmud" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pembela_Tanah_Air" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/9/9a/Basuki_rachmat_PYO.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Basuki_rachmat_PYO.jpg/200px-Basuki_rachmat_PYO.jpg" />
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</dbpprop-id:termStart>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dbpprop-id:termEnd>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Sumarno" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Amir_Machmud" />
+    <dbpprop-id:birthPlace xml:lang="id">Tuban, Jawa Timur, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Jakarta, Indonesia</dbpprop-id:deathPlace>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Sumarno" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Daftar_Menteri_Dalam_Negeri_Republik_Indonesia" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Amir_Machmud" />
+    <dbpprop-id:office xml:lang="id">Menteri Dalam Negeri Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:image xml:lang="id">Basuki rachmat PYO.jpg</dbpprop-id:image>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <dbpedia-owl:abstract xml:lang="id">Jenderal Basuki Rahmat adalah seorang jenderal dan politikus Indonesia. Ia adalah seorang pahlawan nasional Indonesia.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:office xml:lang="id">Menteri Dalam Negeri Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-02-24</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-10-17</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-01-08</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-10-17</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat__1" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Sumarno" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Amir_Machmud" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Basuki_Rahmat?oldid=6618866" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Basuki_Rahmat" />
+    <dbpedia-owl:orderInOffice xml:lang="id">16</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Pembangunan_I">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/M._Jusuf">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Ampera_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Surat_Perintah_Sebelas_Maret">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Timur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_militer_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_menteri_dan_pejabat_tinggi_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Basuki_Rachmat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1921">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1969">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Basuki_Rahmat,_Jenderal">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Basuki_rahmat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Jenderal_Basuki_Rahmat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Basuki_Rahmat">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Basuki_Rahmat" />
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nyi_Ageng_Serang">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+    <rdfs:label xml:lang="id">Nyi Ageng Serang</rdfs:label>
+    <rdfs:comment xml:lang="id">Nyi Ageng Serang bernama asli Raden Ajeng Kustiyah Wulaningsih Retno Edi adalah seorang Pahlawan Nasional Indonesia. Ia adalah anak Pangeran Natapraja yang menguasai wilayah terpencil dari kerajaan Mataram tepatnya di Serang yang sekarang wilayah perbatasan Grobogan-Sragen. Setelah ayahnya wafat Nyi Ageng Serang menggantikan kedudukan ayahnya.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Grobogan" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7133</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6656388</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Purwodadi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Hajar_Dewantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1752" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kalibawang,_Kulon_Progo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Nyi_Ageng_Serang.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1828" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cut_Nyak_Dhien" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Sragen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Grobogan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Kalijaga" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Grobogan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/R.A._Kartini" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/b3/Nyi_Ageng_Serang.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Nyi_Ageng_Serang.jpg/200px-Nyi_Ageng_Serang.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Nyi Ageng Serang bernama asli Raden Ajeng Kustiyah Wulaningsih Retno Edi adalah seorang Pahlawan Nasional Indonesia. Ia adalah anak Pangeran Natapraja yang menguasai wilayah terpencil dari kerajaan Mataram tepatnya di Serang yang sekarang wilayah perbatasan Grobogan-Sragen. Setelah ayahnya wafat Nyi Ageng Serang menggantikan kedudukan ayahnya. Nyi Ageng Serang adalah salah satu keturunan Sunan Kalijaga, ia juga mempunyai keturunan seorang Pahlawan nasional yaitu Soewardi Soerjaningrat atau Ki Hajar Dewantara. Ia dimakamkan di Kalibawang, Kulon Progo. Ia pahlawan nasional yang hampir terlupakan,mungkin karena namanya tak sepopuler R.A. Kartini atau Cut Nyak Dhien tapi beliau sangat berjasa bagi negeri ini. Warga Kulon Progo mengabadikan monumen beliau di tengah kota Wates berupa patung beliau sedang menaiki kuda dengan gagah berani membawa tombak.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Nyi_Ageng_Serang?oldid=6656388" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Widodo_Noor_Slamet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Museum_Perjuangan_Yogyakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_wanita_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Krembangan,_Panjatan,_Kulon_Progo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kalibawang,_Kulon_Progo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Serang_(disambiguasi)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nyi_ageng_serang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Nyi_Ageng_Serang">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Nyi_Ageng_Serang" />
+  </rdf:Description>
+</rdf:RDF>

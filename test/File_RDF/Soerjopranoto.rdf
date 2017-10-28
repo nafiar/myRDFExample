@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sarekat_Islam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soerjopranoto">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+    <rdfs:label xml:lang="id">Soerjopranoto</rdfs:label>
+    <rdfs:comment xml:lang="id">Raden Mas Soerjopranoto adalah salah satu Pahlawan Nasional Indonesia yang dikukuhkan sebagai pahlawan nasional yang ke-3 oleh Presiden RI, Soekarno, pada 30 November 1959 (Surat Keputusan Presiden Republik Indonesia No. 310 Tahun 1959, tanggal 30 November 1959). Ia dimakamkan di Kotagede, Yogyakarta.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Cimahi" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jogjakarta" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-01-11</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Yogyakarta" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kota_Yogyakarta" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132274</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6536199</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/H._Fachruddin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/&#39;&#39;&#39;Beberapa_ucapan_dari_kawan-kawan_seperjuangannya_:&#39;&#39;&#39;" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Putra_mahkota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ejaan_Soewandi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1901" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1959" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1911" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Mataram" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bogor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/ELS" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Boedi_Oetomo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1900" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cimahi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Hadjar_Dewantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjokroaminoto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/MULO" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perpustakaan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Paku_Alam_III" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Buta_huruf" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/15_Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/30_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sarekat_Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kota_Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jogjakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Tuban" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Haji_Abdul_Malik_Karim_Amrullah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Cimahi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bantul" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/SMP" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kotagede,_Yogyakarta" />
+    <foaf:name xml:lang="id">Surjopranoto</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/0/01/Suryopranoto.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Suryopranoto.jpg/200px-Suryopranoto.jpg" />
+    <dbpprop-id:name xml:lang="id">Surjopranoto</dbpprop-id:name>
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jogjakarta" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Cimahi" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpprop-id:image xml:lang="id">Suryopranoto.jpg</dbpprop-id:image>
+    <dbpprop-id:knownFor rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageInterLanguageLink rdf:resource="http://ms.dbpedia.org/resource/Suryopranoto" />
+    <dbpedia-owl:wikiPageInterLanguageLink rdf:resource="http://jv.dbpedia.org/resource/Soerjopranoto" />
+    <dbpedia-owl:abstract xml:lang="id">Raden Mas Soerjopranoto adalah salah satu Pahlawan Nasional Indonesia yang dikukuhkan sebagai pahlawan nasional yang ke-3 oleh Presiden RI, Soekarno, pada 30 November 1959 (Surat Keputusan Presiden Republik Indonesia No. 310 Tahun 1959, tanggal 30 November 1959). Ia dimakamkan di Kotagede, Yogyakarta.</dbpedia-owl:abstract>
+    <dbpedia-owl:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1871-01-01T00:00:00+07:00</dbpedia-owl:birthYear>
+    <dbpedia-owl:knownFor rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Soerjopranoto?oldid=6536199" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Yogyakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Museum_Perjuangan_Yogyakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suryopranoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/R.M._SOERJOPRANOTO">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suryopranoto,_R.M">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Surjopranoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Soerjopranoto">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Soerjopranoto" />
+  </rdf:Description>
+</rdf:RDF>

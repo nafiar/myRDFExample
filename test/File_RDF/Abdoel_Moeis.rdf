@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdoel_Moeis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+    <rdfs:label xml:lang="id">Abdoel Moeis</rdfs:label>
+    <rdfs:comment xml:lang="id">Abdoel Moeis adalah seorang sastrawan, politikus, dan wartawan Indonesia. Dia merupakan pengurus besar Sarekat Islam dan pernah menjadi anggota Volksraad mewakili organisasi tersebut. Abdul Muis dikukuhkan sebagai Pahlawan Nasional yang pertama oleh Presiden RI, Soekarno, pada 30 Agustus 1959.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Bandung" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sungai_Puar,_Agam" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-07-03</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Bukittinggi" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minangkabau" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sastrawan_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7057</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6755320</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perancis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Orang_Minang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Hadjar_Dewantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Miguel_de_Cervantes" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sarekat_Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Lontar_Foundation" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1928" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Presiden_RI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Stovia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1923" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sastrawan_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pertemuan_Jodoh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minangkabau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Universitas_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/ELS" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Asrul_Sani" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Never_the_Twain" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Modern_Library_of_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Suku_Sunda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Garut" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Institut_Teknologi_Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Hajar_Dewantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jalan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Toli-Toli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Bukittinggi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Padang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Penulis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Volksraad" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1918" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syarikat_Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Agam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1922" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/TMP_Cikutra" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agus_Salim" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sungai_Puar,_Agam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Salah_Asuhan" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://belajarsejarah.com/?detail=beritanya&amp;view=komen&amp;id=127&amp;kode=1" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://pusatbahasa.kemdiknas.go.id/lamanv42/?q=detail_tokoh/16" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.tokohindonesia.com/tokoh/article/294-pahlawan/250-abdul-muis" />
+    <foaf:name xml:lang="id">Abdoel Moeis</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/4/47/Abdoel_moeis.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Abdoel_moeis.jpg/200px-Abdoel_moeis.jpg" />
+    <dbpprop-id:name xml:lang="id">Abdoel Moeis</dbpprop-id:name>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor xml:lang="id">tidak ada</dbpprop-id:predecessor>
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Ki_Hajar_Dewantara" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sungai_Puar,_Agam" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Bandung" />
+    <dbpprop-id:occupation rdf:resource="http://id.dbpedia.org/resource/Penulis" />
+    <dbpprop-id:notableworks rdf:resource="http://id.dbpedia.org/resource/Salah_Asuhan" />
+    <dbpprop-id:caption xml:lang="id">Abdoel Moeis</dbpprop-id:caption>
+    <dbpprop-id:office xml:lang="id">Pahlawan Nasional Indonesia ke-1</dbpprop-id:office>
+    <dbpprop-id:image xml:lang="id">Abdoel moeis.jpg</dbpprop-id:image>
+    <dbpedia-owl:wikiPageInterLanguageLink rdf:resource="http://jv.dbpedia.org/resource/Abdoel_Moeis" />
+    <dbpedia-owl:abstract xml:lang="id">Abdoel Moeis adalah seorang sastrawan, politikus, dan wartawan Indonesia. Dia merupakan pengurus besar Sarekat Islam dan pernah menjadi anggota Volksraad mewakili organisasi tersebut. Abdul Muis dikukuhkan sebagai Pahlawan Nasional yang pertama oleh Presiden RI, Soekarno, pada 30 Agustus 1959.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Penulis" />
+    <dbpedia-owl:office xml:lang="id">Pahlawan Nasional Indonesia ke-1</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-08-30</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-11-28</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis__1" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Ki_Hajar_Dewantara" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Abdoel_Moeis?oldid=6755320" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Yayasan_Lontar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Volksraad">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Boemi_Poetera">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kaoem_Kita">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdul_Muis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdul_moeis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdoel_moeis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Abdoel_Moeis">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Abdoel_Moeis" />
+  </rdf:Description>
+</rdf:RDF>

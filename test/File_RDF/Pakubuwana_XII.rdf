@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/11_Juni">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_XI">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_XII">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <rdfs:label xml:lang="id">Pakubuwana XII</rdfs:label>
+    <rdfs:comment xml:lang="id">Sri Susuhunan Pakubuwana XII adalah salah satu raja Kasunanan Surakarta yang memerintah terlama, tepatnya pada tahun 1945 – 2004.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-11</dbpedia-owl:deathDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-04-14</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275538</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6779329</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Megawati_Soekarnoputri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1925" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bacharuddin_Jusuf_Habibie" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1946" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/11" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gus_Dur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jendral_Sudirman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/11_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdurrahman_Wahid" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perdana_menteri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwana_IX" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:COLLECTIE_TROPENMUSEUM_Pakoe_Boewono_XII_de_Susuhunan_van_Solo_in_de_kraton_TMnr_60052129.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2004" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XIII" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_April" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Januari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1945" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/April" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Presiden_Sukarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jenderal_Sudirman" />
+    <foaf:name xml:lang="id">Sri Susuhunan Pakubuwana XII</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/bc/Pakubuwono_xii.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pakubuwono_xii.jpg/200px-Pakubuwono_xii.jpg" />
+    <dbpprop-id:name xml:lang="id">Sri Susuhunan Pakubuwana XII</dbpprop-id:name>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XI" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XIII" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</dbpprop-id:imagesize>
+    <dbpprop-id:caption xml:lang="id">Pakubuwana XII</dbpprop-id:caption>
+    <dbpprop-id:office rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</dbpprop-id:birthDate>
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:birthname xml:lang="id">GRM Suryo Guritno</dbpprop-id:birthname>
+    <dbpprop-id:image xml:lang="id">Pakubuwono xii.jpg</dbpprop-id:image>
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XI" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XIII" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:years>
+    <dbpprop-id:president xml:lang="id">Soekarno  Soeharto  Bacharuddin Jusuf Habibie  Abdurrahman Wahid  Megawati Soekarnoputri</dbpprop-id:president>
+    <dbpprop-id:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</dbpprop-id:deathDate>
+    <dbpedia-owl:abstract xml:lang="id">Sri Susuhunan Pakubuwana XII adalah salah satu raja Kasunanan Surakarta yang memerintah terlama, tepatnya pada tahun 1945 – 2004.</dbpedia-owl:abstract>
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:birthName xml:lang="id">GRM Suryo Guritno</dbpedia-owl:birthName>
+    <dbpedia-owl:office xml:lang="id">Sunan Surakarta</dbpedia-owl:office>
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XI" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XIII" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Abdurrahman_Wahid" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Bacharuddin_Jusuf_Habibie" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Megawati_Soekarnoputri" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_XII?oldid=6779329" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_XIII">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kasunanan_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Susuhunan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pasar_Gede_Harjonagoro">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Muhammad_Saleh_Werdisastro">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:monarch rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:monarch rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemakaman_Imogiri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tejowulan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Slamet_Suryanto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:monarch rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Paku_Buwono_XII">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Mas_Suryaguritna">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Pakubuwana_XII">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_XII" />
+  </rdf:Description>
+</rdf:RDF>

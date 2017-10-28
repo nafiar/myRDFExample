@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sulawesi_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+    <rdfs:label xml:lang="id">Ranggong Daeng Romo</rdfs:label>
+    <rdfs:comment xml:lang="id">Ranggong Daeng Romo adalah salah satu Pahlawan Nasional Indonesia dari Sulawesi Selatan. Ia menempuh pendidikan di Hollandsch Inlandsch School dan Taman Siswa di Makassar setelah sebelumnya menimba ilmu agama di salah satu pesantren di Cikoang. Ia bekerja sebagai pegawai sebuah perusahaan pembelian padi milik pemerintah militer Jepang ketika menduduki Sulawesi.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">676870</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5627985</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Makassar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1947" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Ranggeng_daeng_romo_tkn.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Langgese" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hollandsch_Inlandsch_School" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Polongbangkeng" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/27_Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1915" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Taman_Siswa" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/27/Ranggeng_daeng_romo_tkn.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ranggeng_daeng_romo_tkn.jpg/200px-Ranggeng_daeng_romo_tkn.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Ranggong Daeng Romo adalah salah satu Pahlawan Nasional Indonesia dari Sulawesi Selatan. Ia menempuh pendidikan di Hollandsch Inlandsch School dan Taman Siswa di Makassar setelah sebelumnya menimba ilmu agama di salah satu pesantren di Cikoang. Ia bekerja sebagai pegawai sebuah perusahaan pembelian padi milik pemerintah militer Jepang ketika menduduki Sulawesi.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Ranggong_Daeng_Romo?oldid=5627985" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Bugis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ranggong_daeng_romo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Ranggong_Daeng_Romo">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Ranggong_Daeng_Romo" />
+  </rdf:Description>
+</rdf:RDF>

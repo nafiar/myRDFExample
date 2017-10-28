@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Partai_Acoma">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Komunisme">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Partai_Komunis_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Filsafat_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Orang_Minang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Murba">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Musso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Proklamasi_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Proletariat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemberontakan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sarekat_Islam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Semaun">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kasunanan_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sutan_Syahrir">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tan_Malaka">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+    <rdfs:label xml:lang="id">Tan Malaka</rdfs:label>
+    <rdfs:comment xml:lang="id">Tan Malaka atau Ibrahim gelar Datuk Tan Malaka adalah Bapak Republik Indonesia, seorang aktivis pejuang kemerdekaan Indonesia, seorang pemimpin sosialis, dan politisi yang mendirikan Partai Murba. Pejuang yang militan, radikal, dan revolusioner ini banyak melahirkan pemikiran-pemikiran yang berbobot dan berperan besar dalam sejarah perjuangan kemerdekaan Indonesia. Dengan perjuangan yang gigih maka ia dikenal sebagai tokoh revolusioner yang legendaris.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Kediri" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Suliki_Gunung_Mas,_Lima_Puluh_Kota" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1897-06-02</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minangkabau" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Lima_Puluh_Kota" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_komunis_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Orang_hilang_di_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7325</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6783483</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Revolusi_Prancis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_komunis_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia-Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kediri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kupang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Yamin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Papua" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kowloon" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Moskwa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Rusia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Komunis_Internasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Materialisme" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Semaun" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Syarifuddin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/25_Desember" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/24_Desember" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Thailand" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Logika" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/7_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Tagalog" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Jerman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pethok" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Boven_Digoel" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/PKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minangkabau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bangkok" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Komunis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Deli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/28_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Murba" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Inggris" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Xiamen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Shanghai" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1921" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1963" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sarekat_Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Musso" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berlin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Padang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perjanjian_Renville" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perundingan_Renville" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Suliki_Gunung_Mas,_Lima_Puluh_Kota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Partai_Murba" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Partai_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Politik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Madilog" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soebakat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Tan_Malaka_Cover_Tempo.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Djamaludddin_Tamin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/ISDV" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Partai_Komunis_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sardjono" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Medan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1922" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hong_Kong" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perjanjian_Linggajati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Matu_Mona" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1913" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syarifah_Nawawi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Patjar_Merah_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:DariPendjaraKePendjara_3ed_titlepage.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perundingan_Linggarjati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1919" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Persatuan_Perjuangan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Peristiwa_3_Juli_1946" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1948" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sosialis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Lima_Puluh_Kota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Orang_Minang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Filipina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Minangkabau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Guangzhou" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Orang_hilang_di_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dialektika" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/VSTP" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Provinsi_Banten" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hongkong" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Haarlem" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.kompas.com/kompas-cetak/0408/21/pustaka/1218889.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://majalah.tempointeraktif.com/id/cetak/2008/08/11/LU/mbm.20080811.LU127931.id.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www24.brinkster.com/indomarxist/0000011.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www24.brinkster.com/indomarxist/00000067.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://majalah.tempointeraktif.com/id/arsip/2008/08/11/LU/mbm.20080811.LU127936.id.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://seniman-kehidupan.blogspot.com/2010/12/tan-malaka.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.marxists.org/indonesia/indones/index.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.marxists.org/archive/malaka/index.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://majalah.tempointeraktif.com/id/arsip/2008/08/11/CTP/mbm.20080811.CTP127899.id.html" />
+    <foaf:name xml:lang="id">Tan Malaka</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/f/f7/TanMalaka_DariPendjara_ed3.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TanMalaka_DariPendjara_ed3.jpg/200px-TanMalaka_DariPendjara_ed3.jpg" />
+    <dbpprop-id:name xml:lang="id">Tan Malaka</dbpprop-id:name>
+    <dbpprop-id:nationality xml:lang="id">Indonesia</dbpprop-id:nationality>
+    <dbpprop-id:birthPlace xml:lang="id">Nagari Pandam Gadang, Suliki, Sumatera Barat, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Kediri, Jawa Timur</dbpprop-id:deathPlace>
+    <dbpprop-id:occupation xml:lang="id">Guru dan Pemimpin Partai Komunis Indonesia</dbpprop-id:occupation>
+    <dbpprop-id:caption xml:lang="id">Tan Malaka, portrait as published in his autobiography</dbpprop-id:caption>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:image xml:lang="id">TanMalaka DariPendjara ed3.jpg</dbpprop-id:image>
+    <dbpprop-id:alt xml:lang="id">Tan Malaka</dbpprop-id:alt>
+    <dbpprop-id:knownFor xml:lang="id">- Pejuang revolusioner</dbpprop-id:knownFor>
+    <dbpprop-id:knownFor xml:lang="id">- Pahlawan Nasional Indonesia</dbpprop-id:knownFor>
+    <dbpprop-id:almaMater xml:lang="id">Rijks Kweekschool, Haarlem, Belanda</dbpprop-id:almaMater>
+    <dbpprop-id:parents xml:lang="id">Rasad Caniago</dbpprop-id:parents>
+    <dbpprop-id:parents xml:lang="id">Sinah Simabur</dbpprop-id:parents>
+    <dbpedia-owl:abstract xml:lang="id">Tan Malaka atau Ibrahim gelar Datuk Tan Malaka adalah Bapak Republik Indonesia, seorang aktivis pejuang kemerdekaan Indonesia, seorang pemimpin sosialis, dan politisi yang mendirikan Partai Murba. Pejuang yang militan, radikal, dan revolusioner ini banyak melahirkan pemikiran-pemikiran yang berbobot dan berperan besar dalam sejarah perjuangan kemerdekaan Indonesia. Dengan perjuangan yang gigih maka ia dikenal sebagai tokoh revolusioner yang legendaris. Dia kukuh mengkritik terhadap pemerintah kolonial Hindia-Belanda maupun pemerintahan republik di bawah Soekarno pasca-revolusi kemerdekaan Indonesia. Walaupun berpandangan sosialis, ia juga sering terlibat konflik dengan Partai Komunis Indonesia (PKI). Tan Malaka menghabiskan sebagian besar hidupnya dalam pembuangan di luar Indonesia, dan secara tak henti-hentinya terancam dengan penahanan oleh penguasa Belanda dan sekutu-sekutu mereka. Walaupun secara jelas disingkirkan, Tan Malaka dapat memainkan peran intelektual penting dalam membangun jaringan gerakan sosialis internasional untuk gerakan anti penjajahan di Asia Tenggara. Ia dinyatakan sebagai pahlawan nasional melalui Ketetapan Presiden RI No. 53 tanggal 23 Maret 1963. Tan Malaka juga seorang pendiri partai PARI dan Murba, berasal dari Sarekat Islam (SI) Jakarta dan Semarang. Ia dibesarkan dalam suasana semangatnya gerakan modernis Islam Kaoem Moeda di Sumatera Barat. Tokoh ini diduga kuat sebagai orang di belakang peristiwa penculikan Sutan Sjahrir bulan Juni 1946 oleh sekelompok orang tak dikenal di Surakarta sebagai akibat perbedaan pandangan perjuangan dalam menghadapi Belanda.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka__1" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Partai_Komunis_Indonesia" />
+    <dbpedia-owl:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1897-01-01T00:00:00+07:00</dbpedia-owl:birthYear>
+    <dbpedia-owl:knownFor rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Haarlem" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:stateOfOrigin rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Tan_Malaka?oldid=6783483" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Oemar_Said_Tjokroaminoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sumatera_Barat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Teori_politik">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_filsuf_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Karesidenan_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Nusantara_(1800-1942)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Merantau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Iwa_Koesoemasoemantri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Peristiwa_3_Juli_1946">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Persatuan_Perjuangan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_orang_hilang_di_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Sumatera_Barat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sukarni">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Budaya_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Alimin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daan_Jahja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Haji_Misbach">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pelopor_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Djamaluddin_Tamin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Nama_orang_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Maulana_Rahmat_Ali">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Malaka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tan_malaka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pejuang_kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Tan_Malaka">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+  </rdf:Description>
+</rdf:RDF>

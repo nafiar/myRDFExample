@@ -1,0 +1,12 @@
+PREFIX  xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX  dc:     <http://purl.org/dc/elements/1.1/>
+PREFIX :    <.>
+
+SELECT ?title ?graph
+FROM			<ds-dft.ttl>
+FROM NAMED		<ds-ng-1.ttl>
+FROM NAMED		<ds-ng-2.ttl>
+WHERE { 
+  GRAPH ?graph {
+	?x dc:title ?title . }
+}

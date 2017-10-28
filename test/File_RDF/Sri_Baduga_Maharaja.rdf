@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kebun_Raya_Bogor">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/3_Juni">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <rdfs:label xml:lang="id">Sri Baduga Maharaja</rdfs:label>
+    <rdfs:comment xml:lang="id">Sri Baduga Maharaja (Ratu Jayadewata) mengawali pemerintahan zaman Pajajaran, yang memerintah selama 39 tahun. Pada masa inilah Pakuan mencapai puncak perkembangannya. Dalam prasasti Batutulis diberitakan bahwa Sri Baduga dinobatkan dua kali, yaitu yang pertama ketika Jayadewata menerima tahta Kerajaan Galuh dari ayahnya yang kemudian bergelar Prabu Guru Dewapranata. Yang kedua ketika ia menerima tahta Kerajaan Sunda dari mertuanya, Susuktunggal.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Sunda" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Hindu_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Sunda" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pakuan_Pajajaran" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11407</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6783174</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Sunda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1518" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Sunda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rancamaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ratu_Japura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Subanglarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kropak_630" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wastu_Kancana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gajah_Mada" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pindahnya_Ratu_Pajajaran" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:COLLECTIE_TROPENMUSEUM_Beschreven_steen_in_Batoetoelis_de_batu_tulis_TMnr_60016460.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Pura_Parahyangan_Agung_Jagatkartta,_Candi_Siliwangi_Shrine.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Prabu_Dewa_Niskala" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Malaka" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Samudra_Pasai" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Hindu_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pakuan_Pajajaran" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Majapahit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cirebon" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sejarah_Nusantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Sunda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surawisesa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Sabrang_Lor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1482" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Prasasti_Batutulis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Portugis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Demak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kapal_Jung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Galuh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakuan_Pajajaran" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1521" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wangsakerta" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/1/15/Pura_Parahyangan_Agung_Jagatkartta,_Candi_Siliwangi_Shrine.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pura_Parahyangan_Agung_Jagatkartta,_Candi_Siliwangi_Shrine.jpg/200px-Pura_Parahyangan_Agung_Jagatkartta,_Candi_Siliwangi_Shrine.jpg" />
+    <dbpprop-id:pendahulu xml:lang="id">Tidak ada</dbpprop-id:pendahulu>
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Pakuan_Pajajaran" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Surawisesa" />
+    <dbpedia-owl:abstract xml:lang="id">Sri Baduga Maharaja (Ratu Jayadewata) mengawali pemerintahan zaman Pajajaran, yang memerintah selama 39 tahun. Pada masa inilah Pakuan mencapai puncak perkembangannya. Dalam prasasti Batutulis diberitakan bahwa Sri Baduga dinobatkan dua kali, yaitu yang pertama ketika Jayadewata menerima tahta Kerajaan Galuh dari ayahnya yang kemudian bergelar Prabu Guru Dewapranata. Yang kedua ketika ia menerima tahta Kerajaan Sunda dari mertuanya, Susuktunggal. Dengan peristiwa ini, ia menjadi penguasa Sunda-Galuh dan dinobatkan dengar gelar Sri Baduga Maharaja Ratu Haji di Pakuan Pajajaran Sri Sang Ratu Dewata. Jadi, sekali lagi dan untuk terakhir kalinya, setelah &quot;sepi&quot; selama 149 tahun, Jawa Barat kembali menyaksikan iring-iringan rombongan raja yang berpindah tempat dari timur ke barat. Untuk menuliskan situasi kepindahan keluarga kerajaan dapat dilihat pada Pindahnya Ratu Pajajaran.</dbpedia-owl:abstract>
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Sri_Baduga_Maharaja?oldid=6783174" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Padrão">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakuan_Pajajaran">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Walisongo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Jawa_Barat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kerajaan_Sunda_Galuh">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Surawisesa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pati_Unus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kerajaan_Panjalu_Ciamis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cibulan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sunda">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Siliwangi_(disambiguasi)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Prabu_Siliwangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Silsilah_raja-raja_Sunda">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Siliwangi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sri_baduga_maharaja">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja_Ratu_Haji">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Sri_Baduga_Maharaja">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Sri_Baduga_Maharaja" />
+  </rdf:Description>
+</rdf:RDF>

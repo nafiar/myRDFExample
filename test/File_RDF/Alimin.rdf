@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Musso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sarekat_Islam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Semaun">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soekarno">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tan_Malaka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Oemar_Said_Tjokroaminoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Untung_Syamsuri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Alimin">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+    <rdfs:label xml:lang="id">Alimin</rdfs:label>
+    <rdfs:comment xml:lang="id">Alimin bin Prawirodirdjo adalah seorang tokoh pergerakan kemerdekaan Indonesia serta tokoh komunis Indonesia. Berdasarkan SK Presiden No. 163 Tahun 1964 tertanggal 26 – 6 - 1964, Alimin tercatat sebagai salah satu Pahlawan Nasional Indonesia. Sejak remaja Alimin telah aktif dalam pergerakan nasional. Ia pernah menjadi anggota Budi Utomo, Sarekat Islam, Insulinde, sebelum bergabung dengan PKI dan akhirnya menjadi pimpinan organisasi tersebut.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1964" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_komunis_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">437192</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6776629</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Budi_Utomo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1946" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Laos" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jepang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ho_Chi_Minh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Alimin_a2092aa.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Musso" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Solo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Inggris" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kamboja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_komunis_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tan_Malaka" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1964" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perancis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/12_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1964" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1926" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Komintern" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Komunis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Moskow" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/24_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/DN_Aidit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/PKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kanton" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Singapura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1889" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sarekat_Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Vietnam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tentara_merah" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/7/70/Alimin_a2092aa.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Alimin_a2092aa.jpg/200px-Alimin_a2092aa.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Alimin bin Prawirodirdjo adalah seorang tokoh pergerakan kemerdekaan Indonesia serta tokoh komunis Indonesia. Berdasarkan SK Presiden No. 163 Tahun 1964 tertanggal 26 – 6 - 1964, Alimin tercatat sebagai salah satu Pahlawan Nasional Indonesia. Sejak remaja Alimin telah aktif dalam pergerakan nasional. Ia pernah menjadi anggota Budi Utomo, Sarekat Islam, Insulinde, sebelum bergabung dengan PKI dan akhirnya menjadi pimpinan organisasi tersebut. Ia juga adalah salah seorang pendiri Sarekat Buruh Pelabuhan (dulu namanya Sarekat Pegawai Pelabuhan dan Lautan). Pada awal 1926, sebagai pimpinan PKI Alimin pergi ke Singapura untuk berunding dengan Tan Malaka dalam rangka menyiapkan pemberontakan. Tapi sebelum Alimin pulang, pemberontakan sudah meletus 12 November 1926. Alimin dan Musso ditangkap oleh polisi Inggris. Setelah ia keluar dari penjara, Alimin pergi ke Moskow dan bergabung dengan Komintern. Alimin tidak lama di sana karena bertemu dengan Ho Chi Minh dan diajak ke Kanton (Guangzhou). Pada saat itu ia terlibat secara ilegal untuk mendidik kader-kader komunis di Vietnam, Laos, dan Kamboja untuk melawan penjajah dan merebut kemerdekaan dari jajahan Perancis. Ketika Jepang melakukan agresi terhadap Cina, Alimin pergi ke daerah basis perlawanan di Yenan dan bergabung bersama tentara merah di sana. Ia pulang ke Indonesia pada tahun 1946, yaitu setelah Republik Indonesia diproklamasikan. Ketika DN Aidit mendirikan kembali PKI secara legal pada awal tahun 1950-an dan kemudian menjadi Ketua Komite Sentralnya, Alimin termasuk tokoh komunis yang tidak diindahkannya. Namun Alimin masih banyak didatangi oleh para pengikutnya sampai dengan saat meninggalnya pada tahun 1964.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Alimin?oldid=6776629" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1889">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Alimin">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Alimin" />
+  </rdf:Description>
+</rdf:RDF>

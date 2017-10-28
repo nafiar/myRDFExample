@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Bandar_Lampung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/5_Oktober">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Radin_Inten_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Radin_Inten_II">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+    <rdfs:label xml:lang="id">Radin Inten II</rdfs:label>
+    <rdfs:comment xml:lang="id">Radin Inten II adalah seorang pahlawan nasional Indonesia. Namanya diabadikan sebagai sebuah Bandara Radin Inten II dan perguruan tinggi IAIN Raden Intan di Lampung. Berdasarkan penelitian, Radin Inten II gelar Kesuma Ratu masih keturunan Fatahillah yang dikenal sebagai Sunan Gunung Jati dari perkawinannya dengan Putri Sinar Alam, seorang putri dari Minak Raja Jalan Ratu dari Keratuan Pugung, cikal-bakal pemegang kekuasaan di keratuan tersebut.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Lampung" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7140</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6158429</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Keratuan_Pugung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Lampung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1834" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Rinten.gif" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Gunung_Jati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/5_Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Bandar_Lampung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Lampung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandara_Radin_Inten_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1856" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/IAIN_Raden_Intan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatahillah" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.indonesianvoices.info/2011/09/perjuangan-raden-intan-dan-raden-imba.html" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/d/d1/Rinten.gif" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Rinten.gif/200px-Rinten.gif" />
+    <dbpedia-owl:abstract xml:lang="id">Radin Inten II adalah seorang pahlawan nasional Indonesia. Namanya diabadikan sebagai sebuah Bandara Radin Inten II dan perguruan tinggi IAIN Raden Intan di Lampung. Berdasarkan penelitian, Radin Inten II gelar Kesuma Ratu masih keturunan Fatahillah yang dikenal sebagai Sunan Gunung Jati dari perkawinannya dengan Putri Sinar Alam, seorang putri dari Minak Raja Jalan Ratu dari Keratuan Pugung, cikal-bakal pemegang kekuasaan di keratuan tersebut. Radin Inten II adalah putra tunggal Radin Imba II gelar Kesuma Ratu (1828-1834). Radin Imba II sendiri putra sulung Radin Inten I gelar Dalam Kesuma Ratu IV (1751-1828). Dengan demikian, Radin Inten II cucu dari Radin Inten I. Radin Inten II berjuang memimpin rakyat di daerah Lampung untuk mempertahankan kedaulatan dan keutuhan wilayahnya. Perjuangannya didukung secara luas oleh rakyat daerah Lampung dan mendapatkan bantuan dari daerah lain seperti dari Banten.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Radin_Inten_II?oldid=6158429" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Lampung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gedung_Harta,_Penengahan,_Lampung_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kuripan,_Penengahan,_Lampung_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Intan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Radin_inten_ii">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ulun_Lampung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Radin_Inten_II">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Radin_Inten_II" />
+  </rdf:Description>
+</rdf:RDF>

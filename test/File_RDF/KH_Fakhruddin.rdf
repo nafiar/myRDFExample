@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sarekat_Islam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/KH_Fakhruddin">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+    <rdfs:label xml:lang="id">KH Fakhruddin</rdfs:label>
+    <rdfs:comment xml:lang="id">KH Fakhruddin atau sering dipanggil Muhammad Jazuli, adalah seorang pejuang pergerakan kemerdekaan Indonesia dan juga tokoh Muhammadiyah. Ia tidak pernah mendapat pendidikan di sekolah-sekolah umum. Pelajaran agama mula-mula diterima ayahnya, H. Hasyim, kemudian dari beberapa ulama terkenal di Jawa Tengah dan Jawa Timur. Fakhruddin dianggap sebagai seorang tokoh yang serba bisa.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Muhammadiyah" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678963</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5613213</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1890" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Muhammadiyah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1929" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/28_Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Fakhrudin.JPG" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1921" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kairo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammadiyah" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/f/f9/Fakhrudin.JPG" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Fakhrudin.JPG/200px-Fakhrudin.JPG" />
+    <dbpedia-owl:abstract xml:lang="id">KH Fakhruddin atau sering dipanggil Muhammad Jazuli, adalah seorang pejuang pergerakan kemerdekaan Indonesia dan juga tokoh Muhammadiyah. Ia tidak pernah mendapat pendidikan di sekolah-sekolah umum. Pelajaran agama mula-mula diterima ayahnya, H. Hasyim, kemudian dari beberapa ulama terkenal di Jawa Tengah dan Jawa Timur. Fakhruddin dianggap sebagai seorang tokoh yang serba bisa. Karena itu, silih berganti tugas penting diserahkan kepadanya, antara lain mengurus bagian dakwah, bagian taman pustaka, dan bagian pengajaran. Tahun 1921 ia diutus ke Mekah selama 8 tahun untuk meneliti nasib para jemaah haji yang berasal dari Indonesia karena mereka seringkali mendapat perlakuan kurang baik dari pejabat-pejabat Mekah. Sekembalinya, memprakarsai pembentukan Badan Penolong Haji. Selain itu, ia pernah pula diutus ke Kairo sebagai wakil umat Islam Indonesia untuk menghadiri Konferensi Islam. Kesibukannya mengurus Muhammadiyah dan usahanya, membuatnya kurang memperhatikan kesehatannya. Menjelang kongres Muhammadiyah di Yogyakarta pada tahun 1929, ia jatuh sakit. Pada tanggal 28 Februari 1929, ia akhirnya meninggal dunia di Yogyakarta dan dikebumikan di Pakuncen, Yogyakarta.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/KH_Fakhruddin?oldid=5613213" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/KH_Fakhruddin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kh_fakhruddin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/KH_Fakhruddin">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/KH_Fakhruddin" />
+  </rdf:Description>
+</rdf:RDF>

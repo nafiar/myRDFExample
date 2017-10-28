@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_IV">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_V">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <rdfs:label xml:lang="id">Pakubuwana V</rdfs:label>
+    <rdfs:comment xml:lang="id">Sri Susuhunan Pakubuwana V adalah raja Kasunanan Surakarta yang memerintah tahun 1820 – 1823.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274100</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6801225</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/10" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_penguasa_Mataram_Baru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_IV" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Serat_Centhini" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pamekasan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1823" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Adipati_Anom" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cina" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1785" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_raja_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1820" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1740" />
+    <foaf:name xml:lang="id">Sri Susuhunan Pakubuwana V</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/0/05/PBVsmall.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PBVsmall.jpg/200px-PBVsmall.jpg" />
+    <dbpprop-id:name xml:lang="id">Sri Susuhunan Pakubuwana V</dbpprop-id:name>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1820</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1823</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_IV" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</dbpprop-id:imagesize>
+    <dbpprop-id:caption xml:lang="id">Pakubuwana V</dbpprop-id:caption>
+    <dbpprop-id:office rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1785</dbpprop-id:birthDate>
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:image xml:lang="id">PBVsmall.jpg</dbpprop-id:image>
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_IV" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1820</dbpprop-id:years>
+    <dbpprop-id:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1823</dbpprop-id:deathDate>
+    <dbpedia-owl:abstract xml:lang="id">Sri Susuhunan Pakubuwana V adalah raja Kasunanan Surakarta yang memerintah tahun 1820 – 1823.</dbpedia-owl:abstract>
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:office xml:lang="id">Sunan Surakarta</dbpedia-owl:office>
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_IV" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_V?oldid=6801225" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_VI">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rangga_Warsita">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kasunanan_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Serat_Centhini">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemakaman_Imogiri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwono_V">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Paku_Buwono_V">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/PB_V">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Mas_Sugandi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sunan_Sugih">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Pakubuwana_V">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_V" />
+  </rdf:Description>
+</rdf:RDF>

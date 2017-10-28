@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Budi_Utomo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ernest_Douwes_Dekker">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kebangkitan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ki_Hadjar_Dewantara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pamflet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+    <rdfs:label xml:lang="id">Tjipto Mangoenkoesoemo</rdfs:label>
+    <rdfs:comment xml:lang="id">Dr. Cipto Mangunkusumo atau Tjipto Mangoenkoesoemo adalah seorang tokoh pergerakan kemerdekaan Indonesia. Bersama dengan Ernest Douwes Dekker dan Ki Hajar Dewantara ia dikenal sebagai &quot;Tiga Serangkai&quot; yang banyak menyebarluaskan ide pemerintahan sendiri dan kritis terhadap pemerintahan penjajahan Hindia Belanda. Ia adalah tokoh dalam Indische Partij, suatu organisasi politik yang pertama kali mencetuskan ide pemerintahan sendiri di tangan penduduk setempat, bukan oleh Belanda.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Semarang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7074</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6777478</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ambarawa,_Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1943" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kepulauan_Banda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indische_Partij" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Volksraad" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ki_Hajar_Dewantara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ambarawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/8_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ernest_Douwes_Dekker" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Semarang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Batik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pecangakan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1886" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/TMP" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Insulinde" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Cipto_mangunkusumo.jpg" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://segitiga.stikom.edu/v.01/main.php?act=tok&amp;xid=200108" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.solusihukum.com/tokoh/tokoh30.php" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.ekonomirakyat.org/edisi_20/artikel_2.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://tokohindonesia.com/ensiklopedi/c/cipto-mangunkusumo/index.shtml" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://tokohindonesia.com" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/8/8e/Cipto_mangunkusumo.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cipto_mangunkusumo.jpg/200px-Cipto_mangunkusumo.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Dr. Cipto Mangunkusumo atau Tjipto Mangoenkoesoemo adalah seorang tokoh pergerakan kemerdekaan Indonesia. Bersama dengan Ernest Douwes Dekker dan Ki Hajar Dewantara ia dikenal sebagai &quot;Tiga Serangkai&quot; yang banyak menyebarluaskan ide pemerintahan sendiri dan kritis terhadap pemerintahan penjajahan Hindia Belanda. Ia adalah tokoh dalam Indische Partij, suatu organisasi politik yang pertama kali mencetuskan ide pemerintahan sendiri di tangan penduduk setempat, bukan oleh Belanda. Pada tahun 1913 ia dan kedua rekannya diasingkan oleh pemerintah kolonial ke Belanda akibat tulisan dan aktivitas politiknya, dan baru kembali 1917. Dokter Cipto menikah dengan seorang Indo pengusaha batik, sesama anggota organisasi Insulinde, bernama Marie Vogel pada tahun 1920. Berbeda dengan kedua rekannya dalam &quot;Tiga Serangkai&quot; yang kemudian mengambil jalur pendidikan, Cipto tetap berjalan di jalur politik dengan menjadi anggota Volksraad. Karena sikap radikalnya, pada tahun 1927 ia dibuang oleh pemerintah penjajahan ke Banda. Ia wafat pada tahun 1943 dan dimakamkan di TMP Ambarawa.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Tjipto_Mangoenkoesoemo?oldid=6777478" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Boemi_Poetera">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Indische_Vereeniging">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_nama_Indonesia_yang_mengandung_unsur_Sanskerta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Iravati_M._Sudiarso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cipto_Mangunkusumo,_dr">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cipto_Mangunkusumo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tjipto_Mangunkusumo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tjipto_mangoenkoesoemo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Tjipto_Mangoenkoesoemo">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Tjipto_Mangoenkoesoemo" />
+  </rdf:Description>
+</rdf:RDF>

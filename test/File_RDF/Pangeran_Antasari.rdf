@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/2.000_(angka)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Perang_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Universitas_Lambung_Mangkurat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/14_Maret">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pangeran_Antasari">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <rdfs:label xml:lang="id">Pangeran Antasari</rdfs:label>
+    <rdfs:comment xml:lang="id">Pangeran Antasari adalah seorang Pahlawan Nasional Indonesia. Ia adalah Sultan Banjar. Pada 14 Maret 1862, beliau dinobatkan sebagai pimpinan pemerintahan tertinggi di Kesultanan Banjar (Sultan Banjar) dengan menyandang gelar Panembahan Amiruddin Khalifatul Mukminin dihadapan para kepala suku Dayak dan adipati (gubernur) penguasa wilayah Dusun Atas, Kapuas dan Kahayan yaitu Tumenggung Surapati/Tumenggung Yang Pati Jaya Raja.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Banjar" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sultan_Banjar" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kabupaten_Banjar" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Perang_Banjar" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7067</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6614218</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdur_Rahman_dari_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sejarah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Demang_Lehman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Distrik_Riam_Kanan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1859" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/11_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ekonomi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pengaron,_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Willem_Adriaan_van_Rees" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Kapuas" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/25_April" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Hidayatullah_Khalilullah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_Sultan_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kalimantan_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dinasti_Banjarmasin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Muhammad_Seman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hidayatullah_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Martapura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bayan_Begok" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Perang_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:1._ZM_Stoomschip_Celebes_in_gevecht_met_een_Kota_Mara_6_aug_1859_Poeloe_Kananat_opgenomen.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/27_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sultan_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kabupaten_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammad_Seman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:COLLECTIE_TROPENMUSEUM_Het_monument_in_Bandjermasin_dat_is_opgericht_ter_herdenking_van_de_tijdens_de_Bandjermasinse_Krijg_(1859-1863)_gesneuvelde_militairen_TMnr_60042550.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Korem_101/Antasari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agama" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soero_Patty" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1797" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arnhem" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perdagangan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulaiman_dari_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1968" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Banjarmasin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surgi_Mufti,_Banjarmasin_Utara,_Banjarmasin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1809" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gustave_Verspijck" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammad_Aliuddin_Aminullah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Politik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Tahmidullah_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1994" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tundakan,_Awayan,_Balangan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tanah_Dusun" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia-Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sampirang_I,_Teweh_Timur,_Barito_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/11_Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1862" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Letnan_Kolonel" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kahayan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Banjar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Komplek_Makam_Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://pensa-sb.info/2190/pangeran-antasari-dalam-de-bandjermasinche-krijg/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://bumibanjar.blogspot.com/2010/05/pangeran-antasari.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://ega-full-heart.blogspot.com/2011/06/sejarah-keraton-banjar-dan-siapa-yang.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://kkk.or.id/sejarah_jaton_bag1.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://profiles.friendster.com/amkspantas" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://en.rodovid.org/wk/Person:77015" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.geocities.com/thechoice_05/perang7.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://sarageni.wordpress.com/2009/12/01/perang-banjar-1859-1905-2/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://zuljamalie.blogdetik.com/" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/c8/Pangeran_Antasari_Museum_Lambung_Mangkurat.JPG" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pangeran_Antasari_Museum_Lambung_Mangkurat.JPG/200px-Pangeran_Antasari_Museum_Lambung_Mangkurat.JPG" />
+    <dbpprop-id:name xml:lang="id">Pangeran Antasari</dbpprop-id:name>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Sultan_Hidayatullah_Khalilullah" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Sultan_Muhammad_Seman" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Hidayatullah_II" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Sultan_Banjar" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1862</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Muhammad_Seman" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</dbpprop-id:imagesize>
+    <dbpprop-id:caption xml:lang="id">Lukisan Pangeran Antasari menurut Perda Kalsel</dbpprop-id:caption>
+    <dbpprop-id:title xml:lang="id">Panembahan Amiruddin Khalifatul Mukminin</dbpprop-id:title>
+    <dbpprop-id:title xml:lang="id">Gusti Inu Kartapati</dbpprop-id:title>
+    <dbpprop-id:title xml:lang="id">Pangeran Antassarie</dbpprop-id:title>
+    <dbpprop-id:image xml:lang="id">Pangeran Antasari Museum Lambung Mangkurat.JPG</dbpprop-id:image>
+    <dbpprop-id:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1809</dbpprop-id:dateOfBirth>
+    <dbpprop-id:placeOfBirth rdf:resource="http://id.dbpedia.org/resource/Martapura" />
+    <dbpprop-id:placeOfBirth rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Banjar" />
+    <dbpprop-id:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</dbpprop-id:dateOfDeath>
+    <dbpprop-id:placeOfDeath rdf:resource="http://id.dbpedia.org/resource/Kalimantan_Tengah" />
+    <dbpprop-id:placeOfDeath rdf:resource="http://id.dbpedia.org/resource/Bayan_Begok" />
+    <dbpprop-id:reign rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</dbpprop-id:reign>
+    <dbpprop-id:regent rdf:resource="http://id.dbpedia.org/resource/Daftar_Sultan_Banjar" />
+    <dbpprop-id:father xml:lang="id">Pangeran Masud bin Pangeran Amir</dbpprop-id:father>
+    <dbpprop-id:mother xml:lang="id">Gusti Khadijah binti Sultan Sulaiman</dbpprop-id:mother>
+    <dbpprop-id:consort xml:lang="id">Nyai Fatimah</dbpprop-id:consort>
+    <dbpprop-id:consort xml:lang="id">Ratu Antasari</dbpprop-id:consort>
+    <dbpprop-id:royalHouse rdf:resource="http://id.dbpedia.org/resource/Dinasti_Banjarmasin" />
+    <dbpprop-id:regType rdf:resource="http://id.dbpedia.org/resource/Raja" />
+    <dbpedia-owl:abstract xml:lang="id">Pangeran Antasari adalah seorang Pahlawan Nasional Indonesia. Ia adalah Sultan Banjar. Pada 14 Maret 1862, beliau dinobatkan sebagai pimpinan pemerintahan tertinggi di Kesultanan Banjar (Sultan Banjar) dengan menyandang gelar Panembahan Amiruddin Khalifatul Mukminin dihadapan para kepala suku Dayak dan adipati (gubernur) penguasa wilayah Dusun Atas, Kapuas dan Kahayan yaitu Tumenggung Surapati/Tumenggung Yang Pati Jaya Raja.</dbpedia-owl:abstract>
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Pangeran_Antasari?oldid=6614218" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Tanah_Bumbu">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Kalimantan_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Komplek_Makam_Sultan_Suriansyah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rahmatullah_dari_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Distrik_Riam_Kanan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Banua">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kerajaan_Kusan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Syamsudin_Noor">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hidayatullah_II_dari_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Muhammad_Seman">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpprop-id:father rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Kalimantan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sultan_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sulaiman_dari_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pagustian">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ratu_Zaleha">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Demang_Lehman">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tumenggung_Surapati">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Penghulu_Rasyid">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdur_Rahman_dari_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panembahan_Muhammad_Said">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpprop-id:father rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panglima_Bukhari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/IAIN_Antasari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kapal_Onrust">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Kalimantan_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rp2.000">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panembahan_Amiruddin_Khalifatul_Mukminin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1862">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Antasari,_Pangeran">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gusti_Inu_Kartapati">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raja_Bakumpai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Antasari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pangeran_antasari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Pangeran_Antasari">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Pangeran_Antasari" />
+  </rdf:Description>
+</rdf:RDF>

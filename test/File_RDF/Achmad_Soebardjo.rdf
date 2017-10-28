@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Soebardjo">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <rdfs:label xml:lang="id">Achmad Soebardjo</rdfs:label>
+    <rdfs:comment xml:lang="id">Mr. Raden Achmad Soebardjo Djojoadisoerjo adalah tokoh pejuang kemerdekaan Indonesia, diplomat, dan seorang Pahlawan Nasional Indonesia. Ia adalah Menteri Luar Negeri Indonesia yang pertama. Achmad Soebardjo memiliki gelar Meester in de Rechten, yang diperoleh di Universitas Leiden Belanda pada tahun 1933.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Karawang" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1896-03-23</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Karawang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Kabinet_Presidensial" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:BPUPKI" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Duta_Besar_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Bangsawan_Aceh" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Luar_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49499</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6785301</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/20_Desember" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Universitas_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Karawang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Peristiwa_Rengasdengklok" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jerman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilopo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sayuti_Melik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pidie" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1951" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabinet_Presidensial" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1957" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wikana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Undang-undang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Universitas_Leiden" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mahasiswa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bogor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Profesor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fakultas_Ilmu_Pengetahuan_Budaya_Universitas_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:BPUPKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Brussels" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cipayung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jong_Java" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Meester_in_de_Rechten" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nasionalisme" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kebayoran_Baru,_Jakarta_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Badan_Penyelidik_Usaha_Persiapan_Kemerdekaan_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/18_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Roem" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Karawang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1927" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Aceh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Switzerland" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kemerdekaan_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Shodanco_Singgih" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2_September" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Kabinet_Presidensial" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rengasdengklok" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/4_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Afrika" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1945" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1952" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Chaerul_Saleh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Menteri_Luar_Negeri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Duta_Besar_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Luar_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Karawang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Bangsawan_Aceh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Pidie_Jaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Maeda_Tadashi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Asia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ulèë_Balang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1917" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Moh._Hatta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Panitia_Persiapan_Kemerdekaan_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1933" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hogere_Burger_School" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hatta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Duta_Besar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sukarni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawaharlal_Nehru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pendidikan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1961" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Peristiwa_3_Juli_1946" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/c4/Achmad_soebardjo.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Achmad_soebardjo.jpg/200px-Achmad_soebardjo.jpg" />
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dbpprop-id:termStart>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</dbpprop-id:termEnd>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Mohammad_Roem" />
+    <dbpprop-id:predecessor xml:lang="id">Tidak ada</dbpprop-id:predecessor>
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Wilopo" />
+    <dbpprop-id:birthPlace xml:lang="id">Karawang, Jawa Barat, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Jakarta, Indonesia</dbpprop-id:deathPlace>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Mohammad_Roem" />
+    <dbpprop-id:pendahulu xml:lang="id">tidak ada</dbpprop-id:pendahulu>
+    <dbpprop-id:jabatan xml:lang="id">Menteri Luar Negeri Indonesia</dbpprop-id:jabatan>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:tahun>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Sutan_Sjahrir" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Wilopo" />
+    <dbpprop-id:office xml:lang="id">Menteri Luar Negeri Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:image xml:lang="id">Achmad soebardjo.jpg</dbpprop-id:image>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpprop-id:profession rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpprop-id:almaMater xml:lang="id">Universitas Leiden, Belanda</dbpprop-id:almaMater>
+    <dbpedia-owl:abstract xml:lang="id">Mr. Raden Achmad Soebardjo Djojoadisoerjo adalah tokoh pejuang kemerdekaan Indonesia, diplomat, dan seorang Pahlawan Nasional Indonesia. Ia adalah Menteri Luar Negeri Indonesia yang pertama. Achmad Soebardjo memiliki gelar Meester in de Rechten, yang diperoleh di Universitas Leiden Belanda pada tahun 1933.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:office xml:lang="id">Menteri Luar Negeri Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-09-02</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1951-08-04</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-11-14</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1952-12-20</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo__1" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Mohammad_Roem" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Sutan_Syahrir" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Wilopo" />
+    <dbpedia-owl:profession rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:almaMater rdf:resource="http://id.dbpedia.org/resource/Universitas_Leiden" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Achmad_Soebardjo?oldid=6785301" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Achmad_Soebardjo" />
+    <dbpedia-owl:orderInOffice xml:lang="id">1</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Badan_Penyelidik_Usaha_Persiapan_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Universitas_Leiden">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Meester_in_de_Rechten">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mohamad_Roem">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panitia_Persiapan_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabinet_Presidensial">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Proklamasi_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sayuti_Melik">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sutan_Syahrir">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wilopo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Aceh">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Peristiwa_Rengasdengklok">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Menteri_Luar_Negeri_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpprop-id:pertama rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Indische_Vereeniging">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Peristiwa_3_Juli_1946">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Maeda_Tadashi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panitia_Sembilan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hadi_Thayeb">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Menyerahnya_Jepang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Lahirnya_Pancasila">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_menteri_dan_pejabat_tinggi_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Subardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ahmad_Subardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_soebardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mr._Ahmad_Subardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mr._Achmad_Soebardjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ahmad_Subarjo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pejuang_kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Achmad_Soebardjo">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Achmad_Soebardjo" />
+  </rdf:Description>
+</rdf:RDF>

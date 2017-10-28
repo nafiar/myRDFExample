@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hamengkubuwana_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hamengkubuwana_IV">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Keraton_Ngayogyakarta_Hadiningrat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hamengkubuwono_V">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+    <rdfs:label xml:lang="id">Hamengkubuwono V</rdfs:label>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278766</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1409665</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwana_V" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwana_V" />
+    <ns5:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Hamengkubuwono_V?oldid=1409665" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Hamengkubuwono_V" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Hamengkubuwono_V">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Hamengkubuwono_V" />
+  </rdf:Description>
+</rdf:RDF>

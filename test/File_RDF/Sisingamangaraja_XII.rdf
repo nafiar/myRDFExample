@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/17_Juni">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sisingamangaraja_XII">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+    <rdfs:label xml:lang="id">Sisingamangaraja XII</rdfs:label>
+    <rdfs:comment xml:lang="id">Sisingamangaraja XII adalah seorang raja di negeri Toba, Sumatera Utara, pejuang yang berperang melawan Belanda, kemudian diangkat oleh pemerintah Indonesia sebagai Pahlawan Nasional Indonesia sejak tanggal 9 November 1961 berdasarkan SK Presiden RI No 590/1961. Sebelumnya ia makamkan di Tarutung, lalu dipindahkan ke Balige, dan terakhir dipindahkan ke Pulau Samosir.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_gugur_dalam_perang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sisingamangaraja_XII" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Sumatera_Utara" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11446</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6783219</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Aksara_Batak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tarutung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/16_Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Aceh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kerajaan_Pagaruyung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1883" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pagaruyung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1878" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/19_Juli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/22_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1876" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/17_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1_Mei" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Sumatera_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Si_Singamangaraja_Seal.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bangkara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1820" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1845" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Silindung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ludwig_Ingwer_Nommensen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Balige" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1907" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_gugur_dalam_perang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Imam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/6_Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sisingamangaraja_XII" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Melayu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Misionaris" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1884" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Toba_Expedition_1878.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raffles" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Tapanuli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Batak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/3_Mei" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surat_Batak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia-Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Huruf_Jawi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sibolga" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1953" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Samosir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Toba" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Minangkabau" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gerilya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/RMG" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tentara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/18_Februari" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/3e/Sisingamangaraja_XII.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sisingamangaraja_XII.jpg/200px-Sisingamangaraja_XII.jpg" />
+    <dbpprop-id:name xml:lang="id">Sisingamangaraja XII</dbpprop-id:name>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XI" />
+    <dbpprop-id:successor xml:lang="id">-</dbpprop-id:successor>
+    <dbpprop-id:caption xml:lang="id">Lukisan Sisingamangaraja XII berdasarkan lukisan yang dibuat oleh Augustin Sibarani, kemudian tercetak di uang Rp 1.000</dbpprop-id:caption>
+    <dbpprop-id:children xml:lang="id">Patuan Anggi</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Lo Pian</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Patuan Nagari</dbpprop-id:children>
+    <dbpprop-id:title xml:lang="id">Maharaja Toba</dbpprop-id:title>
+    <dbpprop-id:image xml:lang="id">Sisingamangaraja XII.jpg</dbpprop-id:image>
+    <dbpprop-id:dynasty rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja" />
+    <dbpprop-id:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</dbpprop-id:dateOfBirth>
+    <dbpprop-id:placeOfBirth xml:lang="id">Bakara</dbpprop-id:placeOfBirth>
+    <dbpprop-id:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</dbpprop-id:dateOfDeath>
+    <dbpprop-id:placeOfDeath xml:lang="id">Dairi</dbpprop-id:placeOfDeath>
+    <dbpprop-id:reign rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1876</dbpprop-id:reign>
+    <dbpprop-id:fullName xml:lang="id">Ompu Pulobatu</dbpprop-id:fullName>
+    <dbpprop-id:father xml:lang="id">Sisingamangaraja XI</dbpprop-id:father>
+    <dbpprop-id:placeOfBurial xml:lang="id">Pulau Samosir</dbpprop-id:placeOfBurial>
+    <dbpprop-id:othertitles xml:lang="id">Raja Imam</dbpprop-id:othertitles>
+    <dbpprop-id:nativeLang rdf:resource="http://id.dbpedia.org/resource/Bahasa_Melayu" />
+    <dbpprop-id:nativeLang rdf:resource="http://id.dbpedia.org/resource/Bahasa_Batak" />
+    <dbpedia-owl:abstract xml:lang="id">Sisingamangaraja XII adalah seorang raja di negeri Toba, Sumatera Utara, pejuang yang berperang melawan Belanda, kemudian diangkat oleh pemerintah Indonesia sebagai Pahlawan Nasional Indonesia sejak tanggal 9 November 1961 berdasarkan SK Presiden RI No 590/1961. Sebelumnya ia makamkan di Tarutung, lalu dipindahkan ke Balige, dan terakhir dipindahkan ke Pulau Samosir. Ia juga dikenal dengan Patuan Bosar Ompu Pulo Batu, naik tahta pada tahun 1876 menggantikan ayahnya Sisingamangaraja XI yang bernama Ompu Sohahuaon, selain itu ia juga disebut juga sebagai raja imam. Penobatan Sisingamangaraja XII sebagai maharaja di negeri Toba bersamaan dengan dimulainya open door policy (politik pintu terbuka) Belanda dalam mengamankan modal asing yang beroperasi di Hindia-Belanda, dan yang tidak mau menandatangani Korte Verklaring (perjanjian pendek) di Sumatera terutama Kesultanan Aceh dan Toba, di mana kerajaan ini membuka hubungan dagang dengan negara-negara Eropa lainya. Di sisi lain Belanda sendiri berusaha untuk menanamkan monopolinya atas kerajaan tersebut. Politik yang berbeda ini mendorong situasi selanjutnya untuk melahirkan Perang Tapanuli yang berkepanjangan hingga puluhan tahun.</dbpedia-owl:abstract>
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Sisingamangaraja_XII?oldid=6783219" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sitor_Situmorang">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Batak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Negeri_Bakkara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Nusantara_(1800-1942)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Korps_Marechaussee_te_Voet">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_orang_yang_meninggal_pada_hari_ulang_tahun_mereka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Trumon">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Kota_Medan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Batak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Perang_Tapanuli">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+    <dbpedia-owl:commander rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_nama_Indonesia_yang_mengandung_unsur_Sanskerta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Mandahiling">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Museum_Perjuangan_Yogyakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Jalan_Sisingamangaraja_(Jakarta)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tortor_Batak_Toba">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gondang_Batak_Toba">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bendera_Kerajaan_Dinasti_Sisingamangaraja_XII">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1907">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Sisingamangaraja_XII">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Sisingamangaraja_XII" />
+  </rdf:Description>
+</rdf:RDF>

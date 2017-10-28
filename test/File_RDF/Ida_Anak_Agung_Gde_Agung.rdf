@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+    <rdfs:label xml:lang="id">Ida Anak Agung Gde Agung</rdfs:label>
+    <rdfs:comment xml:lang="id">Dr. Ide Anak Agung Gde Agung adalah ahli sejarah dan tokoh politik Indonesia. Di Bali ia juga berposisi sebagai raja Gianyar, menggantikan ayahnya Anak Agung Ngurah Agung. Anaknya, Anak Agung Gde Agung, adalah Menteri Masalah-masalah Kemasyarakatan pada Kabinet Persatuan Nasional. Sarjana hukum (Mr. ) diraihnya di Jakarta dan gelar doktor diperolehnya di Universitas Utrecht, Belanda, di bidang sejarah.</rdfs:comment>
+    <dbpedia-owl:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-22</dbpedia-owl:deathDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Bali" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Gianyar" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1921-07-24</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Bali" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Kabinet_Republik_Indonesia_Serikat" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Duta_Besar_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Luar_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157813</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6682631</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perancis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Anak_Agung_Gde_Agung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2007" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gianyar" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1970" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Portugal" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1956" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunarjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Laili_Roesad" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Duta_Besar_Indonesia_untuk_Austria" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Roeslan_Abdulgani" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1977" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1955" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:COLLECTIE_TROPENMUSEUM_Ide_Anak_Agung_Gde_Agung_in_gesprek_met_Sultan_Hamid_II_van_Pontianak_TMnr_10018600.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Susilo_Bambang_Yudhoyono" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Raja_Bali" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/12_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Anak_Agung_Ngurah_Agung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Duta_Besar_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Luar_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/9_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Austria" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bali" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Menteri_Luar_Negeri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Kabinet_Republik_Indonesia_Serikat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdullah_Kamil" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/24_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabinet_Persatuan_Nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belgia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://kepustakaan-presiden.pnri.go.id/ministers/popup_biodata_pejabat.asp?id=110" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/cc/I_a_gde_agung.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/I_a_gde_agung.jpg/200px-I_a_gde_agung.jpg" />
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Sunarjo" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Roeslan_Abdulgani" />
+    <dbpprop-id:birthPlace xml:lang="id">Gianyar, Bali, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Laili_Roesad" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Sunarjo" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Duta_Besar_Indonesia_untuk_Austria" />
+    <dbpprop-id:jabatan xml:lang="id">Menteri Luar Negeri Indonesia</dbpprop-id:jabatan>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</dbpprop-id:tahun>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Abdullah_Kamil" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Roeslan_Abdulgani" />
+    <dbpprop-id:office xml:lang="id">Menteri Luar Negeri Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Hindu" />
+    <dbpprop-id:image xml:lang="id">I_a_gde_agung.jpg</dbpprop-id:image>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpprop-id:profession rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpedia-owl:abstract xml:lang="id">Dr. Ide Anak Agung Gde Agung adalah ahli sejarah dan tokoh politik Indonesia. Di Bali ia juga berposisi sebagai raja Gianyar, menggantikan ayahnya Anak Agung Ngurah Agung. Anaknya, Anak Agung Gde Agung, adalah Menteri Masalah-masalah Kemasyarakatan pada Kabinet Persatuan Nasional. Sarjana hukum (Mr. ) diraihnya di Jakarta dan gelar doktor diperolehnya di Universitas Utrecht, Belanda, di bidang sejarah. Ia pernah menjabat sebagai Menteri Dalam Negeri maupun Menteri Luar Negeri pada era pemerintahan Presiden Soekarno. Selain itu ia pernah menjabat pula sebagai Dubes RI di Belgia (1951), Portugal, Perancis (1953), dan Austria. Pada tanggal 9 November 2007, almarhum dianugerahi gelar pahlawan nasional oleh Presiden Susilo Bambang Yudhoyono</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Hindu" />
+    <dbpedia-owl:office xml:lang="id">Menteri Luar Negeri Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-08-12</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-03-24</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung__1" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Sunarjo" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Roeslan_Abdulgani" />
+    <dbpedia-owl:profession rdf:resource="http://id.dbpedia.org/resource/Diplomat" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Ida_Anak_Agung_Gde_Agung?oldid=6682631" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Ida_Anak_Agung_Gde_Agung" />
+    <dbpedia-owl:orderInOffice xml:lang="id">8</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kesultanan_Pontianak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Roeslan_Abdulgani">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Menteri_Dalam_Negeri_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_menteri_dan_pejabat_tinggi_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ide_Anak_Agung_Gde_Agung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1921">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ide_Anak_Agoeng_Gde_Agoeng">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ida_anak_agung_gde_agung">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Ida_Anak_Agung_Gde_Agung">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Ida_Anak_Agung_Gde_Agung" />
+  </rdf:Description>
+</rdf:RDF>

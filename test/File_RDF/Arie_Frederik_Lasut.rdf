@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arie_Frederik_Lasut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+    <rdfs:label xml:lang="id">Arie Frederik Lasut</rdfs:label>
+    <rdfs:comment xml:lang="id">Arie Frederik Lasut adalah seorang Pahlawan Nasional Indonesia dan ahli pertambangan dan geologis. Dia terlibat dalam perang kemerdekaan Indonesia dan pengembangan sumber daya pertambangan dan geologis pada saat-saat permulaan negara Republik Indonesia. Lasut dilahirkan di desa Kapataran, yang sekarang berada di kabupaten Minahasa, propinsi Sulawesi Utara. Dia adalah putera tertua dari delapan anak dari Darius Lasut dan Ingkan Supit.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Minahasa" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1918-07-06</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Minahasa" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minahasa" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Marga_Lasut" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dibunuh" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7068</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6608795</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tasikmalaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/20_Mei" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ciater" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2007" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakem,_Sleman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kapataran,_Lembean_Timur,_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Institut_Teknologi_Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dibunuh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tondano" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1949" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/6_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Universitas_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Magelang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Ambon" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kepala_Pertambangan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur_Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/4_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1941" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2002" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sleman" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Marga_Lasut" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Dunia_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1969" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/31_Desember" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/7_Mei" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.dpr.go.id/tentang/sejarah.php" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.sinarharapan.co.id/berita/0208/06/opi03.html" />
+    <foaf:name xml:lang="id">Arie Frederik Lasut</foaf:name>
+    <dbpprop-id:name xml:lang="id">Arie Frederik Lasut</dbpprop-id:name>
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:birthPlace xml:lang="id">Minahasa, Sulawesi Utara, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Yogyakarta, Indonesia</dbpprop-id:deathPlace>
+    <dbpprop-id:office xml:lang="id">Kepala Pertambangan dan Geologi Republik Indonesia Ke-1</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpprop-id:profession rdf:resource="http://id.dbpedia.org/resource/Kepala_Pertambangan" />
+    <dbpedia-owl:abstract xml:lang="id">Arie Frederik Lasut adalah seorang Pahlawan Nasional Indonesia dan ahli pertambangan dan geologis. Dia terlibat dalam perang kemerdekaan Indonesia dan pengembangan sumber daya pertambangan dan geologis pada saat-saat permulaan negara Republik Indonesia. Lasut dilahirkan di desa Kapataran, yang sekarang berada di kabupaten Minahasa, propinsi Sulawesi Utara. Dia adalah putera tertua dari delapan anak dari Darius Lasut dan Ingkan Supit. Adiknya yang bernama Willy Lasut sempat menjabat sebagai Gubernur Sulawesi Utara.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Kristen" />
+    <dbpedia-owl:office xml:lang="id">Kepala Pertambangan dan Geologi Republik Indonesia Ke-1</dbpedia-owl:office>
+    <dbpedia-owl:profession rdf:resource="http://id.dbpedia.org/resource/Kepala_Pertambangan" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Arie_Frederik_Lasut?oldid=6608795" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Arie_Frederik_Lasut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sulawesi_Utara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Minahasa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Arie_frederik_lasut">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Arie_Frederik_Lasut">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Arie_Frederik_Lasut" />
+  </rdf:Description>
+</rdf:RDF>

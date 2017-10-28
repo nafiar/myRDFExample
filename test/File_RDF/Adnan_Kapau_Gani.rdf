@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns4="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemerintahan_Darurat_Republik_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Adnan_Kapau_Gani" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adnan_Kapau_Gani">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Adnan_Kapau_Gani" />
+    <rdfs:label xml:lang="id">Adnan Kapau Gani</rdfs:label>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">909350</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5521465</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Adenan_Kapau_Gani" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Adenan_Kapau_Gani" />
+    <ns4:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Adnan_Kapau_Gani?oldid=5521465" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Adnan_Kapau_Gani" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Adnan_Kapau_Gani">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Adnan_Kapau_Gani" />
+  </rdf:Description>
+</rdf:RDF>

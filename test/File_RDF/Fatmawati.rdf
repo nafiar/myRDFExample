@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bengkulu">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Fatmawati">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <rdfs:label xml:lang="id">Fatmawati</rdfs:label>
+    <rdfs:comment xml:lang="id">Fatmawati yang bernama asli Fatimah adalah istri dari Presiden Indonesia pertama Soekarno. Ia menjadi Ibu Negara Indonesia pertama dari tahun 1945 hingga tahun 1967 dan merupakan istri ke-3 dari Presiden Pertama Indonesia, Soekarno. Ia juga dikenal akan jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih yang turut dikibarkan pada upacara Proklamasi Kemerdekaan Indonesia di Jakarta pada tanggal 17 Agustus 1945.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Malaysia" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Kuala_Lumpur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Bengkulu" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-02-05</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Soekarno" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Bengkulu" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Ibu_dan_bapak_negara_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7082</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6627334</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Grave_of_Fatmawati,_Karet_Bivak_Cemetery.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rachmawati_Soekarnoputri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rumah_Sakit_Fatmawati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sukmawati_Soekarnoputri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pesisir_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Megawati_Soekarnoputri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Siti_Hartinah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/17_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Proklamasi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mekah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_Presiden_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Indrapura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammadiyah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kuala_Lumpur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bendera" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandar_Udara_Fatmawati_Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1980" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Bengkulu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Umroh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Guntur_Soekarnoputra" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bengkulu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Ibu_dan_bapak_negara_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1967" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Guruh_Soekarnoputra" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sang_Saka_Merah_Putih" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1945" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ibu_Negara_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_Mei" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/12_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Malaysia" />
+    <foaf:name xml:lang="id">Fatmawati</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/68/Fatmawati.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fatmawati.jpg/200px-Fatmawati.jpg" />
+    <dbpprop-id:name xml:lang="id">Fatmawati</dbpprop-id:name>
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor xml:lang="id">Tidak ada, jabatan baru</dbpprop-id:predecessor>
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Siti_Hartinah" />
+    <dbpprop-id:birthPlace xml:lang="id">Bengkulu, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Kuala Lumpur, Malaysia</dbpprop-id:deathPlace>
+    <dbpprop-id:spouse rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</dbpprop-id:imagesize>
+    <dbpprop-id:caption xml:lang="id">Fatmawati</dbpprop-id:caption>
+    <dbpprop-id:office xml:lang="id">Ibu Negara Indonesia</dbpprop-id:office>
+    <dbpprop-id:children rdf:resource="http://id.dbpedia.org/resource/Guntur_Soekarnoputra" />
+    <dbpprop-id:children xml:lang="id">Guruh Soekarnoputra</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Sukmawati Soekarnoputri</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Rachmawati Soekarnoputri</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Megawati Soekarnoputri</dbpprop-id:children>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Ibu_Negara_Republik_Indonesia" />
+    <dbpprop-id:image xml:lang="id">Fatmawati.jpg</dbpprop-id:image>
+    <dbpprop-id:before xml:lang="id">Tidak Ada</dbpprop-id:before>
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Siti_Hartinah" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:years>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:abstract xml:lang="id">Fatmawati yang bernama asli Fatimah adalah istri dari Presiden Indonesia pertama Soekarno. Ia menjadi Ibu Negara Indonesia pertama dari tahun 1945 hingga tahun 1967 dan merupakan istri ke-3 dari Presiden Pertama Indonesia, Soekarno. Ia juga dikenal akan jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih yang turut dikibarkan pada upacara Proklamasi Kemerdekaan Indonesia di Jakarta pada tanggal 17 Agustus 1945.</dbpedia-owl:abstract>
+    <dbpedia-owl:spouse rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Guntur_Soekarnoputra" />
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Guruh_Soekarnoputra" />
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Megawati_Soekarnoputri" />
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Rachmawati_Soekarnoputri" />
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Sukmawati_Soekarnoputri" />
+    <dbpedia-owl:office xml:lang="id">Ibu Negara Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-08-17</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-03-12</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Fatmawati__1" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Siti_Hartinah" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Fatmawati?oldid=6627334" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Fatmawati" />
+    <dbpedia-owl:orderInOffice xml:lang="id">1</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Guruh_Soekarnoputra">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Taman_Pemakaman_Umum_Karet_Bivak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Megawati_Soekarnoputri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Proklamasi_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sayuti_Melik">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Siti_Hartinah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soekarno">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Bengkulu">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sang_Saka_Merah_Putih">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Peristiwa_Rengasdengklok">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <dbpprop-id:caption rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/-wan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_ibu_dan_bapak_negara_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_nama_Indonesia_yang_mengandung_unsur_Sanskerta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Imelda_Soraya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soegija">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_wanita_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pelopor_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Mukomuko,_Mukomuko">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_keturunan_perantau_Minangkabau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Guruh_Gipsy">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Fatmawati_Soekarno">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1923">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pejuang_kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hartini">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Fatmawati">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Strikebreaker_(band)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Fatmawati" />
+  </rdf:Description>
+</rdf:RDF>

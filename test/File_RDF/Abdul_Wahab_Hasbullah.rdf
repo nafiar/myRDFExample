@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Hasyim_Asyari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gerakan_Pemuda_Ansor">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <rdfs:label xml:lang="id">Abdul Wahab Hasbullah</rdfs:label>
+    <rdfs:comment xml:lang="id">Kiai Haji Abdul Wahab Hasbullah adalah seorang ulama pendiri Nahdatul Ulama. KH Abdul Wahab Hasbullah adalah seorang ulama yang berpandangan modern, da’wah beliau dimulai dengan mendirikan media massa atau surat kabar, yaitu harian umum “Soeara Nahdlatul Oelama” atau Soeara NO dan Berita Nahdlatul Ulama.</rdfs:comment>
+    <dbpedia-owl:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-12-29</dbpedia-owl:deathDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jombang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Rais_Aam_Syuriyah_PBNU" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432334</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6820702</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hasyim_Asyari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nahdlatul_Ulama" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1888" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hasyim_Asy&#39;arie" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jombang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1971" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Rais_Aam_Syuriyah_PBNU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Muhammad_Wahib_Wahab" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/29_Desember" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bisri_Syansuri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nahdatul_Ulama" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_Ketua_Pengurus_Besar_Nahdlatul_Ulama" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.nu.or.id/page.php?lang=id&amp;menu=news_view&amp;news_id=9907" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.pmii-ciputat.or.id/biografi-tokoh/123-kh-abdul-wahab-hasbullah-laskar-perang-berfikir-moderat.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.gusmus.net/page.php?mod=dinamis&amp;sub=7&amp;id=23" />
+    <foaf:name xml:lang="id">K.H. A. Wahab Hasbullah</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/ee/Wahab_Hasbullah.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Wahab_Hasbullah.jpg/200px-Wahab_Hasbullah.jpg" />
+    <dbpprop-id:name xml:lang="id">K.H. A. Wahab Hasbullah</dbpprop-id:name>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Hasyim_Asyari" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Bisri_Syansuri" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jombang" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Hasyim_Asy&#39;arie" />
+    <dbpprop-id:jabatan xml:lang="id">Rais Am Syuriah</dbpprop-id:jabatan>
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Daftar_Ketua_Pengurus_Besar_Nahdlatul_Ulama" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Bisri_Syansuri" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</dbpprop-id:imagesize>
+    <dbpprop-id:children rdf:resource="http://id.dbpedia.org/resource/Muhammad_Wahib_Wahab" />
+    <dbpprop-id:religion xml:lang="id">Islam</dbpprop-id:religion>
+    <dbpprop-id:birthDate rdf:resource="http://id.dbpedia.org/resource/1888" />
+    <dbpprop-id:birthDate rdf:resource="http://id.dbpedia.org/resource/Maret" />
+    <dbpprop-id:title xml:lang="id">K.H.</dbpprop-id:title>
+    <dbpprop-id:image xml:lang="id">Wahab_Hasbullah.jpg</dbpprop-id:image>
+    <dbpprop-id:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</dbpprop-id:deathDate>
+    <dbpprop-id:known xml:lang="id">Rais Am Syuriah Nahdlatul Ulama</dbpprop-id:known>
+    <dbpedia-owl:abstract xml:lang="id">Kiai Haji Abdul Wahab Hasbullah adalah seorang ulama pendiri Nahdatul Ulama. KH Abdul Wahab Hasbullah adalah seorang ulama yang berpandangan modern, da’wah beliau dimulai dengan mendirikan media massa atau surat kabar, yaitu harian umum “Soeara Nahdlatul Oelama” atau Soeara NO dan Berita Nahdlatul Ulama.</dbpedia-owl:abstract>
+    <dbpedia-owl:child rdf:resource="http://id.dbpedia.org/resource/Muhammad_Wahib_Wahab" />
+    <dbpedia-owl:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1888-01-01T00:00:00+07:00</dbpedia-owl:birthYear>
+    <dbpedia-owl:title xml:lang="id">K.H.</dbpedia-owl:title>
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Hasyim_Asyari" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Bisri_Syansuri" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Abdul_Wahab_Hasbullah?oldid=6820702" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wahab_Chasbullah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wahab_hasbullah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wahab_Hasboellah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdoel_Wahab_Hasboellah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wahab_Hasbullah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kiai_Haji_Abdul_Wahab_Hasbullah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Abdul_Wahab_Hasbullah">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Abdul_Wahab_Hasbullah" />
+  </rdf:Description>
+</rdf:RDF>

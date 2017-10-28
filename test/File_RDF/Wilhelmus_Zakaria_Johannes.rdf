@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Herman_Johannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/KRI_Wilhelmus_Zakaria_Johannes_(332)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/4_September">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <rdfs:label xml:lang="id">Wilhelmus Zakaria Johannes</rdfs:label>
+    <rdfs:comment xml:lang="id">Dr. Wilhelmus Zakaria Johannes sering juga ditulis dalam ejaan baru Wilhelmus Zakaria Yohannes, adalah ahli radiologi pertama di Indonesia. Sebagai dokter Indonesia pertama yang mempelajari ilmu radiologi di Belanda WZ Johannes juga menjadi ahli rontgen pertama yang sangat berjasa dalam pengembangan ilmu kedokteran Indonesia sehingga mendapat gelar Pahlawan Nasional. Namanya diabadikan sebagai nama rumah sakit umum di Kupang, Nusa Tenggara Timur yakni RSU WZ Johannes.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Nusa_Tenggara_Timur" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30753</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6738422</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Televisi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rumah_sakit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Presenter_berita" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/UGM" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ilmu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Herman_Johannes" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Nusa_Tenggara_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Helmi_Johannes" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1895" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Den_Haag" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/4_September" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dokter" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KRI_Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/TNI-AL" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/VOA_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/RSU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radiologi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Produser_eksekutif" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rote" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nusa_Tenggara_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1952" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kupang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rontgen" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kedokteran" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageInterLanguageLink rdf:resource="http://ms.dbpedia.org/resource/Wilhelmus_Zakaria_Yohannes" />
+    <dbpedia-owl:abstract xml:lang="id">Dr. Wilhelmus Zakaria Johannes sering juga ditulis dalam ejaan baru Wilhelmus Zakaria Yohannes, adalah ahli radiologi pertama di Indonesia. Sebagai dokter Indonesia pertama yang mempelajari ilmu radiologi di Belanda WZ Johannes juga menjadi ahli rontgen pertama yang sangat berjasa dalam pengembangan ilmu kedokteran Indonesia sehingga mendapat gelar Pahlawan Nasional. Namanya diabadikan sebagai nama rumah sakit umum di Kupang, Nusa Tenggara Timur yakni RSU WZ Johannes. Nama pahlawan ini juga diabadikan menjadi nama sebuah kapal perang TNI-AL yakni KRI Wilhelmus Zakaria Johannes. Ia dimakamkan di Pemakaman Jati Petamburan, Jakarta Pusat. WZ. Johannes adalah sepupu Prof. Dr. Ir. Herman Johannes, guru besar UGM yang adalah paman dari Helmi Johannes, presenter berita dan produser eksekutif televisi VOA Indonesia.</dbpedia-owl:abstract>
+    <ns5:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Wilhelmus_Zakaria_Johannes?oldid=6738422" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Nusa_Tenggara_Timur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1952">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1895">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zakharia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Yohannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wilhelmus_Zakarias_Johannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/W.Z_Yohannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wilhelmus_zakaria_johannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Dr._Wilhelmus_Zakaria_Johannes">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Wilhelmus_Zakaria_Johannes">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Wilhelmus_Zakaria_Johannes" />
+  </rdf:Description>
+</rdf:RDF>

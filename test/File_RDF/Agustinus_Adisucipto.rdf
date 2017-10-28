@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Agustinus_Adisucipto">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <rdfs:label xml:lang="id">Agustinus Adisucipto</rdfs:label>
+    <rdfs:comment xml:lang="id">Agustinus Adisutjipto, Marsekal Muda Anumerta adalah seorang pahlawan nasional dan seorang komodor udara Indonesia. Beliau adalah seorang penganut agama Katolik. Adisutjipto dilahirkan 3 Juli 1916 di Salatiga, mengenyam pendidikan GHS (Geneeskundige Hoge School) (Sekolah Tinggi Kedokteran) dan lulusan Sekolah Penerbang Militaire Luchtvaart di Kalijati.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Salatiga" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Penerbang_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Perintis_TNI-AU" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dirgantara_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:ProyekWiki_TNI-AU" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7060</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6604372</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kalijati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Adisutjipto.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Salatiga" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dirgantara_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agresi_Militer_Belanda_I" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daerah_Istimewa_Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Salatiga" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kittyhawk" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/India" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/2000" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dakota_VT-CLA" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Bantul" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Yogyakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:ProyekWiki_TNI-AU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdulrahman_Saleh" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandara_Adisutjipto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Salatiga" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Penerbang_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Perintis_TNI-AU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14_Juli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Adisucipto+soedjono.jpg" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/32/Adisutjipto.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Adisutjipto.jpg/200px-Adisutjipto.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Agustinus Adisutjipto, Marsekal Muda Anumerta adalah seorang pahlawan nasional dan seorang komodor udara Indonesia. Beliau adalah seorang penganut agama Katolik. Adisutjipto dilahirkan 3 Juli 1916 di Salatiga, mengenyam pendidikan GHS (Geneeskundige Hoge School) (Sekolah Tinggi Kedokteran) dan lulusan Sekolah Penerbang Militaire Luchtvaart di Kalijati. Pada tanggal 15 November 1945, Adisutjipto mendirikan Sekolah Penerbang di Yogyakarta, tepatnya di Lapangan Udara Maguwo, yang kemudian diganti namanya menjadi Bandara Adisutjipto, untuk mengenang jasa beliau sebagai pahlawan nasional. Pada saat Agresi Militer Belanda I, Adisujipto dan Abdulrahman Saleh diperintahkan terbang ke India. Penerobosan blokade udara Belanda menuju India dan Pakistan berhasil dilakukan. Namun dalam perjalanan pulang membawa bantuan obat-obatan dari Malaya, pesawat Dakota VT-CLA ditumpanginya jatuh ditembak oleh dua pesawat P-40 Kittyhawk Belanda di Dusun Ngoto pada tanggal 29 Juli 1947. Beliau dimakamkan di pekaman umum Kuncen I dan II, dan kemudian pada tanggal 14 Juli 2000 dipindahkan ke Monumen Perjuangan di Desa Ngoto, Bantul, Yogyakarta.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Agustinus_Adisucipto?oldid=6604372" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Iswahyudi">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Marsekal">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Adi_Sumarmo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Adi_Sutjipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_nama_Indonesia_yang_mengandung_unsur_Sanskerta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Husein_Sastranegara">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adisucipto,_Agustinus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adisucipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adisutjipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adi_Sucipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Adi_Sutjipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Agustinus_adisucipto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Agustinus_Adisucipto">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Agustinus_Adisucipto" />
+  </rdf:Description>
+</rdf:RDF>

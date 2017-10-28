@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amir_Hamzah">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Artist" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Writer" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <rdfs:label xml:lang="id">Amir Hamzah</rdfs:label>
+    <rdfs:comment xml:lang="id">Tengku Amir Hamzah yang bernama lengkap Tengku Amir Hamzah Pangeran Indera Putera adalah seorang sastrawan Indonesia angkatan Pujangga Baru. Ia lahir dalam lingkungan keluarga bangsawan Melayu dan banyak berkecimpung dalam alam sastra dan kebudayaan Melayu.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_gugur_dalam_perang" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Langkat" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Melayu_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Angkatan_Pujangga_Baru" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sastrawan_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7065</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6788262</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Langkat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Yamin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sastra_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tengku_Muhammad_Adil" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Langkatsche_School" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1935" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_gugur_dalam_perang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pujangga_Baru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Langkat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1928" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sastrawan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hans_Bague_Jassin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jan_Engelbert_Tatengkeng" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeman_Hs" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Batavia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pemuda_Rakyat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Langkat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Poedjangga_Baroe" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutan_Takdir_Alisjahbana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achdiat_K._Mihardja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1975" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sastra" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Revolusi_Sosial_Sumatera_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kuala_Begumit" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Algemeene_Middelbare_School" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Masjid_Azizi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/7_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sumatera_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sastrawan_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/20_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Binjai" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Armijn_Pane" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Langkat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sanusi_Pane" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/3_November" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Timboel" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Melayu_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Angkatan_Pujangga_Baru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Angkatan_Pujangga_Baru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Suku_Melayu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/K.R.T_Wedyodi" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Buah_Rindu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mr.Raden_Pandji_Singgih" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Meer_Uitgebreid_Lager_Onderwijs" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tanjung_Pura" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://buahrindu.tripod.com/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.tokohindonesia.com/tokoh/article/294-pahlawan/219-amir-hamzah" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.lenteratimur.com/sang-pangeran-yang-selalu-berada-di-tengah-100-tahun-tengku-amir-hamzah/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.geocities.com/cecepsyamsulhari/1900_1949" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.tengkuamirhamzah.com/id/biography/" />
+    <foaf:name xml:lang="id">Amir Hamzah</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/f/f7/Amir_hamzah_duke_of_langkat.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Amir_hamzah_duke_of_langkat.jpg/200px-Amir_hamzah_duke_of_langkat.jpg" />
+    <dbpprop-id:name xml:lang="id">Amir Hamzah</dbpprop-id:name>
+    <dbpprop-id:nationality xml:lang="id">Indonesia</dbpprop-id:nationality>
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Sumatera_Timur" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Langkat" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Tanjung_Pura" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Kuala_Begumit" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Kota_Binjai" />
+    <dbpprop-id:spouse xml:lang="id">Tengku Puteri Kamiliah</dbpprop-id:spouse>
+    <dbpprop-id:occupation xml:lang="id">Penyair</dbpprop-id:occupation>
+    <dbpprop-id:ethnicity xml:lang="id">Malaysia</dbpprop-id:ethnicity>
+    <dbpprop-id:notableworks xml:lang="id">Buah RinduNyanyi Sunyi</dbpprop-id:notableworks>
+    <dbpprop-id:birthName xml:lang="id">Tengku Amir Hamzah</dbpprop-id:birthName>
+    <dbpprop-id:children xml:lang="id">Tengku Tahura</dbpprop-id:children>
+    <dbpprop-id:image xml:lang="id">Amir hamzah duke of langkat.jpg</dbpprop-id:image>
+    <dbpprop-id:genre xml:lang="id">Penyair</dbpprop-id:genre>
+    <dbpprop-id:subject xml:lang="id">Cinta, Agama</dbpprop-id:subject>
+    <dbpprop-id:language xml:lang="id">Indonesia/Malaysia</dbpprop-id:language>
+    <dbpprop-id:restingPlace xml:lang="id">Mesjid Azizi, Tanjung Pura, Langkat, Sumatera Timur, Indonesia</dbpprop-id:restingPlace>
+    <dbpedia-owl:abstract xml:lang="id">Tengku Amir Hamzah yang bernama lengkap Tengku Amir Hamzah Pangeran Indera Putera adalah seorang sastrawan Indonesia angkatan Pujangga Baru. Ia lahir dalam lingkungan keluarga bangsawan Melayu dan banyak berkecimpung dalam alam sastra dan kebudayaan Melayu.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Amir_Hamzah?oldid=6788262" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Armijn_Pane">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Binjai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sastra_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Langkat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Poedjangga_Baroe">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <dbpprop-id:founder rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_sastrawan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdul_Hadi_WM">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Paku_Alam_III">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Langit_dan_Bumi_(album_Search)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <dbpprop-id:lyrics rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Melayu-Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abrar_Yusra">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tanjung_Pura,_Langkat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1946">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amir_Hamzah,_Tengku">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tengku_Amir_Hamzah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Amir_hamzah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sastra_Islam">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Amir_Hamzah">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Amir_Hamzah" />
+  </rdf:Description>
+</rdf:RDF>

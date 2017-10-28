@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdurrahman_Baswedan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Nganjuk">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sukarjo_Wiryopranoto">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soetomo">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+    <rdfs:label xml:lang="id">Soetomo</rdfs:label>
+    <rdfs:comment xml:lang="id">Untuk pahlawan dari Surabaya, lihat: Sutomo Soetomo Informasi pribadi Lahir Templat:Safesubst:30 Juli 1888Templat:Safesubst:Berkas:Flag of the Netherlands. svg Ngepeh, Loceret, Nganjuk, Jawa Timur, Hindia Belanda Meninggal 30 Mei 1938 (umur 49)Templat:Safesubst:Berkas:Flag of the Netherlands. svg Surabaya, Jawa Timur, Hindia BelandaTemplat:Safesubst: Kebangsaan Berkas:Flag of the Netherlands. svg Hindia Belanda Dr.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Kota_Surabaya" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Ngepeh,_Loceret,_Nganjuk" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1888-07-30</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Nganjuk" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11465</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6688105</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sutomo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1930" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Parindra" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ngepeh,_Loceret,_Nganjuk" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Batavia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1924" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1903" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Surabaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Partai_Bangsa_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Dokter_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Budi_Utomo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Nganjuk" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1911" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/School_tot_Opleiding_van_Inlandsche_Artsen" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/7/7b/Soetomo.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Soetomo.jpg/200px-Soetomo.jpg" />
+    <dbpprop-id:nationality xml:lang="id">Hindia Belanda</dbpprop-id:nationality>
+    <dbpprop-id:birthPlace xml:lang="id">Ngepeh, Loceret, Nganjuk, Jawa Timur, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Surabaya, Jawa Timur, Hindia Belanda</dbpprop-id:deathPlace>
+    <dbpprop-id:image xml:lang="id">Soetomo.jpg</dbpprop-id:image>
+    <dbpedia-owl:abstract xml:lang="id">Untuk pahlawan dari Surabaya, lihat: Sutomo Soetomo Informasi pribadi Lahir Templat:Safesubst:30 Juli 1888Templat:Safesubst:Berkas:Flag of the Netherlands. svg Ngepeh, Loceret, Nganjuk, Jawa Timur, Hindia Belanda Meninggal 30 Mei 1938 (umur 49)Templat:Safesubst:Berkas:Flag of the Netherlands. svg Surabaya, Jawa Timur, Hindia BelandaTemplat:Safesubst: Kebangsaan Berkas:Flag of the Netherlands. svg Hindia Belanda Dr. Soetomo adalah tokoh pendiri Budi Utomo, organisasi pergerakan yang pertama di Indonesia. Pada tahun 1903, Soetomo menempuh pendidikan kedokteran di School tot Opleiding van Inlandsche Artsen, Batavia. Bersama kawan-kawan dari STOVIA inilah Soetomo mendirikan perkumpulan yang bernama Budi Utomo, pada tahun 1908. Setelah lulus pada tahun 1911, ia bekerja sebagai dokter pemerintah di berbagai daerah di Jawa dan Sumatra. Pada tahun 1917, Soetomo menikah dengan seorang perawat Belanda. Pada tahun 1919 sampai 1923, Soetomo melanjutkan studi kedokteran di Belanda. Pada tahun 1924, Soetomo mendirikan Indonesian Study Club (dalam bahasa Belanda Indonesische Studie Club atau Kelompok Studi Indonesia) di Surabaya, pada tahun 1930 mendirikan Partai Bangsa Indonesia dan pada tahun 1935 mendirikan Parindra (Partai Indonesia Raya).</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Soetomo?oldid=6688105" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ikatan_Dokter_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Indische_Vereeniging">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Timur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Gerakan_mahasiswa_di_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Lagu_untuk_Seruni">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+    <dbpprop-id:cinematography rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+    <dbpedia-owl:cinematography rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panjebar_Semangat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soeratin_Sosrosoegondo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Partai_Indonesia_Raya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ratapan_Anak_Tiri_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+    <dbpprop-id:cinematography rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+    <dbpedia-owl:cinematography rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ngepeh,_Loceret,_Nganjuk">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_pejuang_kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Soetomo">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Soetomo" />
+  </rdf:Description>
+</rdf:RDF>

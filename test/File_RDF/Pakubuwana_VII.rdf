@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kalender_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_IV">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_VI">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_VII">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <rdfs:label xml:lang="id">Pakubuwana VII</rdfs:label>
+    <rdfs:comment xml:lang="id">Sri Susuhunan Pakubuwana VII adalah raja Kasunanan Surakarta yang memerintah tahun 1830 – 1858. Nama aslinya ialah Raden Mas Malikis Solikin, putra Pakubuwana IV yang lahir dari permaisuri Raden Ayu Sukaptinah alias Ratu Kencanawungu. Pakubuwana VII naik takhta tanggal 14 Juni 1830 menggantikan keponakannya, yaitu Pakubuwana VI yang dibuang ke Ambon oleh Belanda. Saat itu Perang Diponegoro baru saja berakhir.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1796-07-08</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274775</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6801205</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_Diponegoro" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_raja_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ranggawarsita" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasunanan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bangsawan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_IV" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/14" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Diponegoro" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_penguasa_Mataram_Baru" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1830" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1858" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pranata_mangsa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/8_Juli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ambon" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VIII" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Putra_mahkota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1796" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <foaf:name xml:lang="id">Sri Susuhunan Pakubuwana VII</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/9/9b/Surakarta-PBVII.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Surakarta-PBVII.jpg/200px-Surakarta-PBVII.jpg" />
+    <dbpprop-id:name xml:lang="id">Sri Susuhunan Pakubuwana VII</dbpprop-id:name>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1830</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VIII" />
+    <dbpprop-id:birthPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:deathPlace rdf:resource="http://id.dbpedia.org/resource/Surakarta" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</dbpprop-id:imagesize>
+    <dbpprop-id:caption xml:lang="id">Pakubuwana VII</dbpprop-id:caption>
+    <dbpprop-id:office rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dbpprop-id:birthDate>
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Sunan_Surakarta" />
+    <dbpprop-id:image xml:lang="id">Surakarta-PBVII.jpg</dbpprop-id:image>
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VIII" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1830</dbpprop-id:years>
+    <dbpedia-owl:abstract xml:lang="id">Sri Susuhunan Pakubuwana VII adalah raja Kasunanan Surakarta yang memerintah tahun 1830 – 1858. Nama aslinya ialah Raden Mas Malikis Solikin, putra Pakubuwana IV yang lahir dari permaisuri Raden Ayu Sukaptinah alias Ratu Kencanawungu. Pakubuwana VII naik takhta tanggal 14 Juni 1830 menggantikan keponakannya, yaitu Pakubuwana VI yang dibuang ke Ambon oleh Belanda. Saat itu Perang Diponegoro baru saja berakhir. Masa pemerintahan Pakubuwana VII relatif damai apabila dibandingkan masa raja-raja sebelumya. Tidak ada lagi bangsawan yang memberontak besar-besaran secara fisik setelah Pangeran Diponegoro. Jika pun ada hanyalah pemberontakan kecil yang tidak sampai mengganggu stabilitas keraton. Keadaan yang damai itu mendorong tumbuhnya kegiatan sastra secara besar-besaran di lingkungan keraton. Masa pemerintahan Pakubuwana VII dianggap sebagai puncak kejayaan sastra di Kasunanan Surakarta dengan pujangga besar Ranggawarsita sebagai pelopornya. Hampir sebagian besar karya Ranggawarsita lahir pada masa ini. Hubungan antara raja dan pujangga tersebut juga dikisahkan sangat harmonis. Pakubuwana VII juga menetapkan undang-undang yang berlaku sampai ke pelosok negeri, bernama Anggèr-anggèr Nagari. Selain itu, pada masanya dirilis pula pranata mangsa versi Kasunanan yang dimaksudkan menjadi pedoman kerja bagi petani dan pihak-pihak terkait dengan produksi pertanian. Pranata mangsa versi Kasunanan ini banyak dianut petani di wilayah Mataraman hingga diperkenalkannya program intensifikasi pertanian di awal 1970-an. Pemerintahannya berakhir saat wafatannya dan karena tidak memiliki putra mahkota maka Pakubuwana VII digantikan oleh kakaknya (lain ibu) bergelar Pakubuwana VIII yang naik takhta pada usia 69 tahun.</dbpedia-owl:abstract>
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:office xml:lang="id">Sunan Surakarta</dbpedia-owl:office>
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VI" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VIII" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_VII?oldid=6801205" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana_VIII">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rangga_Warsita">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kabupaten_Sragen">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kasunanan_Surakarta">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Susuhunan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_raja_di_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Serat_Centhini">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pranata_mangsa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Yasadipura_II">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pakubuwana">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pemakaman_Imogiri">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Paku_Buwono_VII">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Mas_Malikis_Solikin">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Pakubuwana_VII">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Pakubuwana_VII" />
+  </rdf:Description>
+</rdf:RDF>

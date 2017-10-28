@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns4="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Kalimantan_Barat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Melayu-Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+    <rdfs:label xml:lang="id">Abdul Kadir Raden Temenggung Setia Pahlawan</rdfs:label>
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">977153</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5866512</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tumenggung_Setia_Pahlawan" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tumenggung_Setia_Pahlawan" />
+    <ns4:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan?oldid=5866512" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Abdul_Kadir_Raden_Temenggung_Setia_Pahlawan" />
+  </rdf:Description>
+</rdf:RDF>

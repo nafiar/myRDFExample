@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Sejarah_Nusantara_(1942-1945)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Tasikmalaya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zainal_Mustafa">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <rdfs:label xml:lang="id">Zainal Mustafa</rdfs:label>
+    <rdfs:comment xml:lang="id">K.H. Zainal Mustafa adalah salah satu pahlawan nasional Indonesia. Ia dimakamkan di Taman Makam Pahlawan Tasikmalaya. Zaenal Mustofa adalah pemimpin sebuah pesantren di Tasikmalaya dan pejuang Islam pertama dari Jawa Barat yang mengadakan pemberontakan terhadap pemerintahan Jepang. Nama kecilnya Hudaeni. Lahir dari keluarga petani berkecukupan, putra pasangan Nawapi dan Ny.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Daerah_Khusus_Ibukota_Jakarta" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Singaparna,_Tasikmalaya" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-01-01</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dihukum_mati" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Tasikmalaya" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11478</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6594742</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandung" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ruhiat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daerah_Khusus_Ibukota_Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sukamanah,_Tasikmalaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hambali_Syafei" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kiai_Rukhiyat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Singaparna,_Tasikmalaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ibadah_haji" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/28_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pejuang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1899" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jakarta" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sekolah_Rakyat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pesantren" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_yang_dihukum_mati" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ciamis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tasikmalaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tanah_Suci" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Barat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Perang_Dunia_II" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syafi’i" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Haji_Syirod" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sukamanah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/KH._Zainal_Muhsin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zaenal_Mustofa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nina_Herlina_Lubis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/NU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Tasikmalaya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1944" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jepang" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Singaparna" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://sundaislam.wordpress.com/2008/02/01/kiai-haji-zaenal-mustofa/" />
+    <foaf:name xml:lang="id">KH. Zainal Musthofa</foaf:name>
+    <dbpprop-id:name xml:lang="id">KH. Zainal Musthofa</dbpprop-id:name>
+    <dbpprop-id:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpprop-id:birthPlace xml:lang="id">Singaparna, Tasikmalaya</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Jakarta</dbpprop-id:deathPlace>
+    <dbpprop-id:occupation xml:lang="id">Pahlawan Nasional</dbpprop-id:occupation>
+    <dbpprop-id:occupation xml:lang="id">Pimpinan Pesantren</dbpprop-id:occupation>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpprop-id:otherNames xml:lang="id">Hudaeni</dbpprop-id:otherNames>
+    <dbpedia-owl:abstract xml:lang="id">K.H. Zainal Mustafa adalah salah satu pahlawan nasional Indonesia. Ia dimakamkan di Taman Makam Pahlawan Tasikmalaya. Zaenal Mustofa adalah pemimpin sebuah pesantren di Tasikmalaya dan pejuang Islam pertama dari Jawa Barat yang mengadakan pemberontakan terhadap pemerintahan Jepang. Nama kecilnya Hudaeni. Lahir dari keluarga petani berkecukupan, putra pasangan Nawapi dan Ny. Ratmah, di kampung Bageur, Desa Cimerah, Kecamatan Singaparna (kini termasuk wilayah Desa Sukarapih Kecamatan Sukarame) Kabupaten Tasikmalaya (ada yang menyebut ia lahir tahun 1901 dan Ensiklopedia Islam menyebutnya tahun 1907, sementara tahun yang tertera di atas diperoleh dari catatan Nina Herlina Lubis, Ketua Masyarakat Sejarawan Indonesia Cabang Jawa Barat). Namanya menjadi Zaenal Mustofa setelah ia menunaikan ibadah haji pada tahun 1927. Hudaeni memperoleh pendidikan formal di Sekolah Rakyat. Dalam bidang agama, ia belajar mengaji dari guru agama di kampungnya. Kemampuan ekonomis keluarga memungkinkannya untuk menuntut ilmu agama lebih banyak lagi. Pertama kali ia melanjutkan pendidikannya ke pesantren di Gunung Pari di bawah bimbingan Dimyati, kakak sepupunya, yang dikenal dengan nama KH. Zainal Muhsin. Dari Gunung Pari, ia kemudian mondok di Pesantren Cilenga, Leuwisari, dan di Pesantren Sukamiskin, Bandung. Selama kurang lebih 17 tahun ia terus menggeluti ilmu agama dari satu pesantren ke pesantren lainnya. Karena itulah ia mahir berbahasa Arab dan memiliki pengetahuan keagamaan yang luas. Lewat ibadah haji, ia berkenalan dengan ulama-ulama terkemuka. Ia pun mengadakan tukar pikiran soal keagamaan dan berkesempatan melihat pusat pendidikan keagamaan di Tanah Suci. Kontak dengan dunia luar itu mendorongnya untuk mendirikan sebuah pesantren. Maka sekembalinya dari ibadah haji, tahun 1927, ia mendirikan pesantren di Kampung Cikembang dengan nama Sukamanah. Sebelumnya, di Kampung Bageur tahun 1922 telah berdiri pula Pesantren Sukahideng yang didirikan KH. Zainal Muhsin. Melalui pesantren ini ia menyebarluaskan agama Islam, terutama paham Syafi’i yang dianut oleh masyarakat Indonesia pada umumnya dan umat Islam Jawa Barat pada khususnya. Di samping itu, ia juga mengadakan beberapa kegiatan keagamaan ke pelosok-pelosok desa di Tasikmalaya dengan cara mengadakan ceramah-ceramah agama. Maka sebutan kiai pun menjadi melekat dengan namanya. KH. Zaenal Mustofa terus tumbuh menjadi pemimpin dan anutan yang karismatik, patriotik, dan berpandangan jauh ke depan. Tahun 1933, ia masuk Jamiyyah Nahdhatul Ulama (NU) dan diangkat sebagai wakil ro’is Syuriah NU Cabang Tasikmalaya.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Islam" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Pesantren" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa__1" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa__2" />
+    <dbpedia-owl:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1899-01-01T00:00:00+07:00</dbpedia-owl:birthYear>
+    <dbpedia-owl:alias xml:lang="id">Hudaeni</dbpedia-owl:alias>
+    <dbpedia-owl:stateOfOrigin rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Zainal_Mustafa?oldid=6594742" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ruhiat">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/K.H._Zaenal_Mustofa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zainal_Mustafa,_Kiai_Haji">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zaenal_Mustafa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zaenal_Mustofa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zainal_mustafa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Zainal_Mustafa">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Zainal_Mustafa" />
+  </rdf:Description>
+</rdf:RDF>

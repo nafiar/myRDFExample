@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Frans_Kaisiepo">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <rdfs:label xml:lang="id">Frans Kaisiepo</rdfs:label>
+    <rdfs:comment xml:lang="id">Frans Kaisiepo adalah pahlawan nasional Indonesia dari Papua. Frans terlibat dalam Konferensi Malino tahun 1946 yang membicarakan mengenai pembentukan Republik Indonesia Serikat sebagai wakil dari Papua. Ia mengusulkan nama Irian, kata dalam bahasa Biak yang berarti beruap. Selain itu, ia juga pernah menjabat sebagai Gubernur Papua antara tahun 1964-1973. Ia dimakamkan di Taman Makam Pahlawan Cendrawasih, Jayapura.</rdfs:comment>
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Papua" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Biak" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1921-10-10</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Biak_Numfor" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Papua" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7085</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6635252</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Biak_Numfor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur_Papua" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Papua" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bahasa_Biak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Konferensi_Malino" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wardo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Acub_Zaenal" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Elias_Jan_Bonai" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1946" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1964" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jayapura" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kristen_Protestan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Papua" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Republik_Indonesia_Serikat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandar_Udara_Frans_Kaisiepo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1973" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Biak" />
+    <foaf:name xml:lang="id">Frans Kaisiepo</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/be/Frans_Kaiseipo.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Frans_Kaiseipo.jpg/200px-Frans_Kaiseipo.jpg" />
+    <dbpprop-id:name xml:lang="id">Frans Kaisiepo</dbpprop-id:name>
+    <dbpprop-id:nationality xml:lang="id">Indonesia</dbpprop-id:nationality>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Elias_Jan_Bonai" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Acub_Zaenal" />
+    <dbpprop-id:spouse xml:lang="id">Anthomina Arwam</dbpprop-id:spouse>
+    <dbpprop-id:spouse xml:lang="id">Maria Magdalena Moorwahyuni</dbpprop-id:spouse>
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</dbpprop-id:imagesize>
+    <dbpprop-id:birthplace xml:lang="id">Biak, Papua, Hindia Belanda</dbpprop-id:birthplace>
+    <dbpprop-id:deathplace xml:lang="id">Jayapura, Papua, Indonesia</dbpprop-id:deathplace>
+    <dbpprop-id:occupation rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpprop-id:office xml:lang="id">Gubernur Papua</dbpprop-id:office>
+    <dbpprop-id:religion rdf:resource="http://id.dbpedia.org/resource/Kristen_Protestan" />
+    <dbpprop-id:title rdf:resource="http://id.dbpedia.org/resource/Gubernur_Papua" />
+    <dbpprop-id:birthname xml:lang="id">Frans Kaisiepo</dbpprop-id:birthname>
+    <dbpprop-id:image xml:lang="id">Frans_Kaiseipo.jpg</dbpprop-id:image>
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Elias_Jan_Bonai" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Acub_Zaenal" />
+    <dbpprop-id:years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</dbpprop-id:years>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soeharto" />
+    <dbpedia-owl:abstract xml:lang="id">Frans Kaisiepo adalah pahlawan nasional Indonesia dari Papua. Frans terlibat dalam Konferensi Malino tahun 1946 yang membicarakan mengenai pembentukan Republik Indonesia Serikat sebagai wakil dari Papua. Ia mengusulkan nama Irian, kata dalam bahasa Biak yang berarti beruap. Selain itu, ia juga pernah menjabat sebagai Gubernur Papua antara tahun 1964-1973. Ia dimakamkan di Taman Makam Pahlawan Cendrawasih, Jayapura. Untuk mengenang jasanya, namanya diabadikan sebagai nama Bandar Udara Frans Kaisiepo di Biak.</dbpedia-owl:abstract>
+    <dbpedia-owl:nationality rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:religion rdf:resource="http://id.dbpedia.org/resource/Kristen_Protestan" />
+    <dbpedia-owl:occupation rdf:resource="http://id.dbpedia.org/resource/Pahlawan_Nasional_Indonesia" />
+    <dbpedia-owl:birthName xml:lang="id">Frans Kaisiepo</dbpedia-owl:birthName>
+    <dbpedia-owl:office xml:lang="id">Gubernur Papua</dbpedia-owl:office>
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Elias_Jan_Bonai" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Acub_Zaenal" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Ir._Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Frans_Kaisiepo?oldid=6635252" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Frans_Kaisiepo" />
+    <dbpedia-owl:orderInOffice xml:lang="id">4</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Koteka">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Marthen_Indey">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Papua">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pulau_Papua">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/KRI_Diponegoro_(365)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Gubernur_Papua">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/KRI_Frans_Kaisiepo_(368)">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Acub_Zaenal">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Elias_Jan_Bonai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpprop-id:after rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/1921">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Frans_kaisiepo">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Frans_Kaisiepo">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Frans_Kaisiepo" />
+  </rdf:Description>
+</rdf:RDF>

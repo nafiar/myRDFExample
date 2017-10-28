@@ -1,0 +1,5 @@
+progres :
+
+myRDFExample adalah neatbeans project yang berisi aplikasi sederhana pengolahan data RDF
+
+beberapa file hasil pengolahan data terdapat pada myRDFExample/test, file jumlah_tiples.csv merupakan file csv yang berisi data total triples dari setiap file RDF yang ada di dalam folder myRDFExample/test/File_RDF

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:ns5="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+    <rdfs:label xml:lang="id">Achmad Rifa&#39;i</rdfs:label>
+    <rdfs:comment xml:lang="id">Kiai Haji Ahmad Rifa&#39;i adalah pahlawan nasional Indonesia yang berasal dari Jawa Tengah dan juga seorang ulama pendiri, penulis buku semangat perjuanga kemerdekaan. Sejak kecil ia sudah dididik oleh ayahnya, KH Muhammad Marhum untuk mendalami agama. Sejak remaja ia sering melakukan dakwah ke berbagai tempat di sekitar Kendal. Pada tahun 1826, ia menunaikan ibadah haji kemudian memperdalam ilmu agama di Mekkah dan Madinah selama 8 tahun. Setelah itu ia juga menimba ilmu di Mesir.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kendal" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Islam_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421771</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5541931</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Dakwah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Utara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Islam_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ilmu" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mekkah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Remaja" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tondano" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tempuran" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Kendal" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Haji" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kampung_Jawa,_Tondano_Utara,_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tondano_Utara,_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kendal" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1826" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1859" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mesir" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Minahasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1786" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Manado" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rifa&#39;iyah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Madinah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Agama" />
+    <dbpedia-owl:abstract xml:lang="id">Kiai Haji Ahmad Rifa&#39;i adalah pahlawan nasional Indonesia yang berasal dari Jawa Tengah dan juga seorang ulama pendiri, penulis buku semangat perjuanga kemerdekaan. Sejak kecil ia sudah dididik oleh ayahnya, KH Muhammad Marhum untuk mendalami agama. Sejak remaja ia sering melakukan dakwah ke berbagai tempat di sekitar Kendal. Pada tahun 1826, ia menunaikan ibadah haji kemudian memperdalam ilmu agama di Mekkah dan Madinah selama 8 tahun. Setelah itu ia juga menimba ilmu di Mesir. Beliau Dimakamkan di Pekuburan Jawa Tondano di Kelurahan Kampung Jawa, di kecamatan Tondano Utara, Kabupaten Minahasa, provinsi Sulawesi Utara, Indonesia. 	 		 			Makam-rifai-1 DjokoSanudin. jpg 			 Papan Nama Makam 			 		 		 			Makam-rifai-2 DjokoSanudin. jpg 			 Makam Achmad Rifa&#39;i 			 		 		 			Makam-rifai-3 DjokoSanudin. jpg 			 Nama Pada Makam 			 		 	 Lihat juga Rifa&#39;iyah</dbpedia-owl:abstract>
+    <ns5:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Achmad_Rifa&#39;i?oldid=5541931" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Rifai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_ri&#39;fai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_Ri&#39;fai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Achmad_rifa&#39;i">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Achmad_Rifa&#39;i">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Achmad_Rifa&#39;i" />
+  </rdf:Description>
+</rdf:RDF>

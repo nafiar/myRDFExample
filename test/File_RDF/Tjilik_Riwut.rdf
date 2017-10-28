@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Dayak_Bakumpai">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Dayak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kaharingan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suku_Dayak_Meratus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Kota_Palangka_Raya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+    <dbpprop-id:bandarUdara rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Persepar_Palangka_Raya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Bandar_Udara_Tjilik_Riwut">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Universitas_Palangka_Raya">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tjilik_Riwut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+    <rdfs:label xml:lang="id">Tjilik Riwut</rdfs:label>
+    <rdfs:comment xml:lang="id">Marsekal Pertama TNI Tjilik Riwut adalah salah satu pahlawan nasional Indonesia dan Gubernur Kalimantan Tengah. Tjilik Riwut yang dengan bangga selalu menyatakan diri sebagai &quot;orang hutan&quot; karena lahir dan dibesarkan di belantara Kalimantan, adalah pencinta alam sejati juga sangat menjunjung tinggi budaya leluhurnya. Ketika masih belia ia telah tiga kali mengelilingi pulau Kalimantan hanya dengan berjalan kaki, naik perahu dan rakit.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dayak" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dayak_Ngaju" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Kalimantan_Tengah" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Katingan" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_PNI" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7073</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6822237</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dayak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Dayak_Ngaju" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Kalimantan_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Katingan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kalimantan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kasongan_Lama,_Katingan_Hilir,_Katingan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1946" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Rumah_Sakit_Suaka_Insan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_PNI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Milono" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Angkatan_Bersenjata_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Presiden_Sukarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/17_Oktober" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Banjarmasin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Februari" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1958" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hepatitis" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1998" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1947" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pulau_Jawa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Suku_Dayak" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kota_Palangka_Raya" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Bandar_udara" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur_Kalimantan_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/R.T.A._Milono" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Reinout_Sylvanus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1967" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/DPR" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kalimantan_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/TNI-AU" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/30_Juni" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sanusi_Pane" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.kalteng.go.id/TjilikRiwut.htm" />
+    <foaf:name xml:lang="id">Tjilik Riwut</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/23/Tjilik_Riwut.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tjilik_Riwut.jpg/200px-Tjilik_Riwut.jpg" />
+    <dbpprop-id:name xml:lang="id">Tjilik Riwut</dbpprop-id:name>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:resource="http://id.dbpedia.org/resource/Februari" />
+    <dbpprop-id:termEnd rdf:resource="http://id.dbpedia.org/resource/1967" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/R.T.A._Milono" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Reinout_Sylvanus" />
+    <dbpprop-id:spouse xml:lang="id">Clementine Suparti</dbpprop-id:spouse>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Milono" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Gubernur_Kalimantan_Tengah" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Reinout_Sylvanus" />
+    <dbpprop-id:imagesize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</dbpprop-id:imagesize>
+    <dbpprop-id:office xml:lang="id">Gubernur Kalimantan Tengah</dbpprop-id:office>
+    <dbpprop-id:children xml:lang="id">Anakletus T.T.</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Kameloh Ida Lestari</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Theresia Nila A.T.</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">A.R. Hawun Meiarti</dbpprop-id:children>
+    <dbpprop-id:children xml:lang="id">Emilia Enon Herjani</dbpprop-id:children>
+    <dbpprop-id:religion xml:lang="id">Katolik</dbpprop-id:religion>
+    <dbpprop-id:image xml:lang="id">Tjilik Riwut.jpg</dbpprop-id:image>
+    <dbpedia-owl:abstract xml:lang="id">Marsekal Pertama TNI Tjilik Riwut adalah salah satu pahlawan nasional Indonesia dan Gubernur Kalimantan Tengah. Tjilik Riwut yang dengan bangga selalu menyatakan diri sebagai &quot;orang hutan&quot; karena lahir dan dibesarkan di belantara Kalimantan, adalah pencinta alam sejati juga sangat menjunjung tinggi budaya leluhurnya. Ketika masih belia ia telah tiga kali mengelilingi pulau Kalimantan hanya dengan berjalan kaki, naik perahu dan rakit. Tjilik Riwut adalah salah satu putera Dayak yang menjadi KNIP. Perjalanan dan perjuangannya kemudian melampau batas-batas kesukuan untuk menjadi salah satu pejuang bangsa. Penetapannya sebagai Pahlawan Nasional pada tahun 1998 merupakan wujud penghargaan atas perjuangan pada masa kemerdekaan dan pengabdian membangun Kalimantan (Tengah). Setelah dari Pulau Jawa untuk menuntut ilmu, Tjilik Riwut diterjunkan ke Kalimantan sebagai pelaksana misi Pemerintah Republik Indonesia yang baru saja terbentuk, namun beliau tidak terjun. Nama-nama yang terjun merebut kalimantan adalah Harry Aryadi Sumantri, Iskandar, Sersan Mayor Kosasih, F. M. Suyoto, Bahrie, J. Bitak, C. Williem, Imanuel, Mika Amirudin, Ali Akbar, M. Dahlan, J. H. Darius, dan Marawi. Rombongan-rombongan ekspedisi ke Kalimantan dari Jawa yang kemudian membentuk barisan perjuangan di daerah yang sangat luas ini. Mereka menghubungi berbagai suku Dayak di berbagai pelosok Kalimantan untuk menyatukan persepsi rakyat yang sudah bosan hidup di alam penjajahan sehingga bersama-sama dapat menggalang persatuan dan kesatuan. Selain itu, Tjilik Riwut berjasa memimpin Operasi Penerjunan Pasukan Payung Pertama dalam sejarah Angkatan Bersenjata Republik Indonesia pada tanggal 17 Oktober 1947 oleh pasukan MN 1001, yang ditetapkan sebagai Hari Pasukan Khas TNI-AU yang diperingati setiap 17 Oktober. Waktu itu Pemerintah RI masih di Yogyakarta dan pangkat Tjilik Riwut adalah Mayor TNI. Pangkat Terakhir Tjilik Riwut adalah Marsekal Pertama Kehormatan TNI-AU. Tjilik Riwut adalah salah seorang yang cukup berjasa bagi masuknya pulau Kalimantan ke pangkuan Republik Indonesia. Sebagai seorang putera Dayak ia telah mewakili 142 suku Dayak pedalaman Kalimantan bersumpah setia kepada Pemerintah RI secara adat dihadapan Presiden Sukarno di Gedung Agung Yogyakarta, 17 Desember 1946. Sebagai tentara, pengalaman perangnya meliputi sebagian besar pulau Kalimantan dan Jawa. Setelah perang usai, Tjilik Riwut aktif di pemerintahan. Dia pernah menjadi Gubernur Kalimantan Tengah, menjadi koordinator masyarakat suku-suku terasing untuk seluruh pedalaman Kalimantan, dan terakhir sebagi anggota DPR RI. Keterampilan dalam menulis diasahnya semasa dia bergabung dengan Sanusi Pane di Harian Pembangunan. Tjilik Riwut telah menulis sejumlah buku mengenai Kalimantan: Makanan Dayak (1948), Sejarah Kalimantan (1952), Maneser Panatau Tatu Hiang (1965,stensilan, dalam bahasa Dayak Ngaju), Kalimantan Membangun (1979). Ia meninggal setelah dirawat di Rumah Sakit Suaka Insan karena menderita penyakit lever/hepatitis dalam usia 69 Tahun, dimakamkan di makam Pahlawan Sanaman Lampang, Palangka Raya, Kalimantan Tengah. Namanya kini diabadikan untuk salah satu bandar udara dan jalan utama di Palangka Raya.</dbpedia-owl:abstract>
+    <dbpedia-owl:office xml:lang="id">Gubernur Kalimantan Tengah</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1958-06-30</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut__1" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/R.T.A._Milono" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Reinout_Sylvanus" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Tjilik_Riwut?oldid=6822237" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Tjilik_Riwut" />
+    <dbpedia-owl:orderInOffice xml:lang="id">2</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Kalimantan_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Gubernur_Kalimantan_Tengah">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Wayang_kulit_Banjar">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Rumpun_Ot_Danum">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Reinout_Silvanus">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Ngayau">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Dayak">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Zulkifli_Lubis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Cilik_Riwut">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Tjilik_riwut">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Tjilik_Riwut">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Tjilik_Riwut" />
+  </rdf:Description>
+</rdf:RDF>

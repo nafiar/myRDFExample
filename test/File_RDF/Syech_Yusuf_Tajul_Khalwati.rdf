@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ns6="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Sulawesi_Selatan">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati">
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+    <rdfs:label xml:lang="id">Syech Yusuf Tajul Khalwati</rdfs:label>
+    <rdfs:comment xml:lang="id">Syech Yusuf Tajul Khalwati adalah salah seorang pahlawan nasional Indonesia yang lahir dari pasangan Abdullah dengan Aminah dengan nama Muhammad Yusuf. Nama ini diberikan oleh Sultan Alauddin, raja Gowa, yang juga adalah kerabat ibu Syekh Yusuf. Nama lengkapnya setelah dewasa adalah Tuanta&#39; Salama&#39; ri Gowa Syekh Yusuf Abul Mahasin Al-Taj Al-Khalwati Al-Makassari Al-Banteni. Pendidikan agama diperolehnya sejak berusia 15 tahun di Cikoang dari Daeng Ri Tassamang, guru kerajaan Gowa.</rdfs:comment>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_penyebar_Islam_di_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Gowa" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Islam_Afrika_Selatan" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_keturunan_atau_kelahiran_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11467</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6688115</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nuruddin_Ar-Raniri" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sulawesi_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_keturunan_atau_kelahiran_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Cape_Town" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Gowa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1693" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Berkas:Seikh-yusuf.jpg" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Nelson_Mandela" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Ageng_Tirtayasa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Afrika_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sultan_Alauddin" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gowa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Gowa" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_Islam_Afrika_Selatan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Majalah_Hidayatullah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1682" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kesultanan_Banten" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_penyebar_Islam_di_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.4dw.net/royalark/Indonesia/gowa5.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://buginese.blogspot.com/2006/07/syeikh-yusuf-al-maqassari.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.republika.co.id/koran_detail.asp?id=177005&amp;kat_id=105&amp;kat_id1=147&amp;kat_id2=185" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.4dw.net/royalark/Indonesia/bone4.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://pialadunia.tempointeraktif.com/hg/pialadunia2010_kabar/2010/07/07/brk,20100707-261696,id.html" />
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/d/d3/Seikh-yusuf.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Seikh-yusuf.jpg/200px-Seikh-yusuf.jpg" />
+    <dbpedia-owl:abstract xml:lang="id">Syech Yusuf Tajul Khalwati adalah salah seorang pahlawan nasional Indonesia yang lahir dari pasangan Abdullah dengan Aminah dengan nama Muhammad Yusuf. Nama ini diberikan oleh Sultan Alauddin, raja Gowa, yang juga adalah kerabat ibu Syekh Yusuf. Nama lengkapnya setelah dewasa adalah Tuanta&#39; Salama&#39; ri Gowa Syekh Yusuf Abul Mahasin Al-Taj Al-Khalwati Al-Makassari Al-Banteni. Pendidikan agama diperolehnya sejak berusia 15 tahun di Cikoang dari Daeng Ri Tassamang, guru kerajaan Gowa. Syekh Yusuf juga berguru pada Sayyid Ba-lawi bin Abdul Al-Allamah Attahir dan Sayyid Jalaludin Al-Aidid. Kembali dari Cikoang Syekh Yusuf menikah dengan putri Sultan Gowa, lalu pada usia 18 tahun, Syekh Yusuf pergi ke Banten dan Aceh. Di Banten ia bersahabat dengan Pangeran Surya, yang kelak menjadikannya mufti Kesultanan Banten. Di Aceh, Syekh Yusuf berguru pada Syekh Nuruddin Ar-Raniri dan mendalami tarekat Qodiriyah. Syekh Yusuf juga sempat mencari ilmu ke Yaman, berguru pada Syekh Abdullah Muhammad bin Abd Al-Baqi, dan ke Damaskus untuk berguru pada Syekh Abu Al-Barakat Ayyub bin Ahmad bin Ayyub Al-Khalwati Al-Quraisyi.</dbpedia-owl:abstract>
+    <ns6:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Syech_Yusuf_Tajul_Khalwati?oldid=6688115" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_agama_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Bugis">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syekh_Yusuf">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syekh_Yusuf_Al-Makassari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syech_yusuf_tajul_khalwati">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Syekh_Muhammad_Yusuf_al-Makassari">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Syech_Yusuf_Tajul_Khalwati">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Macassar,_Western_Cape">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Syech_Yusuf_Tajul_Khalwati" />
+  </rdf:Description>
+</rdf:RDF>

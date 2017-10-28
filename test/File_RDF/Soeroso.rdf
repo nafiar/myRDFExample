@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Badan_Penyelidik_Usaha_Persiapan_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panitia_Persiapan_Kemerdekaan_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_Pahlawan_Nasional_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa_Timur">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Soeroso">
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/OfficeHolder" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+    <rdfs:label xml:lang="id">Soeroso</rdfs:label>
+    <rdfs:comment xml:lang="id">Raden Pandji Soeroso adalah mantan Gubernur Jawa Tengah, mantan Menteri Pekerjaan Umum Republik Indonesia, dan mantan anggota BPUPKI/PPKI. Ia juga bertugas sebagai wakil ketua BPUPKI yang dipimpin oleh K.R.T. Radjiman Wedyodiningrat. Pemerintah Indonesia telah mengangkat Raden Pandji Soeroso sebagai salah seorang Pahlawan Nasional Indonesia, melalui Surat Keputusan Presiden No. 81/TK/1986.</rdfs:comment>
+    <dbpedia-owl:deathPlace rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-05-16</dbpedia-owl:deathDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Porong,_Sidoarjo" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:birthPlace rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Sidoarjo" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1893-11-03</dbpedia-owl:birthDate>
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:BPUPKI" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Sidoarjo" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Sosial_Indonesia" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Jawa_Tengah" />
+    <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Pekerjaan_Umum_Indonesia" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256708</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6713992</dbpedia-owl:wikiPageRevisionID>
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/BPUPKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Radjiman_Wedyodiningrat" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Republik" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/PPKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sudibjo_(menteri)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hasan" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Ma&#39;as" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Iskandar_Tedjasukmana" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Pangeran_M._Noor" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Anwar_Tjokroaminoto" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hasan_(menteri)" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1953" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Menteri_Pekerjaan_Umum_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Pekerjaan_Umum_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1951" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kabupaten_Sidoarjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Tokoh_dari_Sidoarjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Porong,_Sidoarjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Wongsonegoro" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Anggota" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/24_Maret" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Raden_Panji" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Jawa_Timur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Menteri_Sosial_Republik_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Sosial_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur_Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/6_September" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Gubernur_Jawa_Tengah" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Gubernur" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/12_Agustus" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/30_Juli" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/3_April" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Sudibjo" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Menteri_Pekerjaan_Umum" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Hindia_Belanda" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1950" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:BPUPKI" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/EYD" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1956" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/1955" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Daftar_pahlawan_nasional_Indonesia" />
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Kategori:Menteri_Dalam_Negeri_Indonesia" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://books.google.co.id/books?id=fhdj1bqn3W4C&amp;pg=PA151&amp;lpg=PA151&amp;dq=raden+pandji+soeroso&amp;source=web&amp;ots=R1ffgqQ-zY&amp;sig=yLH1FuZXX7wyB7hpdoMR7MMWbZQ&amp;hl=id&amp;ei=cXmXSf2sKpCw6wPe4Ij-CA&amp;sa=X&amp;oi=book_result&amp;resnum=5&amp;ct=result" />
+    <foaf:name xml:lang="id">Soeroso</foaf:name>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/2c/Raden_panji_suroso.jpg" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Raden_panji_suroso.jpg/200px-Raden_panji_suroso.jpg" />
+    <dbpprop-id:name xml:lang="id">Soeroso</dbpprop-id:name>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</dbpprop-id:order>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dbpprop-id:order>
+    <dbpprop-id:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dbpprop-id:order>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</dbpprop-id:termStart>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dbpprop-id:termStart>
+    <dbpprop-id:termStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dbpprop-id:termStart>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</dbpprop-id:termEnd>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dbpprop-id:termEnd>
+    <dbpprop-id:termEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</dbpprop-id:termEnd>
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hasan_(menteri)" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Anwar_Tjokroaminoto" />
+    <dbpprop-id:predecessor rdf:resource="http://id.dbpedia.org/resource/Ma&#39;as" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Pangeran_M._Noor" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Sudibjo" />
+    <dbpprop-id:successor rdf:resource="http://id.dbpedia.org/resource/Iskandar_Tedjasukmana" />
+    <dbpprop-id:birthPlace xml:lang="id">Porong, Sidoarjo, Jawa Timur, Hindia Belanda</dbpprop-id:birthPlace>
+    <dbpprop-id:deathPlace xml:lang="id">Indonesia</dbpprop-id:deathPlace>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Anwar_Tjokroaminoto" />
+    <dbpprop-id:pendahulu xml:lang="id">-</dbpprop-id:pendahulu>
+    <dbpprop-id:pendahulu rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hasan" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Gubernur_Jawa_Tengah" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Menteri_Sosial_Republik_Indonesia" />
+    <dbpprop-id:jabatan rdf:resource="http://id.dbpedia.org/resource/Menteri_Pekerjaan_Umum" />
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</dbpprop-id:tahun>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</dbpprop-id:tahun>
+    <dbpprop-id:tahun rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</dbpprop-id:tahun>
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Pangeran_M._Noor" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Sudibjo_(menteri)" />
+    <dbpprop-id:pengganti rdf:resource="http://id.dbpedia.org/resource/Wongsonegoro" />
+    <dbpprop-id:office xml:lang="id">Menteri Tenaga Kerja dan Transmigrasi Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:office xml:lang="id">Menteri Sosial Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:office xml:lang="id">Menteri Pekerjaan Umum Republik Indonesia</dbpprop-id:office>
+    <dbpprop-id:image xml:lang="id">Raden panji suroso.jpg</dbpprop-id:image>
+    <dbpprop-id:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <dbpedia-owl:abstract xml:lang="id">Raden Pandji Soeroso adalah mantan Gubernur Jawa Tengah, mantan Menteri Pekerjaan Umum Republik Indonesia, dan mantan anggota BPUPKI/PPKI. Ia juga bertugas sebagai wakil ketua BPUPKI yang dipimpin oleh K.R.T. Radjiman Wedyodiningrat. Pemerintah Indonesia telah mengangkat Raden Pandji Soeroso sebagai salah seorang Pahlawan Nasional Indonesia, melalui Surat Keputusan Presiden No. 81/TK/1986. Ia juga dikenal sebagai Pendiri Koperasi Pegawai Negeri Republik Indonesia, sehingga ia juga dijuluki Bapak Koperasi Pegawai Negeri Republik Indonesia.</dbpedia-owl:abstract>
+    <dbpedia-owl:office xml:lang="id">Menteri Pekerjaan Umum Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:office xml:lang="id">Menteri Tenaga Kerja dan Transmigrasi Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:office xml:lang="id">Menteri Sosial Republik Indonesia</dbpedia-owl:office>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-09-06</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-08-12</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1953-07-30</dbpedia-owl:activeYearsStartDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1951-04-03</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-08-12</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:activeYearsEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-03-24</dbpedia-owl:activeYearsEndDate>
+    <dbpedia-owl:termPeriod rdf:resource="http://id.dbpedia.org/resource/Soeroso__1" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Mohammad_Hasan_(menteri)" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Ma&#39;as" />
+    <dbpedia-owl:predecessor rdf:resource="http://id.dbpedia.org/resource/Anwar_Tjokroaminoto" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Sudibjo" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Pangeran_M._Noor" />
+    <dbpedia-owl:successor rdf:resource="http://id.dbpedia.org/resource/Iskandar_Tedjasukmana" />
+    <dbpedia-owl:president rdf:resource="http://id.dbpedia.org/resource/Soekarno" />
+    <ns7:wasDerivedFrom rdf:resource="http://id.wikipedia.org/wiki/Soeroso?oldid=6713992" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://id.wikipedia.org/wiki/Soeroso" />
+    <dbpedia-owl:orderInOffice xml:lang="id">4</dbpedia-owl:orderInOffice>
+    <dbpedia-owl:orderInOffice xml:lang="id">12</dbpedia-owl:orderInOffice>
+    <dbpedia-owl:orderInOffice xml:lang="id">10</dbpedia-owl:orderInOffice>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_tokoh_Jawa">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Raden_Panji">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Daftar_menteri_dan_pejabat_tinggi_Indonesia">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Suroso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panji_Suroso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Panji_Soeroso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.dbpedia.org/resource/Pandji_Suroso">
+    <dbpedia-owl:wikiPageWikiLink rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.wikipedia.org/wiki/Soeroso">
+    <foaf:primaryTopic rdf:resource="http://id.dbpedia.org/resource/Soeroso" />
+  </rdf:Description>
+</rdf:RDF>

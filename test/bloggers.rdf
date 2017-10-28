@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+_:id123456 foaf:name "Jon Foobar" .
+
+_:id123456 rdf:type foaf:Agent .
+
+_:id123456 foaf:weblog <htp://foobar.xx/blog> .
+
+<http://foobar.xx/blog> dc:title "title" .
+
+<http://foobar.xx/blog> rdfs:seeAlso <http://foobar.xx/blog.rdf> .
+
+<http://foobar.xx/blog.rdf> foaf:maker _:id123456 .
+
+<http://foobar.xx/blog.rdf> rdf:type _:channel .
