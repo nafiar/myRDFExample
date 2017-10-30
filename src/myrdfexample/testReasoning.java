@@ -59,7 +59,7 @@ public class testReasoning {
         reasoner = reasoner.bindSchema(camera);
         InfModel infModel = ModelFactory.createInfModel(reasoner, data);
         
-        Resource canon = infModel.getResource(camNS + "Canon");
+            Resource canon = infModel.getResource(camNS + "Canon");
         System.out.println("canon *:");
         printStatement((Model)infModel, canon, null, null);
         
