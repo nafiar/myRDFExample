@@ -28,13 +28,16 @@ public class SparqlTutorial {
     static public final String dataFileTtl = "test/bloggers.ttl";
     static public final String queryFile = "test/bloggers1.rq";
     static public final String queryFile2 = "test/bloggers2.rq";
+    static public final String demoData = "test/owlDemoData.rdf";
     
     public static void main(String[] args) {
 //        queryFile();
         
 //        dbpediaExample1();
-        dbpediaExample2();
+//        dbpediaExample2();
 //        dbpediaExample3();
+//        queryFuseki();
+        uploadRDF();
         
     }
     
@@ -43,7 +46,7 @@ public class SparqlTutorial {
         
         InputStream in = FileManager.get().open(dataFileTtl);
         if(in == null) {
-            throw new IllegalArgumentException("File tidak ditemukan");
+            System.out.println("File tidak ditemukan");
         }
         
         model.read(in, null, "TTL");
@@ -109,6 +112,53 @@ public class SparqlTutorial {
             qexec.getContext().set(ARQ.serviceParams, serviceParams);
             ResultSet rs = qexec.execSelect();
             ResultSetFormatter.out(System.out, rs, query);
+        }
+    }
+    
+    public static void queryFuseki() {
+        String queryStr = "select distinct ?p ?o where {<http://id.dbpedia.org/resource/Amir_Hamzah> ?p ?o} LIMIT 10";
+        Query query = QueryFactory.create(queryStr);
+
+        // Remote execution.
+        try (QueryExecution qexec = QueryExecutionFactory.sparqlService("http://10.151.34.43:3030/ds/sparql", query)) {
+            // Set the DBpedia specific timeout.
+            ((QueryEngineHTTP) qexec).addParam("timeout", "10000");
+
+            // Execute.
+            ResultSet rs = qexec.execSelect();
+            ResultSetFormatter.out(System.out, rs, query);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void uploadRDF() {
+        String serviceURI = "http://10.151.34.43:3030/penelitian/data";
+        DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceURI);
+        
+        Model model = ModelFactory.createDefaultModel();
+        InputStream in = FileManager.get().open(demoData);
+        if(in == null){
+            System.out.println("File tidak ditemukan");
+        }
+        model.read(in, "");
+        if(accessor != null) {
+            accessor.add(model);
+        }
+        
+        String queryStr = "select distinct ?s ?p ?o where {?s ?p ?o} LIMIT 10";
+        Query query = QueryFactory.create(queryStr);
+
+        // Remote execution.
+        try (QueryExecution qexec = QueryExecutionFactory.sparqlService("http://10.151.34.43:3030/penelitian/sparql", query)) {
+            // Set the DBpedia specific timeout.
+            ((QueryEngineHTTP) qexec).addParam("timeout", "10000");
+
+            // Execute.
+            ResultSet rs = qexec.execSelect();
+            ResultSetFormatter.out(System.out, rs, query);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
