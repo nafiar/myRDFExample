@@ -17,6 +17,7 @@ import org.apache.jena.rdf.model.SimpleSelector;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.util.PrintUtil;
 import org.apache.jena.vocabulary.VCARD;
 
 /*
@@ -34,6 +35,9 @@ public class RDFTutorial extends Object {
     static final String inputFileName = "test/File_RDF/Hamengkubuwono_IV.rdf";
     static final String inputFile2 = "test/vc-db-1.rdf";
     static final String inputFile3 = "test/owlDemoData.rdf";
+    static final String fragment = "test/fragment.rdf";
+    static final String amangkurat1 = "test/File_RDF/Amangkurat_I.rdf";
+    static final String amangkurat2 = "test/File_RDF/Amangkurat_II.rdf";
     
     public static void main(String[] args){
         //tutorial01();
@@ -46,6 +50,7 @@ public class RDFTutorial extends Object {
         //tutorial07();
         //tutorial08();
 //        countTriples();
+        substractTest();
     }
     
     public static void tutorial01(){
@@ -351,5 +356,46 @@ public class RDFTutorial extends Object {
     public static void readDB() {
         Model dbModel = ModelFactory.createDefaultModel();
         
+    }
+    
+    public static void substractTest() {
+        Model model = ModelFactory.createDefaultModel();
+        Model model2 = ModelFactory.createDefaultModel();
+        
+        model.read(inputFile2, "");
+        Long panjangModel1 = model.size();
+        System.out.println("Isi model : " + panjangModel1);
+        
+        model.read(fragment, "");
+        panjangModel1 = model.size();
+        System.out.println("Isi model : " + panjangModel1);
+        
+//        System.out.println("Isi model : ");
+//        model.write(System.out, "N-TRIPLES");
+        
+        model2.read(inputFile2, "");
+        Long panjangModel2 = model2.size();
+        System.out.println("Isi model2 : " + panjangModel2);
+        
+        model2.read(fragment, "");
+        panjangModel2 = model2.size();
+        System.out.println("Isi model2 : " + panjangModel2);
+//        printStatement(model2, null, null, null);
+//        System.out.println("Panjang model2 : " + panjangModel2);
+        
+//        System.out.println("Hasil differece :");
+        Model difference = model.difference(model2);
+//        difference.write(System.out, "N-TRIPLES");
+        Long panjangDifference = difference.size();
+        System.out.println("Panjang difference : " + panjangDifference);
+    }
+    
+    public static void printStatement(Model m, Resource s, Property p, Resource o) {
+        
+        for (StmtIterator i = m.listStatements(s,p,o); i.hasNext(); ) {
+            
+            Statement stmt = i.nextStatement();
+            System.out.println(" - " + PrintUtil.print(stmt));
+        }
     }
 }

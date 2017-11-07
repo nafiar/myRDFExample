@@ -1,0 +1,19 @@
+<http://somewhere/MattJones/> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:B57c47f42X2D4ed3X2D4193X2D926fX2D2df46cc2b090 .
+<http://somewhere/MattJones/> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Matt Jones" .
+<http://somewhere/SarahJones/> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:Bde5a010aX2Db5c0X2D4cfbX2D9258X2Dba4bab2b04e2 .
+<http://somewhere/SarahJones/> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Sarah Jones" .
+<http://somewhere/RebeccaSmith/> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:B2c6fd865X2Dc4b5X2D4188X2D8363X2Da64a098681e8 .
+<http://somewhere/RebeccaSmith/> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Becky Smith" .
+<http://somewhere/JohnSmith/> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:B2aabe3fcX2Df2c3X2D4aa8X2Dbac1X2D29200b4e3dd2 .
+<http://somewhere/JohnSmith/> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "John Smith" .
+_:B57c47f42X2D4ed3X2D4193X2D926fX2D2df46cc2b090 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Matthew" .
+_:B57c47f42X2D4ed3X2D4193X2D926fX2D2df46cc2b090 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Jones" .
+_:Bde5a010aX2Db5c0X2D4cfbX2D9258X2Dba4bab2b04e2 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Sarah" .
+_:Bde5a010aX2Db5c0X2D4cfbX2D9258X2Dba4bab2b04e2 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Jones" .
+_:B2c6fd865X2Dc4b5X2D4188X2D8363X2Da64a098681e8 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Rebecca" .
+_:B2c6fd865X2Dc4b5X2D4188X2D8363X2Da64a098681e8 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Smith" .
+_:B2aabe3fcX2Df2c3X2D4aa8X2Dbac1X2D29200b4e3dd2 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "John" .
+_:B2aabe3fcX2Df2c3X2D4aa8X2Dbac1X2D29200b4e3dd2 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Smith" .
+<http://somewhere/else#root> <http://somewhere/else#P> <http://somewhere/else#x> .
+<http://somewhere/else#root> <http://somewhere/else#P> <http://somewhere/else#y> .
+<http://somewhere/else#y> <http://nowhere/else#Q> <http://somewhere/else#z> .

@@ -26,6 +26,7 @@ import org.apache.jena.reasoner.ReasonerRegistry;
 import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.PrintUtil;
+import org.apache.jena.graph.Triple;
 import org.apache.jena.vocabulary.VCARD;
 
 /**
@@ -46,32 +47,53 @@ public class MyReasoner {
     
     public static void main( String[] argv ) {
         Model mainModel = ModelFactory.createDefaultModel();
-        readDB(mainModel);
-        readRdf(mainModel);
-        Model reasoningResult = reasonModel(mainModel);
+        Model dbModel = ModelFactory.createDefaultModel();
         
-        System.out.println("hasil reasoning dari (rdf + db) dan owl");
+        mainModel = readDB(mainModel);
+//        mainModel.write(System.out, "N-TRIPLES");
+        Long jumlahMain = mainModel.size();
+        System.out.println("Jumlah mainModel : " + jumlahMain);
+        
+        dbModel = mainModel;
+        Long jumlahDbModel = dbModel.size();
+        System.out.println("Jumlah dbModel : " + jumlahDbModel);
+        
+        mainModel = readRdf(mainModel);
+        Long jumlahMain2 = mainModel.size();
+        System.out.println("Jumlah mainModel sekarang : " + jumlahMain2);
+        
+        Model reasoningResult = reasonModel(mainModel);
+//        reasoningResult.write(System.out, "N-TRIPLES");
+        Long jumlahReasoningResult = reasoningResult.size();
+        System.out.println("Jumlah reasoningResult : " + jumlahReasoningResult);
+        
+//        System.out.println("hasil reasoning dari (rdf + db) dan owl");
 //        printStatement(reasoningResult, null, null, null);
-        Model finishedModel = queryModel(reasoningResult); 
-        insertData(finishedModel);
+//        printURI(reasoningResult, null, null, null);
+//        Model finishedModel = queryModel(reasoningResult); 
+        Model finishedModel = reasoningResult.difference(dbModel);
+//        finishedModel.write(System.out, "N-TRIPLES");
+        Long jumlahFinished = finishedModel.size();
+        System.out.println("Jumlah finishedModel : " + jumlahFinished);
+//        insertData(finishedModel);
     }
     
-    public static void readDB( Model model ) {
+    public static Model readDB( Model model ) {
         
         String queryStr = "construct { ?s ?p ?o } where { ?s ?p ?o }";
         Query query = QueryFactory.create(queryStr);
         
-        try (QueryExecution qexec = QueryExecutionFactory.sparqlService(dsFusekiSparql
-                , query)) {
+        try (QueryExecution qexec = QueryExecutionFactory.sparqlService(dsFusekiSparql, query)) {
             // Set remote exec timeout
             ((QueryEngineHTTP) qexec).addParam("timeout", "10000");
             
             // Execute.
             model = qexec.execConstruct();
+            return model;
         }
     }
     
-    public static void readRdf( Model model ) {
+    public static Model readRdf( Model model ) {
 
         InputStream in1 = FileManager.get().open( amangkurat1 );
         InputStream in2 = FileManager.get().open( amangkurat2 );
@@ -83,9 +105,13 @@ public class MyReasoner {
         model.read( in1, "" );
         model.read( in2, "" );
         model.read( in3, "" );
+//        model.write(System.out, "N-TRIPLES");
+        return model;
     }
     
     public static Model reasonModel( Model model ) {
+        Long jumlahModel = model.size();
+        System.out.println("Jumlah model : " + jumlahModel);
         OntModel owl = loadOwl(simpleFamilyOwl);
         
         Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
@@ -139,6 +165,23 @@ public class MyReasoner {
             
             Statement stmt = i.nextStatement();
             System.out.println(" - " + PrintUtil.print(stmt));
+        }
+    }
+    
+    public static void printURI(Model m, Resource s, Property p, Resource o) {
+        
+        for (StmtIterator i = m.listStatements(s,p,o); i.hasNext(); ) {
+            
+            Statement stmt = i.nextStatement();
+            Resource subject = stmt.getSubject();
+            Property predicate = stmt.getPredicate();
+            RDFNode object = stmt.getObject();
+            if( !subject.isURIResource() || !predicate.isURIResource() || !object.isURIResource() ) {
+                
+            }
+            else {
+                System.out.println(" - " + PrintUtil.print(stmt));
+            }
         }
     }
     
