@@ -33,6 +33,7 @@ public class RequestExample extends HttpServlet{
             Model model = ModelFactory.createDefaultModel();
             model.read(rdf);
             printStatement(model, null, null, null);
+
         } else {
             
         }
@@ -50,6 +51,7 @@ public class RequestExample extends HttpServlet{
             statement.add(stmt.getPredicate().toString());
             statement.add(stmt.getObject().toString());
             myList.add(statement);
+            System.out.println(" - " + PrintUtil.print(stmt));
         }
     }
 }

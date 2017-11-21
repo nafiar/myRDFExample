@@ -23,9 +23,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <%
-                        page import="java.util.List" 
-                    	if(request.getAttribute("results") != null) {
+                    <%@ page import="java.util.List" %>
+                    <%	
+                        if(request.getAttribute("results") != null) {
 
                             int count = 0;
                             for(List<String> statement : results) {
