@@ -11,6 +11,7 @@
 			<button type="submit" class="btn btn-primary"> Submit </button>
 		</form>
 	</div>
+        <%= request.getParameter("") %>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
