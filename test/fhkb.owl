@@ -1,0 +1,2483 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY fhkb_chapter_5 "http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#" >
+    <!ENTITY fhkb_chapter_4 "http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#" >
+    <!ENTITY fhkb_chapter_9 "http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#" >
+    <!ENTITY fhkb_chapter_7 "http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#" >
+    <!ENTITY fhkb_chapter_2 "http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl#"
+     xml:base="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl"
+     xmlns:fhkb_chapter_2="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:fhkb_chapter_7="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#"
+     xmlns:fhkb_chapter_4="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#"
+     xmlns:fhkb_chapter_5="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:fhkb_chapter_9="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl">
+        <rdfs:comment>This ontology was created as part of the Manchester Family History Advanced OWL Tutorial by Robert Stevens, Margaret Stevens, Nicolas Matentzoglu and Simon Jupp. It is intended for educational use only.</rdfs:comment>
+        <rdfs:seeAlso>http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&fhkb_chapter_5;hasRelation"/>
+    <owl:AnnotationProperty rdf:about="&fhkb_chapter_5;hasAncestor"/>
+    <owl:AnnotationProperty rdf:about="&fhkb_chapter_2;hasParent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;hasFather">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Man"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_2;hasParent"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_2;isFatherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;hasMother">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Woman"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_2;hasParent"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_2;isMotherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;hasParent">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Person"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_2;isParentOf"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+        <owl:equivalentProperty rdf:resource="&fhkb_chapter_7;isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;hasSex">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Sex"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;isFatherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;isMotherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_2;isParentOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasAncestor">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForefather -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasForefather">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasFather"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasFather"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForemother -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasForemother">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasMother"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasMother"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandfather -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasGrandfather">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasGrandparent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandmother -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasGrandmother">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasGrandparent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandparent -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasGrandparent">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasParent"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasParent"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;hasRelation">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;isAncestorOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandfatherOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;isGrandfatherOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_5;hasGrandfather"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandmotherOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;isGrandmotherOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_5;hasGrandmother"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandparentOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_5;isGrandparentOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_5;hasGrandparent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasAunt -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasAunt"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasChild -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasChild"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasDaughter -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasDaughter">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatAunt -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasGreatAunt"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatUncle -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasGreatUncle"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasSon -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasSon">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasUncle -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;hasUncle"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isAuntOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isAuntOf">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Woman"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasAunt"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSisterOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isBloodrelationOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isBloodrelationOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isBrotherOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Man"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isChildOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isDaughterOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasDaughter"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isGreatAuntOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isGreatAuntOf">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Woman"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasGreatAunt"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isAuntOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isGreatUncleOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isGreatUncleOf">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Man"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasGreatUncle"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isUncleOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSiblingOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isSiblingOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasParent"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSisterOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isSisterOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Woman"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSonOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isSonOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasSon"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isUncleOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_7;isUncleOf">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_7;hasUncle"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isBrotherOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasParent"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSiblingOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_5;hasGrandparent"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSiblingOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_5;isGrandparentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasAuntInLaw -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasAuntInLaw">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isAuntInLawOf"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasFatherInLaw -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasFatherInLaw">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Man"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasParentInLaw"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isFatherInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isSpouseOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasFather"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasFemalePartner -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasFemalePartner">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Woman"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasPartner"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isFemalePartnerIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasHusband -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasHusband">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Man"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasSpouse"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isHusbandOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isFemalePartnerIn"/>
+            <rdf:Description rdf:about="&fhkb_chapter_9;hasMalePartner"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMalePartner -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasMalePartner">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Man"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasPartner"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isMalePartnerIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMotherInLaw -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasMotherInLaw">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Woman"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasParentInLaw"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isMotherInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isSpouseOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;hasMother"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasParentInLaw -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasParentInLaw">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isParentInLawOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasPartner -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasPartner">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_9;Marriage"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isPartnerIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasSpouse -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasSpouse">
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isSpouseOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasUncleInLaw -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasUncleInLaw">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isUncleInLawOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasWife -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;hasWife">
+        <rdfs:range rdf:resource="&fhkb_chapter_2;Woman"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;hasSpouse"/>
+        <owl:inverseOf rdf:resource="&fhkb_chapter_9;isWifeOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isMalePartnerIn"/>
+            <rdf:Description rdf:about="&fhkb_chapter_9;hasFemalePartner"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isAuntInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isAuntInLawOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isWifeOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isBrotherOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isBrotherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isBrotherInLawOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isSiblingInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isHusbandOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSiblingOf"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isBrotherOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_9;isSpouseOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFatherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isFatherInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFemalePartnerIn -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isFemalePartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isHusbandOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isHusbandOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isInLawOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_5;hasRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMalePartnerIn -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isMalePartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMotherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isMotherInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isParentInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isParentInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isPartnerIn -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isPartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSiblingInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isSiblingInLawOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSisterInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isSisterInLawOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isSiblingInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSisterOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_9;isSpouseOf"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isWifeOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSiblingOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSpouseOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isSpouseOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isUncleInLawOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isUncleInLawOf">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&fhkb_chapter_9;isHusbandOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_7;isSisterOf"/>
+            <rdf:Description rdf:about="&fhkb_chapter_2;isParentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isWifeOf -->
+
+    <owl:ObjectProperty rdf:about="&fhkb_chapter_9;isWifeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasBirthYear -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasBirthYear">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasEventYear"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasDeathYear -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasDeathYear">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasEventYear"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasEventYear -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasEventYear">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFamilyName -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasFamilyName">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFirstGivenName -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasFirstGivenName">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasGivenName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasGivenName -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasGivenName">
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasName">
+        <rdfs:domain rdf:resource="&fhkb_chapter_2;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasSecondGivenName -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_4;hasSecondGivenName">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&fhkb_chapter_4;hasGivenName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMarriageYear -->
+
+    <owl:DatatypeProperty rdf:about="&fhkb_chapter_9;hasMarriageYear">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&fhkb_chapter_9;Marriage"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isAuntOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isAuntInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isBloodrelationOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isBrotherOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isBrotherInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasParent"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasParent"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isFatherInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousin -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousin">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousinOnceRemoved -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousinOnceRemoved">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_5;Ancestor"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_5;Ancestor"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatAunt -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatAunt">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isGreatAuntOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfatherOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfatherOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmotherOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmotherOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                                                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                                                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatUncle -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatUncle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isGreatUncleOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#In-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#In-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isMotherInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isParentInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;hasRelation"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousin -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousin">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousinOnceRemoved -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousinOnceRemoved">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sibiling-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sibiling-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isSiblingInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_7;isSisterOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isSisterInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasParent"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Uncle-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Uncle-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_9;isUncleInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;DomainEntity"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Female -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Female">
+        <rdfs:subClassOf rdf:resource="&fhkb_chapter_2;Sex"/>
+        <owl:disjointWith rdf:resource="&fhkb_chapter_2;Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Male">
+        <rdfs:subClassOf rdf:resource="&fhkb_chapter_2;Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Man">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasSex"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Male"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&fhkb_chapter_2;DomainEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&fhkb_chapter_2;hasSex"/>
+                <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Sex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&fhkb_chapter_2;hasFather"/>
+                <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Man"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&fhkb_chapter_2;hasParent"/>
+                <owl:onClass rdf:resource="&fhkb_chapter_2;Person"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&fhkb_chapter_2;hasMother"/>
+                <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Woman"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&fhkb_chapter_2;Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Sex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Female"/>
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Male"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&fhkb_chapter_2;DomainEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman -->
+
+    <owl:Class rdf:about="&fhkb_chapter_2;Woman">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasSex"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Female"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Ancestor -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;Ancestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Descendent -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;Descendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleAncestor -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;FemaleAncestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleDescendent -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;FemaleDescendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleAncestor -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;MaleAncestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleDescendent -->
+
+    <owl:Class rdf:about="&fhkb_chapter_5;MaleDescendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRichard -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRichard">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;isGrandparentOf"/>
+                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_5;isGrandparentOf"/>
+                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichard -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichard">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichardAndRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichardAndRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousin -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousin">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
+                        <owl:someValuesFrom rdf:resource="&fhkb_chapter_2;Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousinOfRobert -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousinOfRobert">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&fhkb_chapter_2;Person"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasFather"/>
+                                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934"/>
+                                    </owl:Restriction>
+                                </owl:complementOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&fhkb_chapter_2;hasMother"/>
+                                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934"/>
+                                    </owl:Restriction>
+                                </owl:complementOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
+                        <owl:hasValue rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#Marriage -->
+
+    <owl:Class rdf:about="&fhkb_chapter_9;Marriage">
+        <rdfs:subClassOf rdf:resource="&fhkb_chapter_2;DomainEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Alec_John_Archer_1927 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Alec_John_Archer_1927">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1927</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Alec</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">John</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charles_Herbert_Rever_1895 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charles_Herbert_Rever_1895">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1895</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Charles</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Herbert</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Rever</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Elizabeth_Frances_Jessop_1869"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Rever_1870"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Caroline_Jane_Bright_1894 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Caroline_Jane_Bright_1894">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1894</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Caroline</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Charlotte</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1863</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Charlotte</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Hewett</fhkb_chapter_4:hasFamilyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Clare_Bright_1966 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Clare_Bright_1966">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1966</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Clare</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&fhkb_chapter_2;isParentOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+                            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1934</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">David</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906"/>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Dereck_Heath -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Dereck_Heath">
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Dereck</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Heath</fhkb_chapter_4:hasFamilyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool">
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Diana</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Pool</fhkb_chapter_4:hasFamilyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1929</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Eileen</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Mary</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Rever</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charles_Herbert_Rever_1895"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Sylvia_Steward_1894"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Elizabeth_Frances_Jessop_1869 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Elizabeth_Frances_Jessop_1869">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1869</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Elizabeth</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Frances</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Jessop</fhkb_chapter_4:hasFamilyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ethel_Archer_1912 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ethel_Archer_1912">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1912</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Ethel</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Frederick_Herbert_Bright_1889 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Frederick_Herbert_Bright_1889">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1889</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Frederick</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Herbert</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1862</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Edmund</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Henry</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1887 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1887">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1887</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Edmund</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Henry</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ian_Bright_1959 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ian_Bright_1959">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1959</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Ian</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1906</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Ellen</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Iris</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1882</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Alexander</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">James</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Bright_1964 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Bright_1964">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1964</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">James</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Frank_Hayden_Bright_1891 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Frank_Hayden_Bright_1891">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1891</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Frank</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">James</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Janet_Bright_1964 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Janet_Bright_1964">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1964</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Janet</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_7:isSisterOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ian_Bright_1959"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport"/>
+        <fhkb_chapter_7:isSisterOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Bright_1956"/>
+        <fhkb_chapter_7:isSisterOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Bright_1970"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1930</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">John</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Steward</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Tacey_Steward_1873 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Tacey_Steward_1873">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1873</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">John</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Tacey</fhkb_chapter_4:hasSecondGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Archer_1921 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Archer_1921">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1921</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Joyce</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport">
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Gosport</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Joyce</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Julie_Bright_1966 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Julie_Bright_1966">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1966</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Julie</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Kathleen_Minnie_Bright_1904 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Kathleen_Minnie_Bright_1904">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1904</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Kathleen</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Minnie</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Leonard_John_Bright_1890 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Leonard_John_Bright_1890">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1890</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">John</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Leonard</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Lois_Green_1871 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Lois_Green_1871">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1871</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Green</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Lois</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1934</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Grace</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Margaret</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Rever</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charles_Herbert_Rever_1895"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Sylvia_Steward_1894"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Anthony_Heath_1960 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Anthony_Heath_1960">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1960</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Anthony</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Heath</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Mark</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Dereck_Heath"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Bright_1956 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Bright_1956">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1956</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Mark</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ian_Bright_1959"/>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Janet_Bright_1964"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport"/>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Bright_1970"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nicholas_Charles_Heath_1964 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nicholas_Charles_Heath_1964">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1964</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Charles</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Heath</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Nicholas</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Dereck_Heath"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nora_Ada_Bright_1899 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nora_Ada_Bright_1899">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1899</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Ada</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Nora</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Norman_James_Archer_1909 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Norman_James_Archer_1909">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1909</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Archer</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">James</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Norman</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1941</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Peter</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">William</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1962</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">John</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Richard</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1965</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">David</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Robert</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934"/>
+        <fhkb_chapter_7:isBrotherOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1887</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Heath</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Violet</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Sylvia_Steward_1894 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Sylvia_Steward_1894">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1894</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Steward</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">Sylvia</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">Violet</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Tacey_Steward_1873"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Lois_Green_1871"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Bright_1970 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Bright_1970">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1970</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">William</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1901</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Bright</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasSecondGivenName rdf:datatype="&xsd;string">George</fhkb_chapter_4:hasSecondGivenName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">William</fhkb_chapter_4:hasFirstGivenName>
+        <fhkb_chapter_2:hasMother rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+        <fhkb_chapter_2:hasFather rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Rever_1870 -->
+
+    <owl:NamedIndividual rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Rever_1870">
+        <fhkb_chapter_4:hasBirthYear rdf:datatype="&xsd;integer">1870</fhkb_chapter_4:hasBirthYear>
+        <fhkb_chapter_4:hasFamilyName rdf:datatype="&xsd;string">Rever</fhkb_chapter_4:hasFamilyName>
+        <fhkb_chapter_4:hasFirstGivenName rdf:datatype="&xsd;string">William</fhkb_chapter_4:hasFirstGivenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#m001 -->
+
+    <owl:NamedIndividual rdf:about="&fhkb_chapter_9;m001">
+        <rdfs:label>Marriage of David and Margaret</rdfs:label>
+        <fhkb_chapter_9:hasMarriageYear rdf:datatype="&xsd;integer">1958</fhkb_chapter_9:hasMarriageYear>
+        <fhkb_chapter_9:hasMalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934"/>
+        <fhkb_chapter_9:hasFemalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#m002 -->
+
+    <owl:NamedIndividual rdf:about="&fhkb_chapter_9;m002">
+        <rdfs:label>Marriage of John and Joyce</rdfs:label>
+        <fhkb_chapter_9:hasMarriageYear rdf:datatype="&xsd;integer">1955</fhkb_chapter_9:hasMarriageYear>
+        <fhkb_chapter_9:hasMalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+        <fhkb_chapter_9:hasFemalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Gosport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#m003 -->
+
+    <owl:NamedIndividual rdf:about="&fhkb_chapter_9;m003">
+        <rdfs:label>Marriage of Peter and Diana</rdfs:label>
+        <fhkb_chapter_9:hasMarriageYear rdf:datatype="&xsd;integer">1964</fhkb_chapter_9:hasMarriageYear>
+        <fhkb_chapter_9:hasFemalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Diana_Pool"/>
+        <fhkb_chapter_9:hasMalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#m004 -->
+
+    <owl:NamedIndividual rdf:about="&fhkb_chapter_9;m004">
+        <rdfs:label>Marriage of Dereck and Eileen</rdfs:label>
+        <fhkb_chapter_9:hasMarriageYear rdf:datatype="&xsd;integer">1956</fhkb_chapter_9:hasMarriageYear>
+        <fhkb_chapter_9:hasMalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Dereck_Heath"/>
+        <fhkb_chapter_9:hasFemalePartner rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Alec_John_Archer_1927"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charles_Herbert_Rever_1895"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Caroline_Jane_Bright_1894"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Charlotte_Hewett_1863"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Clare_Bright_1966"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#David_Bright_1934"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Eileen_Mary_Rever_1929"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Elizabeth_Frances_Jessop_1869"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ethel_Archer_1912"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Frederick_Herbert_Bright_1889"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1862"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Henry_Edmund_Bright_1887"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Ian_Bright_1959"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Iris_Ellen_Archer_1906"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Alexander_Archer_1882"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Bright_1964"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#James_Frank_Hayden_Bright_1891"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Janet_Bright_1964"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Bright_1930"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#John_Tacey_Steward_1873"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Joyce_Archer_1921"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Julie_Bright_1966"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Kathleen_Minnie_Bright_1904"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Leonard_John_Bright_1890"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Lois_Green_1871"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Margaret_Grace_Rever_1934"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Anthony_Heath_1960"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Mark_Bright_1956"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nicholas_Charles_Heath_1964"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Nora_Ada_Bright_1899"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Norman_James_Archer_1909"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Peter_William_Bright_1941"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Richard_John_Bright_1962"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Robert_David_Bright_1965"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Heath_1887"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#Violet_Sylvia_Steward_1894"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Bright_1970"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_George_Bright_1901"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_3.owl#William_Rever_1870"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

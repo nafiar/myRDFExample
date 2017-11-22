@@ -5,6 +5,8 @@
  */
 package penelitian;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
 import org.apache.jena.ontology.OntDocumentManager;
 import org.apache.jena.ontology.OntModel;
@@ -39,9 +41,14 @@ public class MyReasoner {
     static final String amangkurat1 = "test/File_RDF/Amangkurat_I.rdf";
     static final String amangkurat2 = "test/File_RDF/Amangkurat_II.rdf";
     static final String amangkurat3 = "test/File_RDF/Amangkurat_III.rdf";
+    static final String radenWijaya = "test/File_RDF/Raden_Wijaya.rdf";
+    static final String jayanagara = "test/File_RDF/Jayanagara.rdf";
+    static final String gayatri = "test/File_RDF/Gayatri.rdf";
     static final String iheroOwl = "test/ihero.owl";
+    static final String fkhbOwl = "test/fhkb.owl";
     static final String owlFile = "test/owlDemoSchema.owl";
     static final String simpleFamilyOwl = "test/simpleFamilyRDF.owl";
+    static final String cobaHasil = "test/cobahasil.rdf";
     static final String dsFusekiSparql = "http://10.151.34.43:3030/ds/sparql";
     static final String penelitianFusekiSparql = "http://10.151.34.43:3030/penelitian/data"; 
     
@@ -64,6 +71,14 @@ public class MyReasoner {
         
         Model reasoningResult = reasonModel(mainModel);
 //        reasoningResult.write(System.out, "N-TRIPLES");
+//        try {
+//            FileWriter out = new FileWriter( cobaHasil );
+//            reasoningResult.write( out, "RDF/XML" );
+//            out.close();
+//        }
+//        catch (IOException closeException) {
+//            // ignore
+//        }
         Long jumlahReasoningResult = reasoningResult.size();
         System.out.println("Jumlah reasoningResult : " + jumlahReasoningResult);
         
@@ -71,10 +86,14 @@ public class MyReasoner {
 //        printStatement(reasoningResult, null, null, null);
 //        printURI(reasoningResult, null, null, null);
 //        Model finishedModel = queryModel(reasoningResult); 
-        Model finishedModel = reasoningResult.difference(dbModel);
+//        Model finishedModel = reasoningResult.difference(dbModel);
 //        finishedModel.write(System.out, "N-TRIPLES");
-        Long jumlahFinished = finishedModel.size();
-        System.out.println("Jumlah finishedModel : " + jumlahFinished);
+        
+//        
+        
+        
+//        Long jumlahFinished = finishedModel.size();
+//        System.out.println("Jumlah finishedModel : " + jumlahFinished);
 //        insertData(finishedModel);
     }
     
@@ -95,16 +114,16 @@ public class MyReasoner {
     
     public static Model readRdf( Model model ) {
 
-        InputStream in1 = FileManager.get().open( amangkurat1 );
-        InputStream in2 = FileManager.get().open( amangkurat2 );
-        InputStream in3 = FileManager.get().open( amangkurat3 );
+        InputStream in1 = FileManager.get().open( radenWijaya );
+        InputStream in2 = FileManager.get().open( jayanagara );
+//        InputStream in3 = FileManager.get().open( amangkurat3 );
         
-        if ( in1 == null || in2 == null  || in3 == null ) {
+        if ( in1 == null || in2 == null  ) {
             System.out.println( "File tidak ditemukan" );
         }
         model.read( in1, "" );
         model.read( in2, "" );
-        model.read( in3, "" );
+//        model.read( in3, "" );
 //        model.write(System.out, "N-TRIPLES");
         return model;
     }
@@ -112,7 +131,7 @@ public class MyReasoner {
     public static Model reasonModel( Model model ) {
         Long jumlahModel = model.size();
         System.out.println("Jumlah model : " + jumlahModel);
-        OntModel owl = loadOwl(simpleFamilyOwl);
+        OntModel owl = loadOwl(fkhbOwl);
         
         Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
         reasoner = reasoner.bindSchema( owl );
