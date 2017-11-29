@@ -49,6 +49,8 @@ public class MyReasoner {
     static final String owlFile = "test/owlDemoSchema.owl";
     static final String simpleFamilyOwl = "test/simpleFamilyRDF.owl";
     static final String cobaHasil = "test/cobahasil.rdf";
+    static final String queryPrunning = "test/queryPrunningConstruct.rq";
+    static final String unionQuery = "test/queryReasoningResult.rq";
     static final String dsFusekiSparql = "http://10.151.34.43:3030/ds/sparql";
     static final String penelitianFusekiSparql = "http://10.151.34.43:3030/penelitian/data"; 
     
@@ -69,8 +71,13 @@ public class MyReasoner {
         Long jumlahMain2 = mainModel.size();
         System.out.println("Jumlah mainModel sekarang : " + jumlahMain2);
         
+        Model prunnedModel = prunningQuery(mainModel);
+        Long jumlahPrunning = prunnedModel.size();
+        System.out.println("Jumlah prunningModel sekarang : " + jumlahPrunning);
+//        prunnedModel.write(System.out, "N-TRIPLES");
+        mainModel = prunnedModel;
         Model reasoningResult = reasonModel(mainModel);
-//        reasoningResult.write(System.out, "N-TRIPLES");
+        
 //        try {
 //            FileWriter out = new FileWriter( cobaHasil );
 //            reasoningResult.write( out, "RDF/XML" );
@@ -81,11 +88,11 @@ public class MyReasoner {
 //        }
         Long jumlahReasoningResult = reasoningResult.size();
         System.out.println("Jumlah reasoningResult : " + jumlahReasoningResult);
-        
+        reasoningResult.write(System.out, "N-TRIPLES");
 //        System.out.println("hasil reasoning dari (rdf + db) dan owl");
 //        printStatement(reasoningResult, null, null, null);
 //        printURI(reasoningResult, null, null, null);
-//        Model finishedModel = queryModel(reasoningResult); 
+//        Model finishedModel = prunningReasoningResult(reasoningResult); 
 //        Model finishedModel = reasoningResult.difference(dbModel);
 //        finishedModel.write(System.out, "N-TRIPLES");
         
@@ -94,7 +101,7 @@ public class MyReasoner {
         
 //        Long jumlahFinished = finishedModel.size();
 //        System.out.println("Jumlah finishedModel : " + jumlahFinished);
-//        insertData(finishedModel);
+//        insertData(reasoningResult);
     }
     
     public static Model readDB( Model model ) {
@@ -137,7 +144,20 @@ public class MyReasoner {
         reasoner = reasoner.bindSchema( owl );
         InfModel reasoningResult = ModelFactory.createInfModel( reasoner, model );
         
-        return (Model)reasoningResult;
+        System.out.println("Tampilkan isi reasoningResult :");
+        reasoningResult.write(System.out,"N-TRIPLES");
+        
+        
+        Query query = QueryFactory.read(unionQuery);
+        
+        try( QueryExecution qexec = QueryExecutionFactory.create(query, (Model)reasoningResult) ) {
+            
+            Model queryResult = ModelFactory.createDefaultModel();   
+            queryResult = qexec.execConstruct();
+//            queryResult.write(System.out, "N-TRIPLES");
+            return queryResult;
+        }
+//        return (Model)reasoningResult;
     }
     
     public static Model queryModel( Model model ) {
@@ -148,6 +168,31 @@ public class MyReasoner {
             
             Model queryResult = ModelFactory.createDefaultModel();
             
+            queryResult = qexec.execConstruct();
+            queryResult.write(System.out, "N-TRIPLES");
+            return queryResult;
+        }
+    }
+    
+    public static Model prunningQuery(Model model) {
+        
+        Query query = QueryFactory.read(queryPrunning);
+        
+        try( QueryExecution qexec = QueryExecutionFactory.create(query, model) ) {
+            
+            Model queryResult = ModelFactory.createDefaultModel();   
+            queryResult = qexec.execConstruct();
+//            queryResult.write(System.out, "N-TRIPLES");
+            return queryResult;
+        }
+    }
+    
+    public static Model prunningReasoningResult(Model model) {
+        Query query = QueryFactory.read(unionQuery);
+        
+        try( QueryExecution qexec = QueryExecutionFactory.create(query, model) ) {
+            
+            Model queryResult = ModelFactory.createDefaultModel();   
             queryResult = qexec.execConstruct();
             queryResult.write(System.out, "N-TRIPLES");
             return queryResult;

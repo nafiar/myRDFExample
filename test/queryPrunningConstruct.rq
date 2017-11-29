@@ -1,0 +1,92 @@
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX ns7:   <http://www.w3.org/ns/prov#>
+PREFIX dbpprop-id: <http://id.dbpedia.org/property/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+CONSTRUCT { ?subject ?predicate ?object }
+WHERE {
+	{
+		{
+			?subject ?predicate ?object;
+					 rdfs:label ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 rdf:resource ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpedia-owl:Person ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 foaf:Person ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 owl:Thing ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 foaf:name ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:successor ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:pendahulu ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:pedecessor ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:pengganti ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:spouse ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:children ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:parents ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:mother ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:father ?object;
+		}	
+	}
+	MINUS {
+		?subject ?predicate ?object;
+				 dbpedia-owl:wikiPageWikiLink ?object;
+	}
+}

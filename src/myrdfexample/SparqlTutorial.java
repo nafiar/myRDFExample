@@ -25,34 +25,38 @@ import org.apache.jena.vocabulary.DC;
  */
 public class SparqlTutorial {
     
-    static public final String dataFileTtl = "test/bloggers.ttl";
-    static public final String queryFile = "test/bloggers1.rq";
-    static public final String queryFile2 = "test/bloggers2.rq";
-    static public final String demoData = "test/owlDemoData.rdf";
+    static final String dataFileTtl = "test/bloggers.ttl";
+    static final String amirHamzah = "test/File_RDF/Amir_Hamzah.rdf";
+    static final String jayanegara = "test/File_RDF/Jayanegara.rdf";
+    static final String radenWijaya = "test/File_RDF/Raden_Wijaya.rdf";
+    static final String queryPrunning = "test/queryPrunning.rq";
+    static final String queryFile = "test/bloggers1.rq";
+    static final String queryFile2 = "test/bloggers2.rq";
+    static final String demoData = "test/owlDemoData.rdf";
     
     public static void main(String[] args) {
-//        queryFile();
+        queryFile();
         
 //        dbpediaExample1();
 //        dbpediaExample2();
 //        dbpediaExample3();
 //        queryFuseki();
-        uploadRDF();
+//        uploadRDF();
         
     }
     
     public static void queryFile(){
         Model model = ModelFactory.createDefaultModel();
         
-        InputStream in = FileManager.get().open(dataFileTtl);
+        InputStream in = FileManager.get().open(amirHamzah);
         if(in == null) {
             System.out.println("File tidak ditemukan");
         }
         
-        model.read(in, null, "TTL");
-        model.write(System.out, "TTL");
+        model.read(in, null, "" );
+//        model.write(System.out, "N-TRIPLES");
         
-        Query query = QueryFactory.read(queryFile2);
+        Query query = QueryFactory.read(queryPrunning);
         QueryExecution qe = QueryExecutionFactory.create(query, model);
         ResultSet results = qe.execSelect();
         
