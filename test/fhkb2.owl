@@ -1,1547 +1,1162 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl#"
      xml:base="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+     xmlns:fhkb_chapter_9="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl">
-    <Prefix name="" IRI="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="fhkb_chapter_2" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#"/>
-    <Prefix name="fhkb_chapter_4" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#"/>
-    <Prefix name="fhkb_chapter_5" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#"/>
-    <Prefix name="fhkb_chapter_7" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#"/>
-    <Prefix name="fhkb_chapter_9" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#"/>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This ontology was created as part of the Manchester Family History Advanced OWL Tutorial by Robert Stevens, Margaret Stevens, Nicolas Matentzoglu and Simon Jupp. It is intended for educational use only.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/</Literal>
-    </Annotation>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandfather"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatAunt"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForemother"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatUncle"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFemalePartner"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#In-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:Descendent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfatherOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasParentInLaw"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousin"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:FemaleAncestor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFatherInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:FemaleDescendent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasName"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFemalePartnerIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousinOnceRemoved"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Female"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:MaleDescendent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasGivenName"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isParentInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRichard"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousin"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister-in-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasSpouse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichard"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMalePartner"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSisterInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isPartnerIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousinOnceRemoved"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isWifeOf"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isChildOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isUncleInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother-in-law"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasFamilyName"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandmotherOf"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_9:Marriage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmotherOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandfatherOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Uncle-in-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFatherInLaw"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSiblingInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isFatherOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasGreatAunt"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isUncleOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isAncestorOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasAunt"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasGreatUncle"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasChild"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isDaughterOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasUncleInLaw"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:MaleAncestor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasSon"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasAuntInLaw"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMalePartnerIn"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasSecondGivenName"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_9:hasMarriageYear"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasUncle"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isMotherOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isHusbandOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousin"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:DomainEntity"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasHusband"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#GrandparentOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasDeathYear"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasFirstGivenName"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandmother"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForefather"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt-in-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMotherInLaw"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isAuntInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSonOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandparentOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasBirthYear"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sibiling-in-law"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMotherInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasWife"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isBrotherInLawOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousinOfRobert"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_5:Ancestor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasDaughter"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="fhkb_chapter_2:Male"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_6.owl#ParentOfRichardAndRobert"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasEventYear"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Aunt-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isAuntInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isBrotherInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFatherInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousin"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#FirstCousinOnceRemoved"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <Class abbreviatedIRI="fhkb_chapter_5:Ancestor"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <Class abbreviatedIRI="fhkb_chapter_5:Ancestor"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-                <ObjectIntersectionOf>
-                    <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-                        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectIntersectionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatAunt"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfatherOfRobert"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmotherOfRobert"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparentOfRobert"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-                <ObjectIntersectionOf>
-                    <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-                        <ObjectIntersectionOf>
-                            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-                            <ObjectSomeValuesFrom>
-                                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-                                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-                            </ObjectSomeValuesFrom>
-                        </ObjectIntersectionOf>
-                    </ObjectSomeValuesFrom>
-                </ObjectIntersectionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatUncle"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#In-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMotherInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isParentInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousin"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#SecondCousinOnceRemoved"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sibiling-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSiblingInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSisterInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Uncle-in-law"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isUncleInLawOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Male"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <ObjectUnionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-        <ObjectUnionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Female"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Male"/>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Female"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:Ancestor"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isAncestorOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:Descendent"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:FemaleAncestor"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isAncestorOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:FemaleDescendent"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:MaleAncestor"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isAncestorOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="fhkb_chapter_5:MaleDescendent"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#FirstCousin"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-                <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Female"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Male"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:DomainEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <ObjectMaxCardinality cardinality="2">
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-            <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        </ObjectMaxCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:DomainEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="fhkb_chapter_9:Marriage"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:DomainEntity"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Female"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Male"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-    </DisjointClasses>
-    <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isChildOf"/>
-    </EquivalentObjectProperties>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForefather"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForemother"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandfather"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandmother"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasDaughter"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasChild"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasSon"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasChild"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isDaughterOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isChildOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSonOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isChildOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isUncleOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBloodrelationOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasAuntInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFatherInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasParentInLaw"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFemalePartner"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasHusband"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasSpouse"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMalePartner"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMotherInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasParentInLaw"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasParentInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasUncleInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasWife"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasSpouse"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isAuntInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isBrotherInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSiblingInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSiblingInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSisterInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSiblingInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isUncleInLawOf"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isFatherOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isMotherOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isAncestorOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandfather"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandfatherOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandmother"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandmotherOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandparentOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasAunt"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasChild"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isChildOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasDaughter"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isDaughterOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasGreatAunt"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasGreatUncle"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasSon"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSonOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:hasUncle"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isUncleOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasAuntInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isAuntInLawOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFatherInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFatherInLawOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFemalePartner"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFemalePartnerIn"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasHusband"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isHusbandOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMalePartner"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMalePartnerIn"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMotherInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMotherInLawOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasParentInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isParentInLawOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isPartnerIn"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasSpouse"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasUncleInLaw"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isUncleInLawOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasWife"/>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isWifeOf"/>
-    </InverseObjectProperties>
-    <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-    </FunctionalObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isInLawOf"/>
-    </SymmetricObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasAncestor"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-    </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-        <Class abbreviatedIRI="fhkb_chapter_9:Marriage"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasSex"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Sex"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFatherInLaw"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFemalePartner"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasHusband"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMalePartner"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Man"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMotherInLaw"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasPartner"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasWife"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Woman"/>
-    </ObjectPropertyRange>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForefather"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasForemother"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_5:hasGrandparent"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_5:isGrandparentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatAuntOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isUncleOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isBrotherInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isAuntOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSisterInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isUncleOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isGreatUncleOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isFirstCousinOnceRemovedOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_8.owl#isSecondCousinOnceRemovedOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isFemalePartnerIn"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMalePartner"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasHusband"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isHusbandOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isBrotherInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isHusbandOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSisterOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isUncleInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isMalePartnerIn"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFemalePartner"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasWife"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasFather"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasFatherInLaw"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSpouseOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:hasMother"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:hasMotherInLaw"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isWifeOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isBrotherOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_2:isParentOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isAuntInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isWifeOf"/>
-            <ObjectProperty abbreviatedIRI="fhkb_chapter_7:isSiblingOf"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="fhkb_chapter_9:isSisterInLawOf"/>
-    </SubObjectPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasBirthYear"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasEventYear"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasDeathYear"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasEventYear"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasFamilyName"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasName"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasFirstGivenName"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasGivenName"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasGivenName"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasName"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasSecondGivenName"/>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasGivenName"/>
-    </SubDataPropertyOf>
-    <FunctionalDataProperty>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasBirthYear"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasFirstGivenName"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasSecondGivenName"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty abbreviatedIRI="fhkb_chapter_9:hasMarriageYear"/>
-    </FunctionalDataProperty>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasBirthYear"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasDeathYear"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasEventYear"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasName"/>
-        <Class abbreviatedIRI="fhkb_chapter_2:Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="fhkb_chapter_9:hasMarriageYear"/>
-        <Class abbreviatedIRI="fhkb_chapter_9:Marriage"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasBirthYear"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasDeathYear"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasEventYear"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="fhkb_chapter_4:hasName"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="fhkb_chapter_9:hasMarriageYear"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <AnnotationPropertyRange>
-        <AnnotationProperty abbreviatedIRI="fhkb_chapter_2:hasParent"/>
-        <AbbreviatedIRI>fhkb_chapter_2:Person</AbbreviatedIRI>
-    </AnnotationPropertyRange>
-    <AnnotationPropertyRange>
-        <AnnotationProperty abbreviatedIRI="fhkb_chapter_5:hasRelation"/>
-        <AbbreviatedIRI>fhkb_chapter_2:Person</AbbreviatedIRI>
-    </AnnotationPropertyRange>
-</Ontology>
+     xmlns:dbpprop-id="http://id.dbpedia.org/property/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:fhkb_chapter_5="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#"
+     xmlns:fhkb_chapter_4="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#"
+     xmlns:fhkb_chapter_7="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:fhkb_chapter_2="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#">
+    <owl:Ontology rdf:about="http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/fhkb.owl">
+        <rdfs:comment>This ontology was created as part of the Manchester Family History Advanced OWL Tutorial by Robert Stevens, Margaret Stevens, Nicolas Matentzoglu and Simon Jupp. It is intended for educational use only.</rdfs:comment>
+        <rdfs:seeAlso>http://owl.cs.manchester.ac.uk/tutorials/fhkbtutorial/</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent -->
+
+    <owl:AnnotationProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent">
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor -->
+
+    <owl:AnnotationProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation -->
+
+    <owl:AnnotationProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation">
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/child -->
+
+    <rdfs:Datatype rdf:about="http://dbpedia.org/ontology/child"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/successor -->
+
+    <rdfs:Datatype rdf:about="http://dbpedia.org/ontology/successor"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/children -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/children"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/leader -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/leader"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/parents -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/parents"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/pedecessor -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/pedecessor"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/pendahulu -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/pendahulu"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/pengganti -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/pengganti"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/successor -->
+
+    <rdfs:Datatype rdf:about="http://id.dbpedia.org/property/successor"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <rdfs:Datatype rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/successor -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/successor"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/pendahulu -->
+
+    <owl:ObjectProperty rdf:about="http://id.dbpedia.org/property/pendahulu"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/successor -->
+
+    <owl:ObjectProperty rdf:about="http://id.dbpedia.org/property/successor"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isFatherOf"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isMotherOf"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent">
+        <owl:equivalentProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf"/>
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isFatherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isMotherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForefather -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForefather">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForemother -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasForemother">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandfather -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandfather">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandparent"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandfatherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandmother -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandmother">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandparent"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandmotherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandparent -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasGrandparent">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandparentOf"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandfatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandfatherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandmotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandmotherOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandparentOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isGrandparentOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasChild -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasChild">
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasDaughter -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasDaughter">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasChild"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isDaughterOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatAunt -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatAunt"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatUncle -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasGreatUncle"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasSon -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasSon">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#hasChild"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSonOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isDaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSonOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isSonOf">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasFemalePartner -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasFemalePartner">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasPartner"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFemalePartnerIn"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasHusband -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasHusband">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasSpouse"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isHusbandOf"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFemalePartnerIn"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMalePartner"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMalePartner -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMalePartner">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasPartner"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMalePartnerIn"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasPartner -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasPartner">
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isPartnerIn"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#Marriage"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasSpouse -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasSpouse">
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSpouseOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasWife -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasWife">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasSpouse"/>
+        <owl:inverseOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isWifeOf"/>
+        <rdfs:range rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMalePartnerIn"/>
+            <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasFemalePartner"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFatherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFatherInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFemalePartnerIn -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFemalePartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isHusbandOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isHusbandOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMalePartnerIn -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMalePartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMotherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMotherInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isParentInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isParentInLawOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isPartnerIn -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isPartnerIn"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSpouseOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isSpouseOf"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isWifeOf -->
+
+    <owl:ObjectProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isWifeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasBirthYear -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasBirthYear">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasEventYear"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasDeathYear -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasDeathYear">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasEventYear"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasEventYear -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasEventYear">
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFamilyName -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFamilyName">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFirstGivenName -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasFirstGivenName">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasGivenName"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasGivenName -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasGivenName">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasName">
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasSecondGivenName -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasSecondGivenName">
+        <rdfs:subPropertyOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#hasGivenName"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMarriageYear -->
+
+    <owl:DatatypeProperty rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#hasMarriageYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#Marriage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/successor -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/successor">
+        <owl:equivalentClass rdf:resource="http://id.dbpedia.org/property/successor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://id.dbpedia.org/property/pendahulu -->
+
+    <owl:Class rdf:about="http://id.dbpedia.org/property/pendahulu">
+        <owl:equivalentClass rdf:resource="http://id.dbpedia.org/property/predecessor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://id.dbpedia.org/property/predecessor -->
+
+    <owl:Class rdf:about="http://id.dbpedia.org/property/predecessor"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/successor -->
+
+    <owl:Class rdf:about="http://id.dbpedia.org/property/successor"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#BloodRelation"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Brother"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Child">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Daughter">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Father-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isFatherInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Forefather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Ancestor"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Foremother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Ancestor"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandfather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandmother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Grandparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+                                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandfather">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandmother">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#GreatGrandparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#isParentOf"/>
+                                                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Mother-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isMotherInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Parent-in-law">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#isParentInLawOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Relation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasRelation"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Sister"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_10.owl#Son">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity"/>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Female -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Female">
+        <rdfs:subClassOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex"/>
+        <owl:disjointWith rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male">
+        <rdfs:subClassOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasFather"/>
+                <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasMother"/>
+                <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex"/>
+                <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasParent"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Sex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Female"/>
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Male"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#hasSex"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Female"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Ancestor -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Ancestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Descendent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#Descendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleAncestor -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleAncestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleDescendent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#FemaleDescendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleAncestor -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleAncestor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#isAncestorOf"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleDescendent -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#MaleDescendent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Man"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#hasAncestor"/>
+                        <owl:someValuesFrom rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#Marriage -->
+
+    <owl:Class rdf:about="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#Marriage">
+        <rdfs:subClassOf rdf:resource="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#DomainEntity"/>
+    </owl:Class>
+</rdf:RDF>
 
 
 

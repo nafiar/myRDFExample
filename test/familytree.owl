@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://familytree.org/ontologies/familytree#"
+     xml:base="http://familytree.org/ontologies/familytree"
+     xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:familytree="http://familytree.org/ontologies/familytree/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dbpprop-id="http://id.dbpedia.org/property/">
+    <owl:Ontology rdf:about="http://familytree.org/ontologies/familytree"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/wikiPageRedirects -->
+
+    <owl:AnnotationProperty rdf:about="http://dbpedia.org/ontology/wikiPageRedirects"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/wikiPageWikiLink -->
+
+    <owl:AnnotationProperty rdf:about="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/child -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/child">
+        <owl:equivalentProperty rdf:resource="http://familytree.org/ontologies/familytree/hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/spouse -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/spouse">
+        <owl:equivalentProperty rdf:resource="http://familytree.org/ontologies/familytree/hasSpouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasAncestor -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasAncestor">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasChild -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasChild">
+        <owl:equivalentProperty rdf:resource="http://id.dbpedia.org/property/children"/>
+        <owl:inverseOf rdf:resource="http://familytree.org/ontologies/familytree/isChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasDaughter -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasDaughter">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasChild"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasFather -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasFather">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasParent"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasGrandfather -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasGrandfather">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasGrandparent"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasGrandmother -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasGrandmother">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasGrandparent"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasGrandparent -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasGrandparent">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasAncestor"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/hasParent"/>
+            <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/hasParent"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasHusband -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasHusband">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasSpouse"/>
+        <owl:inverseOf rdf:resource="http://familytree.org/ontologies/familytree/isHusbandOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasMother -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasMother">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasParent"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasParent -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasParent">
+        <owl:equivalentProperty rdf:resource="http://familytree.org/ontologies/familytree/isChildOf"/>
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasAncestor"/>
+        <owl:inverseOf rdf:resource="http://familytree.org/ontologies/familytree/isParentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasRelation -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasRelation"/>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasSon -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasSon">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasChild"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasSpouse -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasSpouse">
+        <owl:equivalentProperty rdf:resource="http://id.dbpedia.org/property/spouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/hasWife -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/hasWife">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/hasSpouse"/>
+        <owl:inverseOf rdf:resource="http://familytree.org/ontologies/familytree/isWifeOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isChildOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isChildOf"/>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isDaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isChildOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isFatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isParentOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isHusbandOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isHusbandOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isSpouseOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isMotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isParentOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isParentOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isParentOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isSonOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isSonOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isChildOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isSpouseOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isSpouseOf"/>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/isWifeOf -->
+
+    <owl:ObjectProperty rdf:about="http://familytree.org/ontologies/familytree/isWifeOf">
+        <rdfs:subPropertyOf rdf:resource="http://familytree.org/ontologies/familytree/isSpouseOf"/>
+        <rdfs:domain rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+        <rdfs:range rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://id.dbpedia.org/property/children -->
+
+    <owl:ObjectProperty rdf:about="http://id.dbpedia.org/property/children"/>
+    
+
+
+    <!-- http://id.dbpedia.org/property/spouse -->
+
+    <owl:ObjectProperty rdf:about="http://id.dbpedia.org/property/spouse"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Daughter -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Daughter">
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Female -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Female">
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Sex"/>
+        <owl:disjointWith rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Husband -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Husband">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/Male"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://familytree.org/ontologies/familytree/hasSpouse"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Male -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Male">
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Person -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Person"/>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Sex -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Sex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/Female"/>
+                    <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/Male"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Son -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Son">
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Wife -->
+
+    <owl:Class rdf:about="http://familytree.org/ontologies/familytree/Wife">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://familytree.org/ontologies/familytree/Female"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://familytree.org/ontologies/familytree/hasSpouse"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://familytree.org/ontologies/familytree/Female"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Coba -->
+
+    <owl:NamedIndividual rdf:about="http://familytree.org/ontologies/familytree/Coba">
+        <rdf:type rdf:resource="http://familytree.org/ontologies/familytree/Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Hayam_Wuruk -->
+
+    <owl:NamedIndividual rdf:about="http://familytree.org/ontologies/familytree/Hayam_Wuruk">
+        <familytree:hasFather rdf:resource="http://familytree.org/ontologies/familytree/Kertawardhana"/>
+        <familytree:hasMother rdf:resource="http://familytree.org/ontologies/familytree/Tribhuwana_Wijayatunggadewi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Kertawardhana -->
+
+    <owl:NamedIndividual rdf:about="http://familytree.org/ontologies/familytree/Kertawardhana">
+        <familytree:hasSpouse rdf:resource="http://familytree.org/ontologies/familytree/Tribhuwana_Wijayatunggadewi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://familytree.org/ontologies/familytree/Tribhuwana_Wijayatunggadewi -->
+
+    <owl:NamedIndividual rdf:about="http://familytree.org/ontologies/familytree/Tribhuwana_Wijayatunggadewi"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

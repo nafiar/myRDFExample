@@ -6,61 +6,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX mowl: <http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#>
+PREFIX famowl: <http://familytree.org/ontologies/familytree/>
 
 CONSTRUCT { ?subject ?predicate ?object }
 WHERE {
 	{
-		{
-			?subject ?predicate ?object;
-					 rdfs:label ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 rdf:resource ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpedia-owl:Person ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 foaf:Person ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 owl:Thing ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 foaf:name ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:successor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pendahulu ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pedecessor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pengganti ?object;
-		}
-		UNION
 		{
 			?subject ?predicate ?object;
 					 dbpprop-id:spouse ?object;
@@ -88,521 +38,132 @@ WHERE {
 		UNION
 		{
 			?subject ?predicate ?object;
-					 mowl: ?object;
+					 dbpprop-id:queen ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Ancestor ?object;
+					 dbpedia-owl:child ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Forefather ?object;
+					 dbpedia-owl:spouse ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Foremother ?object;
+					 famowl:hasChild ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Aunt ?object;
+					 famowl:hasDaughter ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Aunt-in-law ?object;
+					 famowl:hasSon ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:BloodRelation ?object;
+					 famowl:hasRelation ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Brother ?object;
+					 famowl:hasAnchestor ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Brother-in-law ?object;
+					 famowl:hasGrandparent ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Child ?object;
+					 famowl:hasGrandfather ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Descendent ?object;
+					 famowl:hasGrandmother ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Father-in-law ?object;
+					 famowl:hasParent ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:FirstCousin ?object;
+					 famowl:hasFather ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:FirstCousinOfRobert ?object;
+					 famowl:hasMother ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:FirstCousinOnceRemoved ?object;
+					 famowl:hasSpouse ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Grandparent ?object;
+					 famowl:hasHusband ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Grandfather ?object;
+					 famowl:hasWife ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:Grandmother ?object;
+					 famowl:isChildOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GrandparentOfRichard ?object;
+					 famowl:isDaughterOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GrandparentOfRobert ?object;
+					 famowl:isSonOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatAunt ?object;
+					 famowl:isParentOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatGrandfather ?object;
+					 famowl:isFatherOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatGrandparent ?object;
+					 famowl:isMotherOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatGrandfather ?object;
+					 famowl:isSpouseOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatGrandmother ?object;
+					 famowl:isHusbandOf ?object;
 		}
 		UNION
 		{
 			?subject ?predicate ?object;
-				mowl:GreatGrandparentOfRobert ?object;
+					 famowl:isWifeOf ?object;
 		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:GreatGrandfatherOfRobert ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:GreatGrandmotherOfRobert ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:GreatUncle ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:In-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Man ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:MaleAncestor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:MaleDescendent ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Son ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Uncle-in-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Parent-in-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:ParentOfRichard ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:ParentOfRichardAndRobert ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:ParentOfRobert ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Relation ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:SecondCousin ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:SecondCousinOnceRemoved ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Sibling-in-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Sister ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Woman ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Daughter ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:FemaleAncestor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:FemaleDescendent ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Mother-in-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:Sister-in-law ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasAunt ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasChild ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasDaughter ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasSon ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasGreatAunt ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasGreatUncle ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasFemalePartner ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasMalePartner ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasAncestor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasForefather ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasForemother ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasGrandparent ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasGrandfather ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasGrandmother ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasFather ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasMother ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isBloodrelationOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isAuntOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isCousinOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isFirstCousinOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isFirstCousinOnceRemovedOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSecondCousinOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSecondCousinOnceRemovedOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isGreatAuntOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isGreatUncleOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSiblingOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isBrotherOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSisterOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isUncleOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isInLawOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasSex ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasSpouse ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasHusband ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasWife ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:hasUncle ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isAncestorOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isDaughterOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSonOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isFatherInLawOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isFatherOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isFemalePartnerIn ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isGrandfatherOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isGrandmotherOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isGrandparentOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isHusbandOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isMalePartnerIn ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isMotherInLawOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isMotherOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isParentInLawOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isParentOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isPartnerIn ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isSpouseOf ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-				mowl:isWifeOf ?object;
-		}
-	}
-	MINUS {
-		?subject ?predicate ?object;
-				 dbpedia-owl:wikiPageWikiLink ?object;
 	}
 }

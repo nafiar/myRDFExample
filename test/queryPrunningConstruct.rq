@@ -12,56 +12,6 @@ WHERE {
 	{
 		{
 			?subject ?predicate ?object;
-					 rdfs:label ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 rdf:resource ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpedia-owl:Person ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 foaf:Person ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 owl:Thing ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 foaf:name ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:successor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pendahulu ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pedecessor ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
-					 dbpprop-id:pengganti ?object;
-		}
-		UNION
-		{
-			?subject ?predicate ?object;
 					 dbpprop-id:spouse ?object;
 		}
 		UNION
@@ -83,10 +33,21 @@ WHERE {
 		{
 			?subject ?predicate ?object;
 					 dbpprop-id:father ?object;
-		}	
-	}
-	MINUS {
-		?subject ?predicate ?object;
-				 dbpedia-owl:wikiPageWikiLink ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpprop-id:queen ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpedia-owl:child ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 dbpedia-owl:spouse ?object;
+		}
 	}
 }

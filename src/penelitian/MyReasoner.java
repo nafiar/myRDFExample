@@ -43,11 +43,14 @@ public class MyReasoner {
     static final String amangkurat3 = "test/File_RDF/Amangkurat_III.rdf";
     static final String radenWijaya = "test/File_RDF/Raden_Wijaya.rdf";
     static final String jayanagara = "test/File_RDF/Jayanagara.rdf";
+    static final String tribhuwana = "test/File_RDF/Tribhuwana_Wijayatunggadewi.rdf";
+    static final String hayamWuruk = "test/File_RDF/Hayam_Wuruk.rdf";
     static final String gayatri = "test/File_RDF/Gayatri.rdf";
     static final String iheroOwl = "test/ihero.owl";
-    static final String fkhbOwl = "test/fhkb.owl";
+    static final String fkhbOwl = "test/fhkb2.owl";
     static final String owlFile = "test/owlDemoSchema.owl";
     static final String simpleFamilyOwl = "test/simpleFamilyRDF.owl";
+    static final String familytree = "test/familytree2.owl";
     static final String cobaHasil = "test/cobahasil.rdf";
     static final String queryPrunning = "test/queryPrunningConstruct.rq";
     static final String unionQuery = "test/queryReasoningResult.rq";
@@ -56,51 +59,24 @@ public class MyReasoner {
     
     public static void main( String[] argv ) {
         Model mainModel = ModelFactory.createDefaultModel();
-        Model dbModel = ModelFactory.createDefaultModel();
         
         mainModel = readDB(mainModel);
-//        mainModel.write(System.out, "N-TRIPLES");
-        Long jumlahMain = mainModel.size();
-        System.out.println("Jumlah mainModel : " + jumlahMain);
-        
-        dbModel = mainModel;
-        Long jumlahDbModel = dbModel.size();
-        System.out.println("Jumlah dbModel : " + jumlahDbModel);
+        printJumlah(mainModel, "mainModel setelah baca DB");
         
         mainModel = readRdf(mainModel);
-        Long jumlahMain2 = mainModel.size();
-        System.out.println("Jumlah mainModel sekarang : " + jumlahMain2);
+        printJumlah(mainModel, "mainModel setelah baca RDF");
         
         Model prunnedModel = prunningQuery(mainModel);
-        Long jumlahPrunning = prunnedModel.size();
-        System.out.println("Jumlah prunningModel sekarang : " + jumlahPrunning);
+        printJumlah(prunnedModel, "prunnedModel");
 //        prunnedModel.write(System.out, "N-TRIPLES");
-        mainModel = prunnedModel;
-        Model reasoningResult = reasonModel(mainModel);
         
-//        try {
-//            FileWriter out = new FileWriter( cobaHasil );
-//            reasoningResult.write( out, "RDF/XML" );
-//            out.close();
-//        }
-//        catch (IOException closeException) {
-//            // ignore
-//        }
-        Long jumlahReasoningResult = reasoningResult.size();
-        System.out.println("Jumlah reasoningResult : " + jumlahReasoningResult);
-        reasoningResult.write(System.out, "N-TRIPLES");
-//        System.out.println("hasil reasoning dari (rdf + db) dan owl");
-//        printStatement(reasoningResult, null, null, null);
-//        printURI(reasoningResult, null, null, null);
-//        Model finishedModel = prunningReasoningResult(reasoningResult); 
-//        Model finishedModel = reasoningResult.difference(dbModel);
-//        finishedModel.write(System.out, "N-TRIPLES");
+        Model reasoningResult = reasonModel(prunnedModel);
+        printJumlah(reasoningResult, "reasoningModel");
         
-//        
-        
-        
-//        Long jumlahFinished = finishedModel.size();
-//        System.out.println("Jumlah finishedModel : " + jumlahFinished);
+        Model finishedModel = prunningReasoningResult(reasoningResult);
+        finishedModel = finishedModel.difference(prunnedModel);
+        printJumlah(finishedModel, "finishedModel");
+
 //        insertData(reasoningResult);
     }
     
@@ -121,43 +97,30 @@ public class MyReasoner {
     
     public static Model readRdf( Model model ) {
 
-        InputStream in1 = FileManager.get().open( radenWijaya );
-        InputStream in2 = FileManager.get().open( jayanagara );
-//        InputStream in3 = FileManager.get().open( amangkurat3 );
+        InputStream in1 = FileManager.get().open( tribhuwana );
+        InputStream in2 = FileManager.get().open( hayamWuruk );
+//        InputStream in3 = FileManager.get().open( radenWijaya );
         
-        if ( in1 == null || in2 == null  ) {
+        if ( in1 == null ) {
             System.out.println( "File tidak ditemukan" );
         }
         model.read( in1, "" );
         model.read( in2, "" );
-//        model.read( in3, "" );
 //        model.write(System.out, "N-TRIPLES");
+//        model.read( in3, "" );
+        
         return model;
     }
     
     public static Model reasonModel( Model model ) {
-        Long jumlahModel = model.size();
-        System.out.println("Jumlah model : " + jumlahModel);
-        OntModel owl = loadOwl(fkhbOwl);
+        
+        OntModel owl = loadOwl(familytree);
         
         Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
         reasoner = reasoner.bindSchema( owl );
         InfModel reasoningResult = ModelFactory.createInfModel( reasoner, model );
         
-        System.out.println("Tampilkan isi reasoningResult :");
-        reasoningResult.write(System.out,"N-TRIPLES");
-        
-        
-        Query query = QueryFactory.read(unionQuery);
-        
-        try( QueryExecution qexec = QueryExecutionFactory.create(query, (Model)reasoningResult) ) {
-            
-            Model queryResult = ModelFactory.createDefaultModel();   
-            queryResult = qexec.execConstruct();
-//            queryResult.write(System.out, "N-TRIPLES");
-            return queryResult;
-        }
-//        return (Model)reasoningResult;
+        return (Model)reasoningResult;
     }
     
     public static Model queryModel( Model model ) {
@@ -182,7 +145,6 @@ public class MyReasoner {
             
             Model queryResult = ModelFactory.createDefaultModel();   
             queryResult = qexec.execConstruct();
-//            queryResult.write(System.out, "N-TRIPLES");
             return queryResult;
         }
     }
@@ -194,7 +156,6 @@ public class MyReasoner {
             
             Model queryResult = ModelFactory.createDefaultModel();   
             queryResult = qexec.execConstruct();
-            queryResult.write(System.out, "N-TRIPLES");
             return queryResult;
         }
     }
@@ -249,17 +210,9 @@ public class MyReasoner {
         }
     }
     
-//    public static void testQuery( Model myModel ) {
-//        String queryStr = "select distinct ?s ?p ?o where { ?s ?p ?o . } limit 10";
-//        Query query = QueryFactory.create(queryStr);
-//        
-//        try( QueryExecution qexec = QueryExecutionFactory.create(query, model) ) {
-//            
-//            Model queryResult = ModelFactory.createDefaultModel();
-//            
-//            queryResult = qexec.execConstruct();
-//            queryResult.write(System.out, "N-TRIPLES");
-//            return queryResult;
-//        }
-//    }
+    public static void printJumlah(Model model, String string) {
+        Long jumlahModel = model.size();
+        System.out.println("Jumlah " + string + " : " + jumlahModel);
+    } 
+    
 }
