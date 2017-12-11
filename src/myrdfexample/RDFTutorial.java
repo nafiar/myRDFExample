@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
@@ -38,6 +39,12 @@ public class RDFTutorial extends Object {
     static final String fragment = "test/fragment.rdf";
     static final String amangkurat1 = "test/File_RDF/Amangkurat_I.rdf";
     static final String amangkurat2 = "test/File_RDF/Amangkurat_II.rdf";
+    static final String hayamWuruk = "test/File_RDF/Hayam_Wuruk.rdf";
+    static final String amirHamzah = "test/File_RDF/Amir_Hamzah.rdf";
+    static final String dbppropid = "http://id.dbpedia.org/property/";
+    static final String dbpediaowl = "http://dbpedia.org/ontology/";
+    static final String dbpidRdf = "http://id.dbpedia.org/data/";
+    static final String dbpediaRdf = "http://dbpedia.org/data/";
     
     public static void main(String[] args){
         //tutorial01();
@@ -46,11 +53,12 @@ public class RDFTutorial extends Object {
 //        tutorial04();
 //        tutorial05();
         //specialTutorial();
-        //tutorial06();
-        //tutorial07();
-        //tutorial08();
+//        tutorial06();
+//        tutorial07();
+//        tutorial08();
 //        countTriples();
-        substractTest();
+//        substractTest();
+        readGen();
     }
     
     public static void tutorial01(){
@@ -213,9 +221,9 @@ public class RDFTutorial extends Object {
         Model model = ModelFactory.createDefaultModel();
        
         // use the FileManager to find the input file
-        InputStream in = FileManager.get().open(inputFileName);
+        InputStream in = FileManager.get().open(inputFile2);
         if (in == null) {
-            throw new IllegalArgumentException( "File: " + inputFileName + " not found");
+            throw new IllegalArgumentException( "File: " + inputFile2 + " not found");
         }
         
         // read the RDF/XML file
@@ -249,9 +257,9 @@ public class RDFTutorial extends Object {
         Model model = ModelFactory.createDefaultModel();
        
         // use the FileManager to find the input file
-        InputStream in = FileManager.get().open(inputFileName);
+        InputStream in = FileManager.get().open(inputFile2);
         if (in == null) {
-            throw new IllegalArgumentException( "File: " + inputFileName + " not found");
+            throw new IllegalArgumentException( "File: " + inputFile2 + " not found");
         }
         
         // read the RDF/XML file
@@ -276,9 +284,9 @@ public class RDFTutorial extends Object {
         Model model = ModelFactory.createDefaultModel();
        
         // use the FileManager to find the input file
-        InputStream in = FileManager.get().open("test/File_RDF/Adam_Malik.rdf");
+        InputStream in = FileManager.get().open(hayamWuruk);
         if (in == null) {
-            throw new IllegalArgumentException( "File: " + inputFileName + " not found");
+            throw new IllegalArgumentException( "File: " + hayamWuruk + " not found");
         }
         
         // read the RDF/XML file
@@ -286,34 +294,19 @@ public class RDFTutorial extends Object {
         
         // select all the resources with a VCARD.FN property
         // whose value ends with "Smith"
-//        StmtIterator iter = model.listStatements(
-//            new 
-//                SimpleSelector(null, null, (RDFNode) null) {
-//                    @Override
-//                    public boolean selects(Statement s) {
-//                            return (subject == null || s.getSubject().equals(subject))
-//                                && (predicate == null || s.getPredicate().equals(predicate))
-//                                && (object == null || s.getObject().equals(object));
-//                    }
-//                });
-        StmtIterator iter = model.listStatements(new SimpleSelector(null, null,(RDFNode) null));
-//        StmtIterator iter = model.listStatements(
-//            new 
-//                SimpleSelector(null, VCARD.FN, (RDFNode) null) {
-//                    @Override
-//                    public boolean selects(Statement s) {
-//                            return s.getString().endsWith("Smith");
-//                    }
-//                });
-
+        StmtIterator iter = model.listStatements(
+            new 
+                SimpleSelector(null, VCARD.FN, (RDFNode) null) {
+                    @Override
+                    public boolean selects(Statement s) {
+                            return s.getString().endsWith("Smith");
+                    }
+                });
         if (iter.hasNext()) {
             System.out.println("The database contains vcards for:");
             while (iter.hasNext()) {
-                Statement stmt = iter.nextStatement();
-                Resource subject = stmt.getSubject();
-                System.out.println("  " + iter.nextStatement()
-                                              .getPredicate()
-                                              .toString());
+                Statement smt = iter.nextStatement();
+                System.out.println("  " + PrintUtil.print(smt) );
             }
         } else {
             System.out.println("No Smith's were found in the database");
@@ -390,6 +383,13 @@ public class RDFTutorial extends Object {
         System.out.println("Panjang difference : " + panjangDifference);
     }
     
+    public static void readGen() {
+        Model model = ModelFactory.createDefaultModel();
+        model.read(amirHamzah, "");
+        Model genRelation = getFirstGenRelation(model);
+        printJumlah(genRelation, "genRelation akhir ");
+    }
+    
     public static void printStatement(Model m, Resource s, Property p, Resource o) {
         
         for (StmtIterator i = m.listStatements(s,p,o); i.hasNext(); ) {
@@ -397,5 +397,107 @@ public class RDFTutorial extends Object {
             Statement stmt = i.nextStatement();
             System.out.println(" - " + PrintUtil.print(stmt));
         }
+    }
+    
+    public static Model getFirstGenRelation(Model model) {
+        Model relatedModel = ModelFactory.createDefaultModel();
+        Property father = model.createProperty(dbppropid, "father");
+        Property mother = model.createProperty(dbppropid, "mother");
+        Property children = model.createProperty(dbppropid, "children");
+        Property child = model.createProperty(dbpediaowl, "child");
+        
+        if (model.contains(null, father, (RDFNode) null)) {
+            Model fatherModel = getModel(model, father);
+            relatedModel.add(fatherModel);
+        }
+        printJumlah(relatedModel, "relatedModel setelah father ");
+        if (model.contains(null, mother, (RDFNode) null)) {
+            Model motherModel = getModel(model, mother);
+            relatedModel.add(motherModel);
+        }
+        printJumlah(relatedModel, "relatedModel setelah mother");
+        if (model.contains(null, children, (RDFNode) null)) {
+            Model childModel = getModel(model, children);
+            relatedModel.add(childModel);
+        }
+        printJumlah(relatedModel, "model setelah children");
+        if (model.contains(null, child, (RDFNode) null)) {
+            Model childModel = getModel(model, child);
+            relatedModel.add(childModel);
+        }
+        printJumlah(relatedModel, "model setelah child");
+        
+        return relatedModel;
+    }
+    
+    public static Model getModel(Model model, Property property) {
+        Model tempModel = ModelFactory.createDefaultModel();
+        
+        for (StmtIterator i = model.listStatements(null, property, (RDFNode) null); i.hasNext(); ) {
+            
+            Statement stmt = i.nextStatement();
+            if (stmt.getObject().isURIResource()) {
+                String nama = validasiNama(getNama(stmt.getObject().toString()));
+                Model temp = ModelFactory.createDefaultModel();
+                temp.read(dbpediaRdf(nama));
+                tempModel.add(temp);
+                System.out.println(" resource : " + dbpediaRdf(nama));
+            }
+            else{
+                String[] literal = stmt.getObject().toString().split("@");
+                if (literal[0] != null && literal[1] != null) {
+                    String nama = validasiNama(literal[0]);
+                    Model temp = ModelFactory.createDefaultModel();
+                    temp.read(dbpediaRdf(nama));
+                    tempModel.add(temp);
+                    System.out.println(" resource : " + dbpediaRdf(nama));
+                }
+            }
+        }
+        
+        return tempModel;
+    }
+    
+    public static String getNama(String string) {
+        String[] uri = string.split("/");
+//        System.out.println("nama : " + uri[uri.length-1]);
+        
+        return uri[uri.length-1];
+    }
+    
+    public static String validasiNama(String string) {
+        String[] nama = string.split(" ");
+        if (nama.length > 0) {
+            String namaBaru = ""; 
+            for(int i = 0; i < nama.length ; i++ ) {
+               if ( i > 0 ) {
+                   namaBaru = namaBaru + "_" + nama[i];
+               }
+               else {
+                   namaBaru = namaBaru + nama[i];
+               }
+            }
+            return namaBaru;
+        }
+        else {
+            return string;
+        }
+    }
+    
+    public static String dbpidRdf(String string) {
+        String rdf = dbpidRdf + string + ".rdf";
+        
+        return rdf;
+    }
+    
+    public static String dbpediaRdf(String string) {
+        String rdf = dbpediaRdf + string + ".rdf";
+        
+        return rdf;
+    }
+    
+    public static void printJumlah(Model model, String string) {
+        Long jumlahModel = model.size();
+        System.out.println("Jumlah " + string + " : " + jumlahModel);
     }
 }

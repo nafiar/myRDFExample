@@ -6,6 +6,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX famowl: <http://familytree.org/ontologies/familytree/>
 
 CONSTRUCT { ?subject ?predicate ?object }
 WHERE {
@@ -48,6 +49,121 @@ WHERE {
 		{
 			?subject ?predicate ?object;
 					 dbpedia-owl:spouse ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasChild ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasDaughter ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasSon ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasRelation ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasAnchestor ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasGrandparent ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasGrandfather ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasGrandmother ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasParent ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasFather ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasMother ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasSpouse ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasHusband ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:hasWife ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isChildOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isDaughterOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isSonOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isParentOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isFatherOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isMotherOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isSpouseOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isHusbandOf ?object;
+		}
+		UNION
+		{
+			?subject ?predicate ?object;
+					 famowl:isWifeOf ?object;
 		}
 	}
 }

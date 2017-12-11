@@ -8,6 +8,7 @@ package penelitian;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 import org.apache.jena.ontology.OntDocumentManager;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
@@ -68,7 +69,6 @@ public class MyReasoner {
         
         Model prunnedModel = prunningQuery(mainModel);
         printJumlah(prunnedModel, "prunnedModel");
-//        prunnedModel.write(System.out, "N-TRIPLES");
         
         Model reasoningResult = reasonModel(prunnedModel);
         printJumlah(reasoningResult, "reasoningModel");
@@ -77,7 +77,7 @@ public class MyReasoner {
         finishedModel = finishedModel.difference(prunnedModel);
         printJumlah(finishedModel, "finishedModel");
 
-//        insertData(reasoningResult);
+        insertData(finishedModel);
     }
     
     public static Model readDB( Model model ) {
@@ -85,7 +85,7 @@ public class MyReasoner {
         String queryStr = "construct { ?s ?p ?o } where { ?s ?p ?o }";
         Query query = QueryFactory.create(queryStr);
         
-        try (QueryExecution qexec = QueryExecutionFactory.sparqlService(dsFusekiSparql, query)) {
+        try (QueryExecution qexec = QueryExecutionFactory.sparqlService(penelitianFusekiSparql, query)) {
             // Set remote exec timeout
             ((QueryEngineHTTP) qexec).addParam("timeout", "10000");
             
@@ -93,21 +93,29 @@ public class MyReasoner {
             model = qexec.execConstruct();
             return model;
         }
+        catch (Exception e) {
+            return model;
+        }
     }
     
     public static Model readRdf( Model model ) {
 
-        InputStream in1 = FileManager.get().open( tribhuwana );
-        InputStream in2 = FileManager.get().open( hayamWuruk );
-//        InputStream in3 = FileManager.get().open( radenWijaya );
-        
+        Model fileRdf = ModelFactory.createDefaultModel();
+        InputStream in1 = FileManager.get().open( hayamWuruk );
         if ( in1 == null ) {
             System.out.println( "File tidak ditemukan" );
         }
-        model.read( in1, "" );
-        model.read( in2, "" );
-//        model.write(System.out, "N-TRIPLES");
-//        model.read( in3, "" );
+        fileRdf.read( in1, "" );
+        
+        Scalling generasiBaru = new Scalling( hayamWuruk );
+        generasiBaru.readGen();
+        Model hasilRadius = generasiBaru.getModelRadius();
+        
+        model.add(fileRdf);
+        printJumlah(model, "model setelah read file rdf");
+        
+        model.add(hasilRadius);
+        printJumlah(model, "model setelah cari radius");
         
         return model;
     }
