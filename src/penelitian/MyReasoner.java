@@ -56,7 +56,9 @@ public class MyReasoner {
     static final String queryPrunning = "test/queryPrunningConstruct.rq";
     static final String unionQuery = "test/queryReasoningResult.rq";
     static final String dsFusekiSparql = "http://10.151.34.43:3030/ds/sparql";
-    static final String penelitianFusekiSparql = "http://10.151.34.43:3030/penelitian/data"; 
+    static final String penelitianFusekiSparql = "http://10.151.34.43:3030/penelitian/sparql";
+    static final String penelitianFusekiData = "http://10.151.34.43:3030/penelitian/data";
+    static final String abdurrahmanWahid = "http://dbpedia.org/data/Abdurrahman_Wahid.rdf";
     
     public static void main( String[] argv ) {
         Model mainModel = ModelFactory.createDefaultModel();
@@ -69,15 +71,17 @@ public class MyReasoner {
         
         Model prunnedModel = prunningQuery(mainModel);
         printJumlah(prunnedModel, "prunnedModel");
+//        prunnedModel.write(System.out, "N-TRIPLES");          untuk print model yang sudah di query
         
         Model reasoningResult = reasonModel(prunnedModel);
         printJumlah(reasoningResult, "reasoningModel");
         
         Model finishedModel = prunningReasoningResult(reasoningResult);
         finishedModel = finishedModel.difference(prunnedModel);
+//        finishedModel.write(System.out, "N-TRIPLES");         untuk print hasil akhir model
         printJumlah(finishedModel, "finishedModel");
 
-        insertData(finishedModel);
+//        insertData(finishedModel);
     }
     
     public static Model readDB( Model model ) {
@@ -101,13 +105,13 @@ public class MyReasoner {
     public static Model readRdf( Model model ) {
 
         Model fileRdf = ModelFactory.createDefaultModel();
-        InputStream in1 = FileManager.get().open( hayamWuruk );
+        InputStream in1 = FileManager.get().open( abdurrahmanWahid );
         if ( in1 == null ) {
             System.out.println( "File tidak ditemukan" );
         }
         fileRdf.read( in1, "" );
         
-        Scalling generasiBaru = new Scalling( hayamWuruk );
+        Scalling generasiBaru = new Scalling( abdurrahmanWahid );
         generasiBaru.readGen();
         Model hasilRadius = generasiBaru.getModelRadius();
         
@@ -169,7 +173,7 @@ public class MyReasoner {
     }
     
     public static void insertData(Model model) {
-        DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(penelitianFusekiSparql);
+        DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(penelitianFusekiData);
         if (accessor != null) {
             accessor.add(model);
         }

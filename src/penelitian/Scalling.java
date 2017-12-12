@@ -93,17 +93,27 @@ public class Scalling {
             Statement stmt = i.nextStatement();
             if (stmt.getObject().isURIResource()) {
                 String nama = validasiNama(getNama(stmt.getObject().toString()));
+                
                 Model temp = ModelFactory.createDefaultModel();
                 temp.read(dbpidRdf(nama));
+                Model temp2 = ModelFactory.createDefaultModel();
+                temp2.read(dbpediaRdf(nama));
+                
                 tempModel.add(temp);
+                tempModel.add(temp2);
             }
             else{
                 String[] literal = stmt.getObject().toString().split("@");
                 if (literal[0] != null && literal[1] != null) {
                     String nama = validasiNama(literal[0]);
+                    
                     Model temp = ModelFactory.createDefaultModel();
                     temp.read(dbpidRdf(nama));
+                    Model temp2 = ModelFactory.createDefaultModel();
+                    temp2.read(dbpidRdf(nama));
+                    
                     tempModel.add(temp);
+                    tempModel.add(temp2);
                 }
             }
         }
