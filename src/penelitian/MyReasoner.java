@@ -45,7 +45,7 @@ public class MyReasoner {
     static final String radenWijaya = "test/File_RDF/Raden_Wijaya.rdf";
     static final String jayanagara = "test/File_RDF/Jayanagara.rdf";
     static final String tribhuwana = "test/File_RDF/Tribhuwana_Wijayatunggadewi.rdf";
-    static final String hayamWuruk = "test/File_RDF/Hayam_Wuruk.rdf";
+    static final String hayamWuruk = "http://id.dbpedia.org/data/Hayam_Wuruk.rdf";
     static final String gayatri = "test/File_RDF/Gayatri.rdf";
     static final String iheroOwl = "test/ihero.owl";
     static final String fkhbOwl = "test/fhkb2.owl";
@@ -71,17 +71,17 @@ public class MyReasoner {
         
         Model prunnedModel = prunningQuery(mainModel);
         printJumlah(prunnedModel, "prunnedModel");
-//        prunnedModel.write(System.out, "N-TRIPLES");          untuk print model yang sudah di query
+//        prunnedModel.write(System.out, "N-TRIPLES");          // untuk print model yang sudah di query
         
         Model reasoningResult = reasonModel(prunnedModel);
         printJumlah(reasoningResult, "reasoningModel");
         
         Model finishedModel = prunningReasoningResult(reasoningResult);
         finishedModel = finishedModel.difference(prunnedModel);
-//        finishedModel.write(System.out, "N-TRIPLES");         untuk print hasil akhir model
+        finishedModel.write(System.out, "N-TRIPLES");         // untuk print hasil akhir model
         printJumlah(finishedModel, "finishedModel");
 
-//        insertData(finishedModel);
+        insertData(finishedModel);
     }
     
     public static Model readDB( Model model ) {
@@ -105,19 +105,13 @@ public class MyReasoner {
     public static Model readRdf( Model model ) {
 
         Model fileRdf = ModelFactory.createDefaultModel();
-        InputStream in1 = FileManager.get().open( abdurrahmanWahid );
-        if ( in1 == null ) {
-            System.out.println( "File tidak ditemukan" );
-        }
-        fileRdf.read( in1, "" );
         
-        Scalling generasiBaru = new Scalling( abdurrahmanWahid );
-        generasiBaru.readGen();
-        Model hasilRadius = generasiBaru.getModelRadius();
-        
+        Scalling generasiBaru = new Scalling( hayamWuruk );
+        fileRdf = generasiBaru.scallingModel;
         model.add(fileRdf);
         printJumlah(model, "model setelah read file rdf");
         
+        Model hasilRadius = generasiBaru.getSecondGenRelation(generasiBaru.scallingModel);
         model.add(hasilRadius);
         printJumlah(model, "model setelah cari radius");
         

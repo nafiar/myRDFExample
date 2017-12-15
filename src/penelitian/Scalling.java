@@ -5,6 +5,9 @@
  */
 package penelitian;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
@@ -22,26 +25,17 @@ public class Scalling {
     
     static final String hayamWuruk = "test/File_RDF/Hayam_Wuruk.rdf";
     static final String amirHamzah = "test/File_RDF/Amir_Hamzah.rdf";
+    public static Model scallingModel;
     private static String fileRdf;
     private static final String dbppropid = "http://id.dbpedia.org/property/";
     private static final String dbpediaowl = "http://dbpedia.org/ontology/";
     private static final String dbpidRdf = "http://id.dbpedia.org/data/";
     private static final String dbpediaRdf = "http://dbpedia.org/data/";
-    private static Model modelAkhir;
     
     public Scalling(String file){
         fileRdf = file;
-    }
-    
-    public static void readGen() {
-        Model model = ModelFactory.createDefaultModel();
-        model.read(fileRdf, "");
-        Model genRelation = getFirstGenRelation(model);
-        modelAkhir = genRelation;
-    }
-    
-    public static Model getModelRadius() {
-        return modelAkhir;
+        scallingModel = ModelFactory.createDefaultModel();
+        scallingModel.read(fileRdf, "");
     }
     
     public static void printStatement(Model m, Resource s, Property p, Resource o) {
@@ -56,32 +50,39 @@ public class Scalling {
     public static Model getFirstGenRelation(Model model) {
         
         Model relatedModel = ModelFactory.createDefaultModel();
-        Property father = model.createProperty(dbppropid, "father");
-        Property mother = model.createProperty(dbppropid, "mother");
-        Property children = model.createProperty(dbppropid, "children");
-        Property child = model.createProperty(dbpediaowl, "child");
+        List<Property> properties = new ArrayList<Property>();
         
-        if (model.contains(null, father, (RDFNode) null)) {
-            Model fatherModel = getModel(model, father);
-            relatedModel.add(fatherModel);
-        }
-//        printJumlah(relatedModel, "relatedModel setelah father ");
-        if (model.contains(null, mother, (RDFNode) null)) {
-            Model motherModel = getModel(model, mother);
-            relatedModel.add(motherModel);
-        }
-//        printJumlah(relatedModel, "relatedModel setelah mother");
-        if (model.contains(null, children, (RDFNode) null)) {
-            Model childModel = getModel(model, children);
-            relatedModel.add(childModel);
-        }
-//        printJumlah(relatedModel, "model setelah children");
-        if (model.contains(null, child, (RDFNode) null)) {
-            Model childModel = getModel(model, child);
-            relatedModel.add(childModel);
-        }
-//        printJumlah(relatedModel, "model setelah child");
+        properties = getModelProperty(model);
         
+        for( Iterator<Property> i = properties.iterator(); i.hasNext(); ) {
+            Property property = i.next();
+            
+            if(model.contains(null, property, (RDFNode) null)) {
+                Model tempModel = getModel(model, property);
+                relatedModel.add(tempModel);
+            }
+        }
+                
+        return relatedModel;
+    }
+    
+    public static Model getSecondGenRelation(Model model) {
+        
+        Model relatedModel = ModelFactory.createDefaultModel();
+        List<Property> properties = new ArrayList<Property>();
+        
+        properties = getModelProperty(model);
+        
+        for( Iterator<Property> i = properties.iterator(); i.hasNext(); ) {
+            Property property = i.next();
+            
+            if(model.contains(null, property, (RDFNode) null)) {
+                Model tempModel = getModel(model, property);
+                Model firstGen = getFirstGenRelation(tempModel);
+                relatedModel.add(firstGen);
+            }
+        }
+                
         return relatedModel;
     }
     
@@ -110,7 +111,7 @@ public class Scalling {
                     Model temp = ModelFactory.createDefaultModel();
                     temp.read(dbpidRdf(nama));
                     Model temp2 = ModelFactory.createDefaultModel();
-                    temp2.read(dbpidRdf(nama));
+                    temp2.read(dbpediaRdf(nama));
                     
                     tempModel.add(temp);
                     tempModel.add(temp2);
@@ -121,7 +122,36 @@ public class Scalling {
         return tempModel;
     }
     
+    public static List<Property> getModelProperty(Model model) {
+        List<Property> properties = new ArrayList<Property>();
+        
+        Property parent = model.createProperty(dbpediaowl, "parent");
+        properties.add(parent);
+        Property parents = model.createProperty(dbppropid, "parents");
+        properties.add(parents);
+        Property father = model.createProperty(dbppropid, "father");
+        properties.add(father);
+        Property mother = model.createProperty(dbppropid, "mother");
+        properties.add(mother);
+        Property children = model.createProperty(dbppropid, "children");
+        properties.add(children);
+        Property child = model.createProperty(dbpediaowl, "child");
+        properties.add(child);
+        Property spouse = model.createProperty(dbpediaowl, "spouse");
+        properties.add(spouse);
+        Property spouses = model.createProperty(dbppropid, "spouse");
+        properties.add(spouses);
+        Property queen = model.createProperty(dbppropid, "queen");
+        properties.add(queen);
+        
+        return properties;
+    }
+    
     public static String getNama(String string) {
+        String[] file = string.split(".");
+        if (file.length > 1) {
+            string = file[0];
+        }
         String[] uri = string.split("/");
         
         return uri[uri.length-1];
